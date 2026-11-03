@@ -5,7 +5,7 @@ import { useEffect,useRef,useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import type { FoundationContent } from '@/lib/content';
-import { formatPrice } from '@/lib/format';
+import { formatMenuPrice } from '@/lib/menu-price';
 import { Arrow } from './icons';
 import SceneAtmosphere from './SceneAtmosphere';
 import {sceneKit} from '@/lib/scene-kit';
@@ -48,11 +48,11 @@ export default function CafeScenes({content,paused}:{content:FoundationContent;p
    <div className="taste-environment" aria-hidden="true"><Image src={get(scene.tasteBackgroundAssetId).src} width={1536} height={1024} alt="" loading="lazy" sizes="100vw"/><SceneAtmosphere preset={content.animations.atmospheres.taste} kit={sceneKit(content,'taste')} frond={get("rigged-palm-frond").src} paused={paused}/></div>
    <div className="journey-heading"><span>{taste.chapter}</span><p className="eyebrow">{taste.eyebrow}</p></div>
    <div className="taste-intro"><h2 id="taste-title">{taste.title}<br/><em>{taste.titleAccent}</em></h2><p>{taste.description}</p></div>
-   <div className="taste-composition"><ul className="menu-selection" aria-label={taste.listLabel}>{content.menu.items.map((item,index)=><li key={item.id}><button aria-controls="taste-selected-media" aria-pressed={selectedMenu===item.id} onClick={()=>setMenu(item.id)}><span className="menu-index">{String(index+1).padStart(2,'0')}</span><span className="menu-name">{item.name}</span><span className="menu-price">{formatPrice(item.price,content.menu.currency)}</span><Arrow/></button></li>)}</ul>
-    <figure className="taste-art" id="taste-selected-media" aria-live="polite"><PhotoSurf key={activeMenu.id} dish/><span className="taste-image-badge">{food.isPlaceholder?taste.imageBadge:taste.imageOwnerBadge}</span><Image key={food.id} className="dish-reveal" src={food.src} width={food.width} height={food.height} alt={`${activeMenu.name}. ${food.alt}`} loading="lazy" sizes="(max-width: 640px) 86vw, 480px"/><figcaption><h3>{activeMenu.name}</h3><p>{food.isPlaceholder?taste.imageNotice:taste.imageOwnerNotice}</p></figcaption></figure>
+   <div className="taste-composition"><ul className="menu-selection" aria-label={taste.listLabel}>{content.menu.items.map((item,index)=><li key={item.id}><button aria-controls="taste-selected-media" aria-pressed={selectedMenu===item.id} onClick={()=>setMenu(item.id)}><span className="menu-index">{String(index+1).padStart(2,'0')}</span><span className="menu-name">{item.name}</span><span className="menu-price">{formatMenuPrice(item,content.menu.currency)}</span><Arrow/></button></li>)}</ul>
+    <figure className="taste-art" id="taste-selected-media" aria-live="polite"><PhotoSurf key={activeMenu.id} dish/><span className="taste-image-badge">{food.isPlaceholder?taste.imageBadge:taste.imageOwnerBadge}</span><Image key={food.id} className="dish-reveal" src={food.src} width={food.width} height={food.height} alt={`${activeMenu.name}. ${food.alt}`} loading="lazy" sizes="(max-width: 640px) 86vw, 480px"/><figcaption><h3>{activeMenu.name}</h3><p>{food.isPlaceholder?taste.imageNotice:taste.imageOwnerNotice}</p>{food.sourceUrl&&<p className="photo-credit"><a href={food.sourceUrl} target="_blank" rel="noopener noreferrer">{food.author}</a>{' · '}<a href={food.licenseUrl} target="_blank" rel="noopener noreferrer">{food.license}</a></p>}</figcaption></figure>
    </div>
    <div className="taste-footer"><p>{taste.sourceLabel}</p><Link className="journey-link" href={content.pages.routes.menu}>{content.pages.labels.menu}<Arrow/></Link></div>
-   <noscript><a className="journey-link" href={original.src} target="_blank" rel="noopener noreferrer">{taste.noScriptLabel}<Arrow/></a></noscript>
+   {!content.menu.sourceDocument&&<noscript><a className="journey-link" href={original.src} target="_blank" rel="noopener noreferrer">{taste.noScriptLabel}<Arrow/></a></noscript>}
   </section>
  </div>;
 }

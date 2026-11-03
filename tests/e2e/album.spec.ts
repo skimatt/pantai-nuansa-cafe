@@ -13,9 +13,9 @@ for(const [name,width,height]of [['desktop',1440,900],['mobile',360,800]]as cons
    expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
    const axe=await new AxeBuilder({page}).analyze();await writeFile(`evidence/detail-pages/axe-${route}-${name}.json`,JSON.stringify(axe,null,2));expect(axe.violations.map(v=>v.id)).toEqual([]);
   }
-  await page.goto('/menu/');await expect(page.locator('.collection-dish')).toHaveCount(6);
-  await page.getByRole('searchbox',{name:'Cari menu'}).fill('Seafood');await expect(page.locator('.collection-dish')).toHaveCount(1);await expect(page.locator('.collection-dish')).toContainText('Rp35.000');
-  await page.getByRole('searchbox',{name:'Cari menu'}).fill('xyz-tidak-ada');await expect(page.locator('.collection-empty')).toBeVisible();await page.getByRole('searchbox',{name:'Cari menu'}).clear();await expect(page.locator('.collection-dish')).toHaveCount(6);
+  await page.goto('/menu/');await expect(page.locator('.collection-dish')).toHaveCount(11);
+  await page.getByRole('searchbox',{name:'Cari menu'}).fill('Pataya');await expect(page.locator('.collection-dish')).toHaveCount(1);await expect(page.locator('.collection-dish')).toContainText('Rp25.000');
+  await page.getByRole('searchbox',{name:'Cari menu'}).fill('xyz-tidak-ada');await expect(page.locator('.collection-empty')).toBeVisible();await page.getByRole('searchbox',{name:'Cari menu'}).clear();await expect(page.locator('.collection-dish')).toHaveCount(11);
   await page.goto('/galeri/');await expect(page.locator('.complete-moment')).toHaveCount(16);
   const trigger=page.locator('.complete-moment button').first();await trigger.focus();await page.keyboard.press('Enter');
   await expect(page.locator('.gallery-viewer')).toBeVisible();await expect(page.locator('.viewer-header')).toContainText('01 / 16');await page.keyboard.press('ArrowRight');await expect(page.locator('.viewer-header')).toContainText('02 / 16');await page.keyboard.press('Escape');await expect(trigger).toBeFocused();
@@ -27,7 +27,7 @@ for(const [name,width,height]of [['desktop',1440,900],['mobile',360,800]]as cons
 }
 test('detail collections are complete without JavaScript and reduced motion keeps pages usable',async({browser})=>{
  const ctx=await browser.newContext({javaScriptEnabled:false,viewport:{width:360,height:800}}),p=await ctx.newPage();
- await p.goto('/menu/');await expect(p.locator('.collection-dish')).toHaveCount(6);await expect(p.getByRole('link',{name:'Buka daftar menu asli'}).first()).toBeVisible();
+ await p.goto('/menu/');await expect(p.locator('.collection-dish')).toHaveCount(11);await expect(p.locator('.menu-source')).toHaveCount(0);
  await p.goto('/galeri/');await expect(p.locator('.complete-moment')).toHaveCount(16);await expect(p.locator('.complete-moment noscript a')).toHaveCount(16);
  await p.goto('/fasilitas/');await expect(p.locator('.complete-facility')).toHaveCount(2);await ctx.close();
  const reduced=await browser.newContext({reducedMotion:'reduce'}),page=await reduced.newPage();await page.goto('/menu/');await expect(page.locator('.scene-atmosphere')).toHaveAttribute('data-motion','reduced');await expect(page.getByRole('button',{name:'Aktifkan animasi'})).toBeVisible();await page.getByRole('button',{name:'Aktifkan animasi'}).click();await expect(page.locator('.scene-atmosphere')).toHaveAttribute('data-motion','running');await reduced.close();

@@ -1,0 +1,10 @@
+{
+  "src": "/assets/audio/golden-hour-ocean.mp3",
+  "volume": 0.6,
+  "fadeInMs": 650,
+  "fadeOutMs": 250,
+  "loop": true,
+  "defaultMuted": true,
+  "sourceFile": "Assets/Audio/GolderHour.mp3",
+  "rightsStatus": "user-supplied-publication-unverified"
+}

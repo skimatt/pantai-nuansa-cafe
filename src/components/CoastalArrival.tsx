@@ -1,4 +1,5 @@
 'use client';
+import {MotionIcon} from './icons';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState } from 'react';
@@ -17,6 +18,7 @@ import ChapterRail from './ChapterRail';
 import WaveNavigation from './WaveNavigation';
 import SceneAtmosphere from './SceneAtmosphere';
 import {sceneKit} from '@/lib/scene-kit';
+import {useSectionTransitions} from '@/lib/use-section-transitions';
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -36,6 +38,7 @@ export default function CoastalArrival({content}:{content:FoundationContent}){
   const [replayCount,setReplayCount]=useState(0);
   const [heroVisible,setHeroVisible]=useState(true);
   const [motionPaused,setMotionPaused]=useState(false);
+  useSectionTransitions(root,content.animations.sectionTransitions,motionPaused);
   const finish=useCallback(()=>{markSession(opening.storageKey);setState('hero');},[opening.storageKey]);
 
   useEffect(()=>{
@@ -91,7 +94,7 @@ export default function CoastalArrival({content}:{content:FoundationContent}){
   const toggleSound=async()=>{
     if(audioBusy.current)return;audioBusy.current=true;
     try{
-      audio.current??=new OceanAudio();
+      audio.current??=new OceanAudio(content.audio);
       if(mutedRef.current){await audio.current.play();mutedRef.current=false;setMuted(false);}
       else{await audio.current.pause();mutedRef.current=true;setMuted(true);}
       setAudioError('');
@@ -104,13 +107,12 @@ export default function CoastalArrival({content}:{content:FoundationContent}){
     <noscript><style>{'.photo-surf{display:none!important}'}</style></noscript>
     <a className="skip-content" href="#hero-content" onClick={skip}>{ui.skipContent}</a>
     <header className="site-header">
-      <a className="brand" href="#hero"><WaveMark/><span>{site.brand.replace(/ Cafe$/, '').toUpperCase()}{' '}<span className="brand-small">{site.brand.split(' ').at(-1)}</span></span></a>
+      <a className="brand" href="#hero"><WaveMark/><span>{ui.brandLine}{' '}<span className="brand-small">{ui.brandSuffix}</span></span></a>
       <nav aria-label={ui.chapterLabel} id="main-navigation" className={menu?'navigation is-open':'navigation'}>
         {navigation.foundationItems.map(item=><a href={item.target} key={item.target} onClick={()=>{skip();setMenu(false);}}>{item.label}</a>)}
         <Link href={content.pages.routes.menu} onClick={()=>{skip();setMenu(false);}}>{ui.secondaryCta}<span aria-hidden="true"> ↗</span></Link>
       </nav>
       <button id="navigation-toggle" className="nav-toggle" aria-label={ui.openMenu} aria-expanded={menu} aria-controls="main-navigation" onClick={()=>setMenu(!menu)}><span/><span/></button>
-      <span className="header-aside">{ui.prototype}<span className="status-dot"/></span>
     </header>
     <AmbientMotionControl enableLabel={ui.enableAmbientMotion} disableLabel={ui.disableAmbientMotion} description={ui.ambientMotionSystemNotice}/>
     <ChapterRail chapters={navigation.items} label={ui.chapterIndexLabel}/>
@@ -131,8 +133,7 @@ export default function CoastalArrival({content}:{content:FoundationContent}){
           <div className="hero-actions"><a href="#perjalanan" className="primary-button" onClick={skip}>{ui.primaryCta}<Arrow/></a><Link className="secondary-button" href={content.pages.routes.menu} onClick={skip}>{ui.secondaryCta}<span aria-hidden="true">↗</span></Link></div>
         </div>
         <div className="horizon-note" aria-hidden="true"><span>PN — 01</span><i/><span>{ui.chapterName}</span></div>
-        <p className="world-hint">{ui.worldHint}</p>
-        <div className="hero-bottom"><a className="scroll-link" href="#perjalanan" onClick={skip}><span className="scroll-circle"><Arrow down/></span><span>{ui.scroll}</span></a><p className="art-notice">{ui.artNotice}</p><button className="motion-control" hidden={!heroVisible} aria-pressed={motionPaused} onClick={()=>setMotionPaused(v=>!v)}><span aria-hidden="true">{motionPaused?'▷':'Ⅱ'}</span>{motionPaused?ui.resumeMotion:ui.pauseMotion}</button><button className="sound-button" hidden={!heroVisible} onClick={toggleSound} aria-pressed={!muted} title={ui.ambientLabel}><SoundIcon muted={muted}/><span>{muted?ui.soundOff:ui.soundOn}</span></button></div>
+        <div className="hero-bottom"><button className="motion-control" aria-label={motionPaused?ui.resumeMotion:ui.pauseMotion} title={motionPaused?ui.resumeMotion:ui.pauseMotion} hidden={!heroVisible} aria-pressed={motionPaused} onClick={()=>setMotionPaused(v=>!v)}><MotionIcon paused={motionPaused}/>{motionPaused?ui.resumeMotion:ui.pauseMotion}</button><button className="sound-button" aria-label={muted?ui.soundOff:ui.soundOn} hidden={!heroVisible} onClick={toggleSound} aria-pressed={!muted} title={ui.ambientLabel}><SoundIcon muted={muted}/><span>{muted?ui.soundOff:ui.soundOn}</span></button></div>
         <div className="intro-controls" hidden={state!=='playing'}><span>{ui.introLabel}</span>{opening.showSkip&&<button onClick={skip}>{ui.skipIntro}<Arrow/></button>}<div className="intro-progress" style={{'--intro-duration':`${opening.durationTargetSeconds}s`} as React.CSSProperties}/></div>
       </section>
       <section id="perjalanan" className="prolog" aria-labelledby="prolog-title">
@@ -146,8 +147,8 @@ export default function CoastalArrival({content}:{content:FoundationContent}){
       <GoldenScenes content={content} onGalleryOpen={videoPlay} paused={motionPaused}/>
     </main>
     <footer><a href="#hero" aria-label={site.brand}><WaveMark/></a><p>{content.sections.golden.findUs.copyright}<br/>{content.sections.golden.findUs.footerTagline}</p><a href="#hero">{ui.backTop}<span aria-hidden="true"> ↑</span></a></footer>
-    {!heroVisible&&<button className="motion-dock" onClick={()=>setMotionPaused(v=>!v)} aria-pressed={motionPaused}><span aria-hidden="true">{motionPaused?'▷':'Ⅱ'}</span>{motionPaused?ui.resumeMotion:ui.pauseMotion}</button>}
-    {!heroVisible&&<button className="sound-dock" onClick={toggleSound} aria-pressed={!muted} title={ui.ambientLabel}><SoundIcon muted={muted}/><span>{muted?ui.soundOff:ui.soundOn}</span></button>}
+    {!heroVisible&&<button className="motion-dock" aria-label={motionPaused?ui.resumeMotion:ui.pauseMotion} title={motionPaused?ui.resumeMotion:ui.pauseMotion} onClick={()=>setMotionPaused(v=>!v)} aria-pressed={motionPaused}><MotionIcon paused={motionPaused}/>{motionPaused?ui.resumeMotion:ui.pauseMotion}</button>}
+    {!heroVisible&&<button className="sound-dock" aria-label={muted?ui.soundOff:ui.soundOn} onClick={toggleSound} aria-pressed={!muted} title={ui.ambientLabel}><SoundIcon muted={muted}/><span>{muted?ui.soundOff:ui.soundOn}</span></button>}
     <p className="sr-only" role="status">{audioError}</p>
   </div>;
 }

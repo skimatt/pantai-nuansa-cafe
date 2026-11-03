@@ -1,4 +1,5 @@
 'use client';
+import {MotionIcon} from './icons';
 import Link from 'next/link';
 import Image from 'next/image';
 import {useState,type ReactNode} from 'react';
@@ -21,7 +22,7 @@ export default function DetailFrame({content,kind,children}:{content:FoundationC
    <div className="detail-body">{children}</div>
   </main>
   <footer className="detail-footer"><div><WaveMark/><p>{content.sections.golden.findUs.footerTagline}</p></div><nav aria-label={p.labels.nextTitle}><Link href="/">{p.labels.home}<Arrow/></Link>{(['menu','gallery','facilities']as const).filter(item=>item!==kind).map(item=><Link key={item} href={p.routes[item]}>{p.labels[item]}<Arrow/></Link>)}</nav><p>{content.sections.golden.findUs.copyright}</p></footer>
-  <button className="motion-dock detail-motion-dock" aria-pressed={paused} onClick={()=>setPaused(v=>!v)}><span aria-hidden="true">{paused?'▷':'Ⅱ'}</span>{paused?ui.resumeMotion:ui.pauseMotion}</button>
+  <button className="motion-dock detail-motion-dock" aria-label={paused?ui.resumeMotion:ui.pauseMotion} title={paused?ui.resumeMotion:ui.pauseMotion} aria-pressed={paused} onClick={()=>setPaused(v=>!v)}><MotionIcon paused={paused}/>{paused?ui.resumeMotion:ui.pauseMotion}</button>
   <AmbientMotionControl enableLabel={ui.enableAmbientMotion} disableLabel={ui.disableAmbientMotion} description={ui.ambientMotionSystemNotice}/>
  </div>;
 }

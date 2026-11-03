@@ -1,0 +1,13 @@
+/* Small visible controls inside comfortable keyboard/touch targets. */
+.ambient-motion-choice,.motion-dock,.sound-dock,.hero-bottom .motion-control,.hero-bottom .sound-button{width:44px;height:44px;min-width:44px;min-height:44px;padding:0;border:0;background:transparent;box-shadow:none;border-radius:50%;display:inline-grid;place-items:center;font-size:0;gap:0;isolation:isolate;position:relative;color:#fff4e4}
+.ambient-motion-choice::before,.motion-dock::before,.sound-dock::before,.hero-bottom .motion-control::before,.hero-bottom .sound-button::before{content:'';position:absolute;inset:5px;z-index:-1;background:#173746eb;border:1px solid #fff4e444;border-radius:50%;transition:background .2s}
+.ambient-motion-choice:hover::before,.motion-dock:hover::before,.sound-dock:hover::before,.hero-bottom .motion-control:hover::before,.hero-bottom .sound-button:hover::before{background:#28565b}
+.ambient-motion-choice>span,.motion-dock>span,.hero-bottom .motion-control>span{font-size:15px;line-height:1}
+.sound-dock>span,.hero-bottom .sound-button>span{font-size:0}.sound-dock svg,.hero-bottom .sound-button svg{width:15px;height:15px}
+/* Hidden label text must not create an extra grid row above/below the icon. */
+.ambient-motion-choice>svg,.motion-dock>svg,.sound-dock>svg,.hero-bottom .motion-control>svg,.hero-bottom .sound-button>svg{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);margin:0;display:block}
+.ambient-motion-choice,.motion-dock,.sound-dock{position:fixed;right:12px;z-index:25}.ambient-motion-choice,.motion-dock{bottom:62px}.sound-dock{bottom:14px}
+.hero-bottom{justify-content:flex-end;gap:2px}.hero-bottom .motion-control[hidden],.hero-bottom .sound-button[hidden]{display:none}
+.hero-bottom .motion-control,.hero-bottom .sound-button{position:fixed;right:12px;z-index:25}.hero-bottom .motion-control{bottom:62px}.hero-bottom .sound-button{bottom:14px}
+.ambient-motion-choice:focus-visible,.motion-dock:focus-visible,.sound-dock:focus-visible,.hero-bottom button:focus-visible{outline:2px solid #b88a4a;outline-offset:1px}
+@media(prefers-reduced-motion:reduce){.motion-dock,.hero-bottom .motion-control{display:none}}

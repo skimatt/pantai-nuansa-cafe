@@ -1560,6 +1560,325 @@
       "status": "prototype",
       "promptVersion": "coastal-kit-v1",
       "provenance": "docs/implementation/COASTAL_ASSET_KIT.md"
+    },
+    {
+      "id": "web-rambeu-bakar",
+      "src": "/assets/menu-web/rambeu-bakar.webp",
+      "type": "image",
+      "sceneId": "the-cafe",
+      "sourceType": "licensed",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ikan_Bakar_3.jpg",
+      "author": "S Kartika",
+      "attribution": "S Kartika / Wikimedia Commons / CC BY-SA 4.0; resize/WebP; illustrative serving",
+      "verified": false,
+      "isPlaceholder": true,
+      "alt": "Foto ilustrasi penyajian, bukan foto hidangan restoran.",
+      "width": 1920,
+      "height": 1440,
+      "variants": [
+        "/assets/menu-web/rambeu-bakar-640.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.6,
+      "status": "prototype",
+      "promptVersion": "licensed-photo-v1",
+      "provenance": "docs/implementation/MENU_OWNER_UPDATE.md"
+    },
+    {
+      "id": "web-kakap-bakar",
+      "src": "/assets/menu-web/kakap-bakar.webp",
+      "type": "image",
+      "sceneId": "the-cafe",
+      "sourceType": "licensed",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ikan_Kakap_Merah_Bakar.jpg",
+      "author": "Supardisahabu",
+      "attribution": "Supardisahabu / Wikimedia Commons / CC BY-SA 4.0; resize/WebP; illustrative serving",
+      "verified": false,
+      "isPlaceholder": true,
+      "alt": "Foto ilustrasi penyajian, bukan foto hidangan restoran.",
+      "width": 1502,
+      "height": 1920,
+      "variants": [
+        "/assets/menu-web/kakap-bakar-640.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.6,
+      "status": "prototype",
+      "promptVersion": "licensed-photo-v1",
+      "provenance": "docs/implementation/MENU_OWNER_UPDATE.md"
+    },
+    {
+      "id": "web-ikan-asam-manis",
+      "src": "/assets/menu-web/ikan-asam-manis.webp",
+      "type": "image",
+      "sceneId": "the-cafe",
+      "sourceType": "licensed",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deep_fried_fish_in_a_sweet_%26_sour_sauce.jpg",
+      "author": "Yun Huang Yong from Harbord, Australia",
+      "attribution": "Yun Huang Yong from Harbord, Australia / Wikimedia Commons / CC BY 2.0; resize/WebP; illustrative serving",
+      "verified": false,
+      "isPlaceholder": true,
+      "alt": "Foto ilustrasi penyajian, bukan foto hidangan restoran.",
+      "width": 1920,
+      "height": 1280,
+      "variants": [
+        "/assets/menu-web/ikan-asam-manis-640.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.6,
+      "status": "prototype",
+      "promptVersion": "licensed-photo-v1",
+      "provenance": "docs/implementation/MENU_OWNER_UPDATE.md"
+    },
+    {
+      "id": "web-mie-aceh-spesial",
+      "src": "/assets/menu-web/mie-aceh-spesial.webp",
+      "type": "image",
+      "sceneId": "the-cafe",
+      "sourceType": "licensed",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mie_Aceh.jpg",
+      "author": "Yasmina Haryono",
+      "attribution": "Yasmina Haryono / Wikimedia Commons / CC BY-SA 2.0; resize/WebP; illustrative serving",
+      "verified": false,
+      "isPlaceholder": true,
+      "alt": "Foto ilustrasi penyajian, bukan foto hidangan restoran.",
+      "width": 1920,
+      "height": 1440,
+      "variants": [
+        "/assets/menu-web/mie-aceh-spesial-640.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.6,
+      "status": "prototype",
+      "promptVersion": "licensed-photo-v1",
+      "provenance": "docs/implementation/MENU_OWNER_UPDATE.md"
+    },
+    {
+      "id": "web-mie-aceh-telur",
+      "src": "/assets/menu-web/mie-aceh-telur.webp",
+      "type": "image",
+      "sceneId": "the-cafe",
+      "sourceType": "licensed",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mie_Aceh_ngon_Ie_Boh_Timon.png",
+      "author": "Zayn Kauthar",
+      "attribution": "Zayn Kauthar / Wikimedia Commons / CC0; resize/WebP; illustrative serving",
+      "verified": false,
+      "isPlaceholder": true,
+      "alt": "Foto ilustrasi penyajian, bukan foto hidangan restoran.",
+      "width": 1920,
+      "height": 1234,
+      "variants": [
+        "/assets/menu-web/mie-aceh-telur-640.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.6,
+      "status": "prototype",
+      "promptVersion": "licensed-photo-v1",
+      "provenance": "docs/implementation/MENU_OWNER_UPDATE.md"
+    },
+    {
+      "id": "web-mie-bakso",
+      "src": "/assets/menu-web/mie-bakso.webp",
+      "type": "image",
+      "sceneId": "the-cafe",
+      "sourceType": "licensed",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mie_Bakso_Cirawang.jpg",
+      "author": "Anggraeniirma",
+      "attribution": "Anggraeniirma / Wikimedia Commons / CC0; resize/WebP; illustrative serving",
+      "verified": false,
+      "isPlaceholder": true,
+      "alt": "Foto ilustrasi penyajian, bukan foto hidangan restoran.",
+      "width": 1200,
+      "height": 1600,
+      "variants": [
+        "/assets/menu-web/mie-bakso-640.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.6,
+      "status": "prototype",
+      "promptVersion": "licensed-photo-v1",
+      "provenance": "docs/implementation/MENU_OWNER_UPDATE.md"
+    },
+    {
+      "id": "web-nasi-pataya-seafood",
+      "src": "/assets/menu-web/nasi-pataya-seafood.webp",
+      "type": "image",
+      "sceneId": "the-cafe",
+      "sourceType": "licensed",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nasi_goreng_Pattaya.JPG",
+      "author": "D.W. Fisher-Freberg",
+      "attribution": "D.W. Fisher-Freberg / Wikimedia Commons / CC BY-SA 3.0; resize/WebP; illustrative serving",
+      "verified": false,
+      "isPlaceholder": true,
+      "alt": "Foto ilustrasi penyajian, bukan foto hidangan restoran.",
+      "width": 1920,
+      "height": 1280,
+      "variants": [
+        "/assets/menu-web/nasi-pataya-seafood-640.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.6,
+      "status": "prototype",
+      "promptVersion": "licensed-photo-v1",
+      "provenance": "docs/implementation/MENU_OWNER_UPDATE.md"
+    },
+    {
+      "id": "web-nasi-ayam",
+      "src": "/assets/menu-web/nasi-ayam.webp",
+      "type": "image",
+      "sceneId": "the-cafe",
+      "sourceType": "licensed",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayam_Penyet_Malaysia.jpg",
+      "author": "Encik Tekateki",
+      "attribution": "Encik Tekateki / Wikimedia Commons / CC BY-SA 4.0; resize/WebP; illustrative serving",
+      "verified": false,
+      "isPlaceholder": true,
+      "alt": "Foto ilustrasi penyajian, bukan foto hidangan restoran.",
+      "width": 1920,
+      "height": 1578,
+      "variants": [
+        "/assets/menu-web/nasi-ayam-640.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.6,
+      "status": "prototype",
+      "promptVersion": "licensed-photo-v1",
+      "provenance": "docs/implementation/MENU_OWNER_UPDATE.md"
+    },
+    {
+      "id": "web-sanger-espreso",
+      "src": "/assets/menu-web/sanger-espreso.webp",
+      "type": "image",
+      "sceneId": "the-cafe",
+      "sourceType": "licensed",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milk_Coffee_2.jpg",
+      "author": "Gaurav Dhwaj Khadka",
+      "attribution": "Gaurav Dhwaj Khadka / Wikimedia Commons / CC BY-SA 4.0; resize/WebP; illustrative serving",
+      "verified": false,
+      "isPlaceholder": true,
+      "alt": "Foto ilustrasi penyajian, bukan foto hidangan restoran.",
+      "width": 1440,
+      "height": 1920,
+      "variants": [
+        "/assets/menu-web/sanger-espreso-640.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.6,
+      "status": "prototype",
+      "promptVersion": "licensed-photo-v1",
+      "provenance": "docs/implementation/MENU_OWNER_UPDATE.md"
+    },
+    {
+      "id": "web-aneka-jus",
+      "src": "/assets/menu-web/aneka-jus.webp",
+      "type": "image",
+      "sceneId": "the-cafe",
+      "sourceType": "licensed",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orange_juice_1_edit1.jpg",
+      "author": "Agency of the United States Department of Agriculture\nEdited Version by: Arad",
+      "attribution": "Agency of the United States Department of Agriculture\nEdited Version by: Arad / Wikimedia Commons / Public domain; resize/WebP; illustrative serving",
+      "verified": false,
+      "isPlaceholder": true,
+      "alt": "Foto ilustrasi penyajian, bukan foto hidangan restoran.",
+      "width": 1351,
+      "height": 1920,
+      "variants": [
+        "/assets/menu-web/aneka-jus-640.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.6,
+      "status": "prototype",
+      "promptVersion": "licensed-photo-v1",
+      "provenance": "docs/implementation/MENU_OWNER_UPDATE.md"
+    },
+    {
+      "id": "web-lemon-madu",
+      "src": "/assets/menu-web/lemon-madu.webp",
+      "type": "image",
+      "sceneId": "the-cafe",
+      "sourceType": "licensed",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_iced_lemon_with_honey_drink_from_The_Spaghetti_House.jpg",
+      "author": "Peachyeung316",
+      "attribution": "Peachyeung316 / Wikimedia Commons / CC BY-SA 4.0; resize/WebP; illustrative serving",
+      "verified": false,
+      "isPlaceholder": true,
+      "alt": "Foto ilustrasi penyajian, bukan foto hidangan restoran.",
+      "width": 1440,
+      "height": 1920,
+      "variants": [
+        "/assets/menu-web/lemon-madu-640.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.6,
+      "status": "prototype",
+      "promptVersion": "licensed-photo-v1",
+      "provenance": "docs/implementation/MENU_OWNER_UPDATE.md"
     }
   ],
   "note": "Ilustrasi generated berlabel konsep; dokumentasi pengguna diintegrasikan pada Discover/Experience setelah izin chat 2026-11-03. Fakta bisnis belum diverifikasi."

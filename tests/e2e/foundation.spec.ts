@@ -27,8 +27,8 @@ test('skip, replay, accessible catalog and audio controls work',async({page})=>{
  await expect(page.getByRole('button',{name:'Suara hidup'})).toHaveAttribute('aria-pressed','true');
  await page.getByRole('button',{name:'Suara hidup'}).click();await expect(sound).toHaveAttribute('aria-pressed','false');
  const trigger=page.locator('.hero-actions').getByRole('link',{name:'Menu kuliner',exact:true});
- await trigger.click();await expect(page).toHaveURL(/\/menu\/$/);await expect(page.locator('.collection-dish')).toHaveCount(6);
- await expect(page.getByText('Ilustrasi AI · bukan foto produk',{exact:true})).toHaveCount(6);
+ await trigger.click();await expect(page).toHaveURL(/\/menu\/$/);await expect(page.locator('.collection-dish')).toHaveCount(11);
+ await expect(page.getByText('Foto ilustrasi penyajian',{exact:true})).toHaveCount(11);
  await page.getByRole('link',{name:'Kembali ke beranda',exact:true}).first().click();await expect(page).toHaveURL(/#taste$/);
 
 });
@@ -51,8 +51,8 @@ for(const [name,width,height] of [['desktop',1440,900],['mobile',390,844],['smal
   await writeFile(`evidence/test-runs/axe-${name}.json`,JSON.stringify(result,null,2));
   expect(result.violations.map(v=>({id:v.id,impact:v.impact,nodes:v.nodes.map(n=>n.target)}))).toEqual([]);
   await page.locator('.prolog').getByRole('link',{name:'Lihat semua menu'}).click();await expect(page).toHaveURL(/\/menu\/$/);
-  await expect(page.locator('.collection-dish')).toHaveCount(6);
-  await page.locator('.collection-dish img').evaluateAll(async imgs=>{await Promise.all((imgs as HTMLImageElement[]).map(i=>i.decode()));});
+  await expect(page.locator('.collection-dish')).toHaveCount(11);
+  for(const image of await page.locator('.collection-dish img').all()){await image.scrollIntoViewIfNeeded();await image.evaluate(i=>(i as HTMLImageElement).decode());}
   await page.screenshot({path:`evidence/screenshots/catalog-${name}.png`});
   const catalogAxe=await new AxeBuilder({page}).analyze();await writeFile(`evidence/test-runs/axe-catalog-${name}.json`,JSON.stringify(catalogAxe,null,2));expect(catalogAxe.violations.map(v=>v.id)).toEqual([]);
   expect(errors).toEqual([]);

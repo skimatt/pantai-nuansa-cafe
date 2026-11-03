@@ -27,3 +27,10 @@ detail-background dan route-motion dipilih untuk menguji desktop/mobile, pause,
 reduced motion/opt-in dan perpindahan halaman. Hasil akhir dicatat setelah run.
 Screenshot berjalan di evidence/continuity/ dan evidence/detail-background/.
 Tidak ada dependency, biaya/API atau perubahan fakta pengelola.
+
+Hasil akhir:16/16 browser test terarah lulus. Screenshot desktop/mobile ditinjau.
+Probe drawImage pada renderer galeri merekam36 sampel: x760.70→795.70 dalam
+sekitar1.8detik, sesuai paruh kanan pada aset sumber. Raw:
+`evidence/detail-background/forward-flight-rendered.json`. Ini memeriksa jalur
+yang benar-benar digambar, selain unit test controller. Bukan klaim menjalankan
+ulang seluruh45 test atau pengukuran HP fisik. Build/lint/typecheck juga lulus.

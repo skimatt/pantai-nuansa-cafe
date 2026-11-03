@@ -23,7 +23,7 @@
 .experience-foliage,.find-us-foliage{opacity:.3}
 .dish-reveal{animation:dish-surface .85s cubic-bezier(.2,.6,.3,1) both}
 .facility-description{animation:detail-surface .5s ease-out both}
-@keyframes dish-surface{from{opacity:.25;transform:translateY(14px) scale(1.035)}to{opacity:1;transform:none}}
+@keyframes dish-surface{from{transform:translateY(14px) scale(1.035)}to{transform:none}}
 .photo-window{position:relative;overflow:hidden}
 .photo-surf{position:absolute;top:-1px;left:-1%;width:102%;height:26%;z-index:2;pointer-events:none}
 .taste-art{position:relative;overflow:hidden}.taste-image-badge{z-index:3}

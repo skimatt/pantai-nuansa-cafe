@@ -1,0 +1,15 @@
+{
+  "playing": {
+    "src": "http://127.0.0.1:4173/assets/audio/golden-hour-ocean.mp3",
+    "time": 0.977734,
+    "duration": 209.79229,
+    "volume": 0.6,
+    "loop": true,
+    "paused": false
+  },
+  "pausedTime": 1.645458,
+  "requests": [
+    "http://127.0.0.1:4173/assets/audio/golden-hour-ocean.mp3"
+  ],
+  "errors": []
+}

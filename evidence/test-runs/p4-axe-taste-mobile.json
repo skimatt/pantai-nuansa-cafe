@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-11-03T04:19:19.517Z",
+  "timestamp": "2026-11-03T13:38:08.756Z",
   "url": "http://127.0.0.1:4173/#taste",
   "toolOptions": {
     "reporter": "v1"
@@ -1466,7 +1466,7 @@
             }
           ],
           "impact": null,
-          "html": "<figure class=\"taste-art\" id=\"taste-selected-media\" aria-live=\"polite\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0px, 7.6306px, 0px);\">",
+          "html": "<figure class=\"taste-art\" id=\"taste-selected-media\" aria-live=\"polite\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0px, 7.9865px, 0px);\">",
           "target": [
             "#taste-selected-media"
           ]
@@ -1592,7 +1592,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<figure class=\"taste-art\" id=\"taste-selected-media\" aria-live=\"polite\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0px, 7.6306px, 0px);\">",
+          "html": "<figure class=\"taste-art\" id=\"taste-selected-media\" aria-live=\"polite\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0px, 7.9865px, 0px);\">",
           "target": [
             "#taste-selected-media"
           ]
@@ -1930,7 +1930,7 @@
             }
           ],
           "impact": null,
-          "html": "<figure class=\"taste-art\" id=\"taste-selected-media\" aria-live=\"polite\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0px, 7.6306px, 0px);\">",
+          "html": "<figure class=\"taste-art\" id=\"taste-selected-media\" aria-live=\"polite\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0px, 7.9865px, 0px);\">",
           "target": [
             "#taste-selected-media"
           ]
@@ -2140,7 +2140,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<figure class=\"taste-art\" id=\"taste-selected-media\" aria-live=\"polite\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0px, 7.6306px, 0px);\">",
+          "html": "<figure class=\"taste-art\" id=\"taste-selected-media\" aria-live=\"polite\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0px, 7.9865px, 0px);\">",
           "target": [
             "#taste-selected-media"
           ]
@@ -2266,7 +2266,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<figure class=\"taste-art\" id=\"taste-selected-media\" aria-live=\"polite\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0px, 7.6306px, 0px);\">",
+          "html": "<figure class=\"taste-art\" id=\"taste-selected-media\" aria-live=\"polite\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0px, 7.9865px, 0px);\">",
           "target": [
             "#taste-selected-media"
           ]
@@ -2315,7 +2315,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<figure class=\"taste-art\" id=\"taste-selected-media\" aria-live=\"polite\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0px, 7.6306px, 0px);\">",
+          "html": "<figure class=\"taste-art\" id=\"taste-selected-media\" aria-live=\"polite\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0px, 7.9865px, 0px);\">",
           "target": [
             "#taste-selected-media"
           ]
@@ -2446,7 +2446,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<figure class=\"taste-art\" id=\"taste-selected-media\" aria-live=\"polite\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0px, 7.6306px, 0px);\">",
+          "html": "<figure class=\"taste-art\" id=\"taste-selected-media\" aria-live=\"polite\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0px, 7.9865px, 0px);\">",
           "target": [
             "#taste-selected-media"
           ]
@@ -2495,7 +2495,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3>Chicken Steak Black Pepper</h3>",
+          "html": "<h3>Mie Aceh Daging / Cumi / Udang</h3>",
           "target": [
             "figcaption > h3"
           ]
@@ -2631,7 +2631,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3>Chicken Steak Black Pepper</h3>",
+          "html": "<h3>Mie Aceh Daging / Cumi / Udang</h3>",
           "target": [
             "figcaption > h3"
           ]
@@ -2681,7 +2681,7 @@
             }
           ],
           "impact": null,
-          "html": "<img alt=\"Chicken Steak Black Pepper. Ilustrasi AI penyajian makanan, bukan foto produk asli.\" loading=\"lazy\" width=\"640\" height=\"640\" decoding=\"async\" data-nimg=\"1\" class=\"dish-reveal\" src=\"/assets/cafe/chicken-pepper.webp\" style=\"color: transparent;\">",
+          "html": "<img alt=\"Mie Aceh Daging / Cumi / Udang. Foto ilustrasi penyajian, bukan foto hidangan restoran.\" loading=\"lazy\" width=\"1920\" height=\"1440\" decoding=\"async\" data-nimg=\"1\" class=\"dish-reveal\" src=\"/assets/menu-web/mie-aceh-spesial.webp\" style=\"color: transparent;\">",
           "target": [
             ".dish-reveal"
           ]
@@ -2712,7 +2712,7 @@
             }
           ],
           "impact": null,
-          "html": "<img alt=\"Chicken Steak Black Pepper. Ilustrasi AI penyajian makanan, bukan foto produk asli.\" loading=\"lazy\" width=\"640\" height=\"640\" decoding=\"async\" data-nimg=\"1\" class=\"dish-reveal\" src=\"/assets/cafe/chicken-pepper.webp\" style=\"color: transparent;\">",
+          "html": "<img alt=\"Mie Aceh Daging / Cumi / Udang. Foto ilustrasi penyajian, bukan foto hidangan restoran.\" loading=\"lazy\" width=\"1920\" height=\"1440\" decoding=\"async\" data-nimg=\"1\" class=\"dish-reveal\" src=\"/assets/menu-web/mie-aceh-spesial.webp\" style=\"color: transparent;\">",
           "target": [
             ".dish-reveal"
           ]
@@ -2776,6 +2776,58 @@
       "help": "Links must have discernible text",
       "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
       "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://commons.wikimedia.org/wiki/File:Mie_Aceh.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Yasmina Haryono</a>",
+          "target": [
+            "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://creativecommons.org/licenses/by-sa/2.0\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 2.0</a>",
+          "target": [
+            "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(2)"
+          ]
+        },
         {
           "any": [
             {
@@ -2997,7 +3049,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<img alt=\"Chicken Steak Black Pepper. Ilustrasi AI penyajian makanan, bukan foto produk asli.\" loading=\"lazy\" width=\"640\" height=\"640\" decoding=\"async\" data-nimg=\"1\" class=\"dish-reveal\" src=\"/assets/cafe/chicken-pepper.webp\" style=\"color: transparent;\">",
+          "html": "<img alt=\"Mie Aceh Daging / Cumi / Udang. Foto ilustrasi penyajian, bukan foto hidangan restoran.\" loading=\"lazy\" width=\"1920\" height=\"1440\" decoding=\"async\" data-nimg=\"1\" class=\"dish-reveal\" src=\"/assets/menu-web/mie-aceh-spesial.webp\" style=\"color: transparent;\">",
           "target": [
             ".dish-reveal"
           ]
@@ -3038,9 +3090,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"390\" height=\"1271\" data-motion=\"running\" data-frames=\"16\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"390\" height=\"1313\" data-motion=\"running\" data-frames=\"20\"></canvas>",
                   "target": [
-                    "canvas[height=\"1271\"]"
+                    "canvas[height=\"1313\"]"
                   ]
                 }
               ],
@@ -3070,9 +3122,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"390\" height=\"1271\" data-motion=\"running\" data-frames=\"16\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"390\" height=\"1313\" data-motion=\"running\" data-frames=\"20\"></canvas>",
                   "target": [
-                    "canvas[height=\"1271\"]"
+                    "canvas[height=\"1313\"]"
                   ]
                 }
               ],
@@ -3208,7 +3260,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span class=\"menu-name\">Nasi Goreng Telur</span>",
+          "html": "<span class=\"menu-name\">Rambeu Bakar</span>",
           "target": [
             "li:nth-child(1) > button[aria-controls=\"taste-selected-media\"] > .menu-name"
           ],
@@ -3233,7 +3285,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span class=\"menu-price\">Rp15.000</span>",
+          "html": "<span class=\"menu-price\">Rp25.000 / ons</span>",
           "target": [
             "li:nth-child(1) > button[aria-controls=\"taste-selected-media\"] > .menu-price"
           ],
@@ -3283,7 +3335,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span class=\"menu-name\">Chicken Steak Black Pepper</span>",
+          "html": "<span class=\"menu-name\">Mie Aceh Daging / Cumi / Udang</span>",
           "target": [
             "li:nth-child(2) > button[aria-controls=\"taste-selected-media\"] > .menu-name"
           ],
@@ -3308,7 +3360,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span class=\"menu-price\">Rp35.000</span>",
+          "html": "<span class=\"menu-price\">Rp25.000</span>",
           "target": [
             "li:nth-child(2) > button[aria-controls=\"taste-selected-media\"] > .menu-price"
           ],
@@ -3358,7 +3410,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span class=\"menu-name\">Mie Aceh Kuah Telor</span>",
+          "html": "<span class=\"menu-name\">Sanger Espreso (Panas/Dingin)</span>",
           "target": [
             "li:nth-child(3) > button[aria-controls=\"taste-selected-media\"] > .menu-name"
           ],
@@ -3383,7 +3435,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span class=\"menu-price\">Rp15.000</span>",
+          "html": "<span class=\"menu-price\">Rp12.000–Rp15.000</span>",
           "target": [
             "li:nth-child(3) > button[aria-controls=\"taste-selected-media\"] > .menu-price"
           ],
@@ -3402,13 +3454,13 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<span class=\"taste-image-badge\">Ilustrasi AI · bukan foto produk</span>",
+                  "html": "<span class=\"taste-image-badge\">Foto ilustrasi penyajian</span>",
                   "target": [
                     ".taste-image-badge"
                   ]
                 },
                 {
-                  "html": "<img alt=\"Chicken Steak Black Pepper. Ilustrasi AI penyajian makanan, bukan foto produk asli.\" loading=\"lazy\" width=\"640\" height=\"640\" decoding=\"async\" data-nimg=\"1\" class=\"dish-reveal\" src=\"/assets/cafe/chicken-pepper.webp\" style=\"color: transparent;\">",
+                  "html": "<img alt=\"Mie Aceh Daging / Cumi / Udang. Foto ilustrasi penyajian, bukan foto hidangan restoran.\" loading=\"lazy\" width=\"1920\" height=\"1440\" decoding=\"async\" data-nimg=\"1\" class=\"dish-reveal\" src=\"/assets/menu-web/mie-aceh-spesial.webp\" style=\"color: transparent;\">",
                   "target": [
                     ".dish-reveal"
                   ]
@@ -3421,7 +3473,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span class=\"taste-image-badge\">Ilustrasi AI · bukan foto produk</span>",
+          "html": "<span class=\"taste-image-badge\">Foto ilustrasi penyajian</span>",
           "target": [
             ".taste-image-badge"
           ],
@@ -3440,15 +3492,15 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<figcaption><h3>Chicken Steak Black Pepper</h3><p>Ilustrasi penyajian. Tampilan sajian asli dapat berbeda.</p></figcaption>",
+                  "html": "<figcaption>",
                   "target": [
                     "#taste-selected-media > figcaption"
                   ]
                 },
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"390\" height=\"1271\" data-motion=\"running\" data-frames=\"16\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"390\" height=\"1313\" data-motion=\"running\" data-frames=\"20\"></canvas>",
                   "target": [
-                    "canvas[height=\"1271\"]"
+                    "canvas[height=\"1313\"]"
                   ]
                 }
               ],
@@ -3459,7 +3511,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<h3>Chicken Steak Black Pepper</h3>",
+          "html": "<h3>Mie Aceh Daging / Cumi / Udang</h3>",
           "target": [
             "figcaption > h3"
           ],
@@ -3478,15 +3530,15 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<figcaption><h3>Chicken Steak Black Pepper</h3><p>Ilustrasi penyajian. Tampilan sajian asli dapat berbeda.</p></figcaption>",
+                  "html": "<figcaption>",
                   "target": [
                     "#taste-selected-media > figcaption"
                   ]
                 },
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"390\" height=\"1271\" data-motion=\"running\" data-frames=\"16\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"390\" height=\"1313\" data-motion=\"running\" data-frames=\"20\"></canvas>",
                   "target": [
-                    "canvas[height=\"1271\"]"
+                    "canvas[height=\"1313\"]"
                   ]
                 }
               ],
@@ -3497,9 +3549,123 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<p>Ilustrasi penyajian. Tampilan sajian asli dapat berbeda.</p>",
+          "html": "<p>Foto sebagai referensi penyajian; tampilan hidangan restoran dapat berbeda.</p>",
           "target": [
-            "figcaption > p"
+            "figcaption > p:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "6.8pt (9px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<figcaption>",
+                  "target": [
+                    "#taste-selected-media > figcaption"
+                  ]
+                },
+                {
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"390\" height=\"1313\" data-motion=\"running\" data-frames=\"20\"></canvas>",
+                  "target": [
+                    "canvas[height=\"1313\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p class=\"photo-credit\"><a href=\"https://commons.wikimedia.org/wiki/File:Mie_Aceh.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Yasmina Haryono</a> · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 2.0</a></p>",
+          "target": [
+            ".photo-credit"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "6.8pt (9px)",
+                "fontWeight": "normal",
+                "messageKey": "imgNode",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<figcaption>",
+                  "target": [
+                    "#taste-selected-media > figcaption"
+                  ]
+                },
+                {
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"390\" height=\"1313\" data-motion=\"running\" data-frames=\"20\"></canvas>",
+                  "target": [
+                    "canvas[height=\"1313\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because element contains an image node"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://commons.wikimedia.org/wiki/File:Mie_Aceh.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Yasmina Haryono</a>",
+          "target": [
+            "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "6.8pt (9px)",
+                "fontWeight": "normal",
+                "messageKey": "imgNode",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<figcaption>",
+                  "target": [
+                    "#taste-selected-media > figcaption"
+                  ]
+                },
+                {
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"390\" height=\"1313\" data-motion=\"running\" data-frames=\"20\"></canvas>",
+                  "target": [
+                    "canvas[height=\"1313\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because element contains an image node"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://creativecommons.org/licenses/by-sa/2.0\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 2.0</a>",
+          "target": [
+            "a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(2)"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
         },

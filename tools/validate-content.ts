@@ -2,6 +2,8 @@ import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { content } from '../src/lib/content';
 
+for(const file of [content.audio.sourceFile,join('public',content.audio.src),'evidence/audio/mix-provenance.json'])if(!existsSync(file))throw new Error(`Missing soundtrack file ${file}`);
+
 for(const a of content.media.assets) {
   for(const file of [a.src,...a.variants])if(!existsSync(join(process.cwd(),'public',file)))throw new Error(`Missing file ${file}`);
   if(a.sourceType==='owner'&&(!a.sourceFile||!existsSync(a.permission==='local-folder-publish-intent'?a.sourceFile:join('Assets/foto-ig',a.sourceFile))))throw new Error(`Missing owner original ${a.id}`);

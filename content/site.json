@@ -1,9 +1,9 @@
 {
-  "brand": "Pantai Nuansa Cafe",
+  "brand": "Nuansa Pantai Caf\u00e9 & Resto",
   "language": "id",
-  "description": "Jelajahi Pantai Nuansa Cafe: suasana tepi laut, area duduk outdoor di atas pasir, pilihan kuliner, galeri dan lokasi.",
+  "description": "Nuansa Pantai Cafe & Resto di Desa Lipah Rayeuk, Jeumpa, Bireuen: suasana tepi laut, ikan bakar, mie Aceh, pilihan nasi dan minuman.",
   "contact": {
-    "address": null,
+    "address": "Desa Lipah Rayeuk, Kec. Jeumpa, Kab. Bireuen",
     "mapsUrl": "https://maps.app.goo.gl/zjFpYA9izBekeK8a8",
     "phone": "+6285320542581",
     "instagram": "https://www.instagram.com/rs_risna22/",
@@ -11,7 +11,9 @@
     "sourceType": "owner-chat",
     "confirmedAt": "2026-11-03",
     "businessInstagram": "https://www.instagram.com/nuansa_pantai_coffe/",
-    "businessInstagramLabel": "Instagram Pantai Nuansa Cafe"
+    "businessInstagramLabel": "Instagram Nuansa Pantai",
+    "tiktok": "https://www.tiktok.com/@Nuansa.pantai_coffe",
+    "tiktokLabel": "TikTok Nuansa Pantai"
   },
   "verified": false,
   "ui": {
@@ -42,23 +44,25 @@
     "prologEyebrow": "DI BALIK CAKRAWALA",
     "prologTitle": "Setiap tempat punya cerita.",
     "prologItalic": "Ini awal cerita Nuansa.",
-    "prologDescription": "Dari pesisir dalam ilustrasi, perjalanan beralih ke dokumentasi. Sesi foto, langit senja, dan momen yang tertangkap menjadi awal untuk mengenal Nuansa lebih dekat.",
+    "prologDescription": "Sesi foto di tepi laut, langit senja, dan momen bersama menjadi bagian dari cerita di Pantai Nuansa.",
     "catalogEyebrow": "PILIHAN MENU",
     "catalogTitle": "Cita rasa di tepi laut.",
     "catalogOpen": "Lihat menu lengkap",
-    "catalogBadge": "Ilustrasi AI · bukan foto produk",
+    "catalogBadge": "Ilustrasi AI \u00b7 bukan foto produk",
     "catalogHint": "Gambar hanya ilustrasi penyajian. Ketersediaan harian dapat dikonfirmasi kepada pengelola.",
-    "footerNote": "Pantai Nuansa Cafe · Bersua di tepi pantai.",
+    "footerNote": "Pantai Nuansa Cafe \u00b7 Bersua di tepi pantai.",
     "backTop": "Kembali ke awal",
     "nextChapter": "Cerita berlanjut, hingga senja membawa pulang kenangan.",
     "catalogLabel": "Daftar menu Nuansa",
-    "ambientLabel": "Ambience ombak sintetis, hanya diputar atas pilihan Anda.",
+    "ambientLabel": "Musik dan debur ombak",
     "worldHint": "Gerakkan penunjuk. Sentuh laut. Ikuti anginnya.",
     "pauseMotion": "Jeda gerak",
     "resumeMotion": "Lanjutkan gerak",
     "chapterIndexLabel": "Navigasi bab cerita",
     "enableAmbientMotion": "Aktifkan animasi",
     "disableAmbientMotion": "Matikan animasi",
-    "ambientMotionSystemNotice": "Perangkat Anda meminta pengurangan gerakan. Anda dapat mengaktifkan animasi lingkungan khusus untuk website ini."
+    "ambientMotionSystemNotice": "Perangkat Anda meminta pengurangan gerakan. Anda dapat mengaktifkan animasi lingkungan khusus untuk website ini.",
+    "brandLine": "NUANSA PANTAI",
+    "brandSuffix": "CAF\u00c9 & RESTO"
   }
 }

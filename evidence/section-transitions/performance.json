@@ -1,0 +1,12 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "cpuSlowdown": 4,
+  "elapsedMs": 6009.399999999256,
+  "rafCallbacks": 133,
+  "mainThreadTaskSeconds": 6.256088,
+  "errors": [],
+  "limitations": "Single local CPU simulation with rapid down/up scroll, not display FPS, physical device or comparative before/after benchmark."
+}

@@ -87,7 +87,7 @@
       "posterAssetId": "journey-senja-poster",
       "titleLabel": "Cuplikan suasana senja di tepi laut",
       "durationLabel": "00:14",
-      "formatLabel": "DOKUMENTASI · VIDEO TANPA SUARA",
+      "formatLabel": "DOKUMENTASI \u00b7 VIDEO TANPA SUARA",
       "credit": "Sumber: dokumentasi yang disediakan untuk proyek ini.",
       "playLabel": "Putar video senja",
       "pauseLabel": "Jeda video senja",
@@ -98,10 +98,10 @@
       "visualDescription": "Cuplikan menampilkan sekelompok pengunjung duduk mengelilingi meja di atas pasir, dengan kursi merah dan laut di belakangnya. Langit berwarna jingga menjelang senja. Kamera bergerak mendekati meja dan mengarah ke garis pantai. Cuplikan ini ditampilkan tanpa suara.",
       "noScriptMessage": "Pemutar interaktif memerlukan JavaScript. Video tetap dapat dibuka langsung.",
       "openFileLabel": "Buka berkas video",
-      "silentNotice": "Tanpa suara · klik untuk video lengkap",
+      "silentNotice": "Tanpa suara \u00b7 klik untuk video lengkap",
       "nextLabel": "Lanjutkan ke pilihan kuliner",
       "artNotice": "Latar pesisir adalah ilustrasi. Video dan poster berasal dari dokumentasi.",
-      "loadingLabel": "Menyiapkan cuplikan…",
+      "loadingLabel": "Menyiapkan cuplikan\u2026",
       "previewAssetId": "journey-senja-hover",
       "previewHint": "Arahkan penunjuk untuk cuplikan. Klik untuk menonton."
     }
@@ -146,13 +146,13 @@
       "titleAccent": "bercerita.",
       "description": "Pilih satu menu, bayangkan momennya. Nama dan harga di bawah mengacu pada daftar yang dikonfirmasi pengelola.",
       "listLabel": "Pilihan menu",
-      "imageBadge": "Ilustrasi AI · bukan foto produk",
+      "imageBadge": "Foto ilustrasi penyajian",
       "sourceLabel": "Nama & harga: menu pengelola",
       "fullMenuLabel": "Lihat semua menu",
       "originalLabel": "Daftar menu pengelola",
       "originalOpenLabel": "Buka gambar menu ukuran penuh",
       "noScriptLabel": "Lihat menu asli",
-      "imageNotice": "Ilustrasi penyajian. Tampilan sajian asli dapat berbeda.",
+      "imageNotice": "Foto sebagai referensi penyajian; tampilan hidangan restoran dapat berbeda.",
       "imageOwnerBadge": "Foto dokumentasi",
       "imageOwnerNotice": "Foto dari pengelola. Nama dan harga tetap mengikuti daftar menu yang dikonfirmasi."
     }
@@ -191,7 +191,7 @@
       "locationLabel": "Lokasi",
       "locationValue": "Pin dibagikan pengelola",
       "artNotice": "Ilustrasi pesisir; navigasi mengikuti pin Google Maps pengelola.",
-      "copyright": "© 2026 Pantai Nuansa Cafe.",
+      "copyright": "\u00a9 2026 Nuansa Pantai Caf\u00e9 & Resto.",
       "footerTagline": "Bersua di tepi pantai."
     }
   },

@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 import type { FoundationContent } from '@/lib/content';
-import { formatPrice } from '@/lib/format';
+import { formatMenuPrice } from '@/lib/menu-price';
 
 export default function ConceptCatalog({content,open,onClose}:{content:FoundationContent;open:boolean;onClose:()=>void}) {
   const ref=useRef<HTMLDialogElement>(null);
@@ -24,9 +24,9 @@ export default function ConceptCatalog({content,open,onClose}:{content:Foundatio
       <h2 id="catalog-title">{ui.catalogTitle}</h2><p id="catalog-notice">{content.menu.notice}</p>
       <div className="concept-grid">{content.menu.items.map(item=>{
         const asset=content.media.assets.find(a=>a.id===item.imageAssetId)!;
-        return <figure key={item.id}><div className="concept-image"><Image src={asset.src} alt={`${item.name}. ${asset.alt}`} width={asset.width} height={asset.height} sizes="(max-width: 640px) 80vw, 380px" loading="lazy"/><span>{asset.isPlaceholder?ui.catalogBadge:labels.imageOwnerBadge}</span></div><figcaption><h3>{item.name}<span className="catalog-price">{formatPrice(item.price,content.menu.currency)}</span></h3><p>{item.description}</p></figcaption></figure>;
+        return <figure key={item.id}><div className="concept-image"><Image src={asset.src} alt={`${item.name}. ${asset.alt}`} width={asset.width} height={asset.height} sizes="(max-width: 640px) 80vw, 380px" loading="lazy"/><span>{asset.isPlaceholder?labels.imageBadge:labels.imageOwnerBadge}</span></div><figcaption><h3>{item.name}<span className="catalog-price">{formatMenuPrice(item,content.menu.currency)}</span></h3><p>{item.description}</p></figcaption></figure>;
       })}</div><p className="catalog-end">{ui.catalogHint}</p>
-      <section className="original-menu" aria-labelledby="original-menu-title"><h3 id="original-menu-title">{labels.originalLabel}</h3><a href={original.src} target="_blank" rel="noopener noreferrer">{labels.originalOpenLabel}<span aria-hidden="true"> ↗</span></a><Image src={original.src} width={original.width} height={original.height} alt={original.alt} loading="lazy" sizes="(max-width: 640px) 85vw, 674px"/></section>
+      {!content.menu.sourceDocument&&<section className="original-menu" aria-labelledby="original-menu-title"><h3 id="original-menu-title">{labels.originalLabel}</h3><a href={original.src} target="_blank" rel="noopener noreferrer">{labels.originalOpenLabel}<span aria-hidden="true"> ↗</span></a><Image src={original.src} width={original.width} height={original.height} alt={original.alt} loading="lazy" sizes="(max-width: 640px) 85vw, 674px"/></section>}
     </div>
   </dialog>;
 }

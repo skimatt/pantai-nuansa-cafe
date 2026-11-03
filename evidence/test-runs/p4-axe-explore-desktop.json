@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-11-03T04:19:14.570Z",
+  "timestamp": "2026-11-03T13:38:02.621Z",
   "url": "http://127.0.0.1:4173/#explore",
   "toolOptions": {
     "reporter": "v1"
@@ -2696,7 +2696,7 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"32\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"35\" data-motion=\"running\"></canvas>",
                   "target": [
                     "canvas[height=\"1080\"]"
                   ]
@@ -2728,7 +2728,7 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"32\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"35\" data-motion=\"running\"></canvas>",
                   "target": [
                     "canvas[height=\"1080\"]"
                   ]
@@ -2760,7 +2760,7 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"32\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"35\" data-motion=\"running\"></canvas>",
                   "target": [
                     "canvas[height=\"1080\"]"
                   ]
@@ -2792,7 +2792,7 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"32\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"35\" data-motion=\"running\"></canvas>",
                   "target": [
                     "canvas[height=\"1080\"]"
                   ]
@@ -2824,7 +2824,7 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"32\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"35\" data-motion=\"running\"></canvas>",
                   "target": [
                     "canvas[height=\"1080\"]"
                   ]
@@ -2862,7 +2862,7 @@
                   ]
                 },
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"32\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"35\" data-motion=\"running\"></canvas>",
                   "target": [
                     "canvas[height=\"1080\"]"
                   ]
@@ -2900,7 +2900,7 @@
                   ]
                 },
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"32\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"35\" data-motion=\"running\"></canvas>",
                   "target": [
                     "canvas[height=\"1080\"]"
                   ]
@@ -2938,7 +2938,7 @@
                   ]
                 },
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"32\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"35\" data-motion=\"running\"></canvas>",
                   "target": [
                     "canvas[height=\"1080\"]"
                   ]
@@ -2970,7 +2970,7 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"32\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"35\" data-motion=\"running\"></canvas>",
                   "target": [
                     "canvas[height=\"1080\"]"
                   ]
@@ -3008,7 +3008,7 @@
                   ]
                 },
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"32\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"1440\" height=\"1080\" data-frames=\"35\" data-motion=\"running\"></canvas>",
                   "target": [
                     "canvas[height=\"1080\"]"
                   ]

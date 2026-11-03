@@ -1,26 +1,26 @@
 [
   {
     "id": "discover",
-    "changedPixels": 126810
+    "changedPixels": 61883
   },
   {
     "id": "experience",
-    "changedPixels": 237863
+    "changedPixels": 263391
   },
   {
     "id": "explore",
-    "changedPixels": 58064
+    "changedPixels": 19579
   },
   {
     "id": "taste",
-    "changedPixels": 72175
+    "changedPixels": 1099
   },
   {
     "id": "moments",
-    "changedPixels": 95850
+    "changedPixels": 69366
   },
   {
     "id": "find-us",
-    "changedPixels": 264015
+    "changedPixels": 139538
   }
 ]

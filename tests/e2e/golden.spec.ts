@@ -32,7 +32,7 @@ for(const [name,width,height] of [['desktop',1440,900],['mobile',390,844],['smal
   await expect(page.getByRole('link',{name:'Buka di Google Maps'})).toHaveAttribute('href','https://maps.app.goo.gl/zjFpYA9izBekeK8a8');
   await expect(page.getByRole('link',{name:/Hubungi pengelola/})).toHaveAttribute('href','tel:+6285320542581');
   await expect(page.getByRole('link',{name:'Instagram pengelola'})).toHaveAttribute('href','https://www.instagram.com/rs_risna22/');
-  await expect(page.locator('.contact-details')).toContainText('0853 2054 2581');await expect(page.locator('.contact-details')).toContainText('Konfirmasi kepada pengelola');
+  await expect(page.locator('.contact-details')).toContainText('0853 2054 2581');await expect(page.locator('.contact-details')).toContainText('Konfirmasi kepada pengelola');await expect(page.locator('.contact-details')).toContainText('Desa Lipah Rayeuk');
   await page.screenshot({path:`evidence/screenshots/p5/find-us-${name}.png`});await page.locator('#find-us').screenshot({path:`evidence/screenshots/p5/find-us-full-${name}.png`});
   const locationAxe=await new AxeBuilder({page}).include('#find-us').analyze();await writeFile(`evidence/test-runs/p5-axe-find-us-${name}.json`,JSON.stringify(locationAxe,null,2));expect(locationAxe.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)}))).toEqual([]);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(errors).toEqual([]);

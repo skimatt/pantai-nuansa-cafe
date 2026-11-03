@@ -3,7 +3,9 @@
     "argv": [
       "C:\\Program Files\\nodejs\\node.exe",
       "D:\\CHATGPT\\Rifza\\Website\\node_modules\\@playwright\\test\\cli.js",
-      "test"
+      "test",
+      "tests/e2e/audio-mix.spec.ts",
+      "tests/e2e/compact-controls.spec.ts"
     ],
     "configFile": "D:\\CHATGPT\\Rifza\\Website\\playwright.config.ts",
     "rootDir": "D:/CHATGPT/Rifza/Website/tests/e2e",
@@ -97,13 +99,13 @@
   },
   "suites": [
     {
-      "title": "album.spec.ts",
-      "file": "album.spec.ts",
+      "title": "audio-mix.spec.ts",
+      "file": "audio-mix.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "desktop: full menu, facility and local gallery routes with keyboard navigation",
+          "title": "desktop: mixed music is opt-in, fades, pauses and resumes",
           "ok": true,
           "tags": [],
           "tests": [
@@ -118,12 +120,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 11634,
+                  "duration": 10202,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-03T04:18:51.179Z",
+                  "startTime": "2026-11-03T14:11:49.323Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -131,13 +133,13 @@
               "status": "expected"
             }
           ],
-          "id": "96b9c6db58f0ae9258ee-3c7b4d22f06426c65b3e",
-          "file": "album.spec.ts",
+          "id": "5965555ccdfa445bb90c-c5f3519f7201b3d1c81f",
+          "file": "audio-mix.spec.ts",
           "line": 6,
           "column": 6
         },
         {
-          "title": "mobile: full menu, facility and local gallery routes with keyboard navigation",
+          "title": "mobile: mixed music is opt-in, fades, pauses and resumes",
           "ok": true,
           "tags": [],
           "tests": [
@@ -152,12 +154,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7057,
+                  "duration": 3774,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-03T04:19:02.987Z",
+                  "startTime": "2026-11-03T14:11:59.918Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -165,13 +167,13 @@
               "status": "expected"
             }
           ],
-          "id": "96b9c6db58f0ae9258ee-9ff60c56a4f8213d65c1",
-          "file": "album.spec.ts",
+          "id": "5965555ccdfa445bb90c-813fb3822e9972ac86c4",
+          "file": "audio-mix.spec.ts",
           "line": 6,
           "column": 6
         },
         {
-          "title": "detail collections are complete without JavaScript and reduced motion keeps pages usable",
+          "title": "mixed soundtrack pauses when hidden, yields to video and disposes on navigation",
           "ok": true,
           "tags": [],
           "tests": [
@@ -186,12 +188,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1327,
+                  "duration": 8776,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-03T04:19:10.057Z",
+                  "startTime": "2026-11-03T14:12:03.768Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -199,21 +201,21 @@
               "status": "expected"
             }
           ],
-          "id": "96b9c6db58f0ae9258ee-66659dd124169a0ace46",
-          "file": "album.spec.ts",
-          "line": 28,
+          "id": "5965555ccdfa445bb90c-274ef9cc450649a7d9f5",
+          "file": "audio-mix.spec.ts",
+          "line": 33,
           "column": 5
         }
       ]
     },
     {
-      "title": "cafe.spec.ts",
-      "file": "cafe.spec.ts",
+      "title": "compact-controls.spec.ts",
+      "file": "compact-controls.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "desktop: facility hotspots and verified menu with illustrative photos",
+          "title": "desktop: compact accessible controls and clean Hero",
           "ok": true,
           "tags": [],
           "tests": [
@@ -228,12 +230,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5817,
+                  "duration": 11018,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-03T04:19:11.422Z",
+                  "startTime": "2026-11-03T14:12:12.637Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -241,225 +243,13 @@
               "status": "expected"
             }
           ],
-          "id": "81ee2afe23ad6ebada41-e3c8ee71982bde0fe6df",
-          "file": "cafe.spec.ts",
-          "line": 6,
-          "column": 6
-        },
-        {
-          "title": "mobile: facility hotspots and verified menu with illustrative photos",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 2920,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:19:17.264Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "81ee2afe23ad6ebada41-87493e5bf4e59211a771",
-          "file": "cafe.spec.ts",
-          "line": 6,
-          "column": 6
-        },
-        {
-          "title": "small-mobile: facility hotspots and verified menu with illustrative photos",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 2880,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:19:20.201Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "81ee2afe23ad6ebada41-b88ee46e4510db0e3526",
-          "file": "cafe.spec.ts",
-          "line": 6,
-          "column": 6
-        },
-        {
-          "title": "tablet: facility hotspots and verified menu with illustrative photos",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 4150,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:19:23.093Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "81ee2afe23ad6ebada41-60a0a2c2f8afd8911180",
-          "file": "cafe.spec.ts",
-          "line": 6,
-          "column": 6
-        },
-        {
-          "title": "cafe remains readable without JavaScript and with reduced motion",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 1535,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:19:27.258Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "81ee2afe23ad6ebada41-9c979e439216d349cfbf",
-          "file": "cafe.spec.ts",
-          "line": 34,
-          "column": 5
-        }
-      ]
-    },
-    {
-      "title": "continuity.spec.ts",
-      "file": "continuity.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "chapter navigation crosses the animated wave, updates history and focuses destination",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 2737,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:19:28.958Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "cc77f0d4c920969ee960-d38dd7e5095424a1c804",
-          "file": "continuity.spec.ts",
+          "id": "ec7995aa636ef3c8536e-8d6941b530faff354d90",
+          "file": "compact-controls.spec.ts",
           "line": 5,
-          "column": 5
-        },
-        {
-          "title": "desktop: each following environment moves, pauses globally, and sleeps offscreen",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 17105,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:19:31.719Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "cc77f0d4c920969ee960-fc1115b532d5fa31fc79",
-          "file": "continuity.spec.ts",
-          "line": 15,
           "column": 6
         },
         {
-          "title": "mobile: each following environment moves, pauses globally, and sleeps offscreen",
+          "title": "mobile: compact accessible controls and clean Hero",
           "ok": true,
           "tags": [],
           "tests": [
@@ -474,12 +264,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 11144,
+                  "duration": 2105,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-03T04:19:48.838Z",
+                  "startTime": "2026-11-03T14:12:23.816Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -487,1103 +277,9 @@
               "status": "expected"
             }
           ],
-          "id": "cc77f0d4c920969ee960-2dd8f7729f938a5b3a28",
-          "file": "continuity.spec.ts",
-          "line": 15,
-          "column": 6
-        },
-        {
-          "title": "homepage previews are limited and gallery tours automatically, pauses on hover and user control",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 9105,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:19:59.997Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "cc77f0d4c920969ee960-897f9f818eafc00b8d3d",
-          "file": "continuity.spec.ts",
-          "line": 34,
-          "column": 5
-        },
-        {
-          "title": "reduced motion leaves gallery still and navigation direct",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 1129,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:20:09.118Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "cc77f0d4c920969ee960-59fbefbcadd609fab41d",
-          "file": "continuity.spec.ts",
-          "line": 43,
-          "column": 5
-        }
-      ]
-    },
-    {
-      "title": "foundation.spec.ts",
-      "file": "foundation.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "opening completes naturally, remains on same world and plays once per session",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 7420,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:20:10.271Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6b60d0cacd30be8ae473-5c394d9edda0dce21275",
-          "file": "foundation.spec.ts",
+          "id": "ec7995aa636ef3c8536e-01718b824c9ea38ea312",
+          "file": "compact-controls.spec.ts",
           "line": 5,
-          "column": 5
-        },
-        {
-          "title": "skip, replay, accessible catalog and audio controls work",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 2731,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:20:17.704Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6b60d0cacd30be8ae473-44fbbf9546caf359c9e0",
-          "file": "foundation.spec.ts",
-          "line": 20,
-          "column": 5
-        },
-        {
-          "title": "desktop visual, navigation, assets and accessibility",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 8728,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:20:20.450Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6b60d0cacd30be8ae473-1f069b932cac4ecdab3b",
-          "file": "foundation.spec.ts",
-          "line": 37,
-          "column": 6
-        },
-        {
-          "title": "mobile visual, navigation, assets and accessibility",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 4493,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:20:29.200Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6b60d0cacd30be8ae473-54b186b9c505615fdeb0",
-          "file": "foundation.spec.ts",
-          "line": 37,
-          "column": 6
-        },
-        {
-          "title": "small-mobile visual, navigation, assets and accessibility",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 4475,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:20:33.718Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6b60d0cacd30be8ae473-f58617aaa64f153ba0aa",
-          "file": "foundation.spec.ts",
-          "line": 37,
-          "column": 6
-        },
-        {
-          "title": "tablet visual, navigation, assets and accessibility",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 5686,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:20:38.219Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6b60d0cacd30be8ae473-f4f7aded050ab2eef0bd",
-          "file": "foundation.spec.ts",
-          "line": 37,
-          "column": 6
-        },
-        {
-          "title": "reduced motion, blocked session storage, no JavaScript and deep links remain usable",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 2570,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:20:43.928Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6b60d0cacd30be8ae473-88f6e352e84cafa505c4",
-          "file": "foundation.spec.ts",
-          "line": 62,
-          "column": 5
-        },
-        {
-          "title": "scroll is reversible and runtime motion preference ends the intro",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 1473,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:20:46.516Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6b60d0cacd30be8ae473-a771d2c9cbe877db3917",
-          "file": "foundation.spec.ts",
-          "line": 77,
-          "column": 5
-        }
-      ]
-    },
-    {
-      "title": "golden.spec.ts",
-      "file": "golden.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "desktop: gallery viewer, video and supplied location/contact",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 7106,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:20:48.015Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "368b625b608da03d5a27-ddc5d7909f688a3e8779",
-          "file": "golden.spec.ts",
-          "line": 6,
-          "column": 6
-        },
-        {
-          "title": "mobile: gallery viewer, video and supplied location/contact",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 4539,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:20:55.150Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "368b625b608da03d5a27-fef926b421f42b089823",
-          "file": "golden.spec.ts",
-          "line": 6,
-          "column": 6
-        },
-        {
-          "title": "small-mobile: gallery viewer, video and supplied location/contact",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 4462,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:20:59.718Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "368b625b608da03d5a27-de62b405bc0d31a37cb3",
-          "file": "golden.spec.ts",
-          "line": 6,
-          "column": 6
-        },
-        {
-          "title": "tablet: gallery viewer, video and supplied location/contact",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 5428,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:21:04.202Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "368b625b608da03d5a27-cf9d264e6d9e3a9223c0",
-          "file": "golden.spec.ts",
-          "line": 6,
-          "column": 6
-        },
-        {
-          "title": "gallery and contacts stay usable without JavaScript; reduced motion navigation works",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 1583,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:21:09.658Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "368b625b608da03d5a27-f53d97b89066d335cbd2",
-          "file": "golden.spec.ts",
-          "line": 41,
-          "column": 5
-        },
-        {
-          "title": "ambient mute remains reachable after leaving Hero",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 3275,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:21:11.270Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "368b625b608da03d5a27-5d2692c837ca471680ab",
-          "file": "golden.spec.ts",
-          "line": 48,
-          "column": 5
-        }
-      ]
-    },
-    {
-      "title": "journey.spec.ts",
-      "file": "journey.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "desktop: documentary composition, lazy video, controls and accessibility",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 7917,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:21:14.569Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "bf222bad70f76648f722-9168e2b14251fc625f5f",
-          "file": "journey.spec.ts",
-          "line": 7,
-          "column": 6
-        },
-        {
-          "title": "mobile: documentary composition, lazy video, controls and accessibility",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 6124,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:21:22.513Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "bf222bad70f76648f722-e568b59096b9fec8118e",
-          "file": "journey.spec.ts",
-          "line": 7,
-          "column": 6
-        },
-        {
-          "title": "small-mobile: documentary composition, lazy video, controls and accessibility",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 6005,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:21:28.660Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "bf222bad70f76648f722-a58b945aadec857223a4",
-          "file": "journey.spec.ts",
-          "line": 7,
-          "column": 6
-        },
-        {
-          "title": "tablet: documentary composition, lazy video, controls and accessibility",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 7136,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:21:34.689Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "bf222bad70f76648f722-010b04c40bc347e7d074",
-          "file": "journey.spec.ts",
-          "line": 7,
-          "column": 6
-        },
-        {
-          "title": "video pauses offscreen, on page hide and when leaving for the gallery; keyboard can resume",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 2232,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:21:41.847Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "bf222bad70f76648f722-48f287e761f65278c9ca",
-          "file": "journey.spec.ts",
-          "line": 52,
-          "column": 5
-        },
-        {
-          "title": "failed media retains poster and description, retry recovers",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 2040,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:21:44.102Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "bf222bad70f76648f722-28d451b3da3ef17a5884",
-          "file": "journey.spec.ts",
-          "line": 74,
-          "column": 5
-        },
-        {
-          "title": "reduced motion and no-JavaScript documentary access remain available",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 1866,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:21:46.156Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "bf222bad70f76648f722-b04387d6227af379dcaf",
-          "file": "journey.spec.ts",
-          "line": 86,
-          "column": 5
-        }
-      ]
-    },
-    {
-      "title": "motion.spec.ts",
-      "file": "motion.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "desktop: visible sea and palm motion, user pause and offscreen sleep",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 7642,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:21:48.049Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "472f259022e25a651642-4f58edcab01c65c2aa10",
-          "file": "motion.spec.ts",
-          "line": 18,
-          "column": 6
-        },
-        {
-          "title": "mobile: visible sea and palm motion, user pause and offscreen sleep",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 4443,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:21:55.707Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "472f259022e25a651642-52167628ecad3593ea76",
-          "file": "motion.spec.ts",
-          "line": 18,
-          "column": 6
-        },
-        {
-          "title": "reduced-motion canvas is static and navigation does not pin the Hero",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 2858,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:22:00.169Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "472f259022e25a651642-ebfce5878225da220a24",
-          "file": "motion.spec.ts",
-          "line": 32,
-          "column": 5
-        },
-        {
-          "title": "deliberate hover plays a silent preview and leaving stops it",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 2614,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:22:03.040Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "472f259022e25a651642-5c558bede42e1bcc384e",
-          "file": "motion.spec.ts",
-          "line": 40,
-          "column": 5
-        },
-        {
-          "title": "desktop: explicit ambient choice works with system reduced motion and survives reload",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 12124,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:22:05.666Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "472f259022e25a651642-e4aa4a0243fc427e739f",
-          "file": "motion.spec.ts",
-          "line": 52,
-          "column": 6
-        },
-        {
-          "title": "mobile: explicit ambient choice works with system reduced motion and survives reload",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 9367,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:22:17.814Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "472f259022e25a651642-f28126f9cb48ed46e72a",
-          "file": "motion.spec.ts",
-          "line": 52,
-          "column": 6
-        }
-      ]
-    },
-    {
-      "title": "route-motion.spec.ts",
-      "file": "route-motion.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "desktop: zero-size canvas and repeated route changes preserve animation clocks",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 4778,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:22:27.221Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "7add09a342549b08ad28-2e6c24c5bf810380813b",
-          "file": "route-motion.spec.ts",
-          "line": 3,
-          "column": 6
-        },
-        {
-          "title": "mobile: zero-size canvas and repeated route changes preserve animation clocks",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 2786,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-11-03T04:22:32.012Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "7add09a342549b08ad28-7b09846ff9ce5e339d06",
-          "file": "route-motion.spec.ts",
-          "line": 3,
           "column": 6
         }
       ]
@@ -1591,9 +287,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-03T04:18:49.299Z",
-    "duration": 226900.26799999998,
-    "expected": 42,
+    "startTime": "2026-11-03T14:11:46.319Z",
+    "duration": 40178.672000000006,
+    "expected": 5,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

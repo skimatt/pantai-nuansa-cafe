@@ -1,0 +1,11 @@
+{
+  "source": "Assets/Audio/GolderHour.mp3",
+  "destination": "public/assets/audio/golden-hour-ocean.mp3",
+  "duration": 209.79229,
+  "sourceSha256": "f6b5721c1f15746153b5084d9af421795995eb4e6a9077aee0b98ed68331a61b",
+  "wave": "Original procedural filtered brown noise with slow amplitude modulation; not a field recording",
+  "filter": "[0:a]loudnorm=I=-20:TP=-2:LRA=8,volume=0.78[music];[1:a]highpass=f=65,lowpass=f=1200,tremolo=f=0.12:d=0.65,volume=0.22,pan=stereo|c0=c0|c1=c0[sea];[music][sea]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.85,afade=t=in:d=2,afade=t=out:st=206.79229:d=3[out]",
+  "musicRights": "User supplied for local editing; public-performance/online publication permission not evidenced in file metadata",
+  "externalServices": [],
+  "date": "2026-11-03"
+}

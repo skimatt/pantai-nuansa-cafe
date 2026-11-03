@@ -1,0 +1,76 @@
+{
+  "restaurant": {
+    "name": "Nuansa Pantai Caf\u00e9 & Resto",
+    "address": "Desa Lipah Rayeuk, Kec. Jeumpa, Kab. Bireuen",
+    "social_media": {
+      "instagram": "@nuansa_pantai_coffe",
+      "tiktok": "Nuansa.pantai_coffe"
+    }
+  },
+  "featured_categories": [
+    {
+      "name": "Ikan Bakar",
+      "items": [
+        {
+          "name": "Rambeu Bakar",
+          "price": "25K / ons"
+        },
+        {
+          "name": "Kakap Bakar",
+          "price": "25K / ons"
+        },
+        {
+          "name": "Kakap / Rambeu Asam Manis",
+          "price": "25K / ons"
+        }
+      ]
+    },
+    {
+      "name": "Mie Aceh & Olahan Mie",
+      "items": [
+        {
+          "name": "Mie Aceh Daging / Cumi / Udang",
+          "price": "25K"
+        },
+        {
+          "name": "Mie Aceh Telur",
+          "price": "15K"
+        },
+        {
+          "name": "Mie Bakso",
+          "price": "20K"
+        }
+      ]
+    },
+    {
+      "name": "Nasi & Ayam",
+      "items": [
+        {
+          "name": "Nasi Goreng Pataya Seafood",
+          "price": "25K"
+        },
+        {
+          "name": "Nasi Ayam Geprek / Penyet / Cabe Ijo",
+          "price": "18K"
+        }
+      ]
+    },
+    {
+      "name": "Coffee & Beverages",
+      "items": [
+        {
+          "name": "Sanger Espreso (Panas/Dingin)",
+          "price": "12K - 15K"
+        },
+        {
+          "name": "Aneka Jus Segar",
+          "price": "15K"
+        },
+        {
+          "name": "Lemon Madu",
+          "price": "20K"
+        }
+      ]
+    }
+  ]
+}

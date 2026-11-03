@@ -12,6 +12,7 @@ import './living-world.css';
 import './scene-continuity.css';
 import './folder-photos.css';
 import './detail-pages.css';
+import './compact-controls.css';
 import { content } from '@/lib/content';
 
 export const metadata:Metadata={

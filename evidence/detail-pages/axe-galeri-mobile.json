@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-11-03T04:46:22.885Z",
+  "timestamp": "2026-11-03T13:37:52.844Z",
   "url": "http://127.0.0.1:4173/galeri/",
   "toolOptions": {
     "reporter": "v1"
@@ -1003,7 +1003,7 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"detail-brand\" aria-label=\"Pantai Nuansa Cafe\" href=\"/\">",
+          "html": "<a class=\"detail-brand\" aria-label=\"Nuansa Pantai Café & Resto\" href=\"/\">",
           "target": [
             ".detail-brand"
           ]
@@ -1843,7 +1843,7 @@
             }
           ],
           "impact": null,
-          "html": "<button class=\"motion-dock detail-motion-dock\" aria-pressed=\"false\"><span aria-hidden=\"true\">Ⅱ</span>Jeda gerak</button>",
+          "html": "<button class=\"motion-dock detail-motion-dock\" aria-label=\"Jeda gerak\" title=\"Jeda gerak\" aria-pressed=\"false\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M7 4v12M13 4v12\" stroke=\"currentColor\" stroke-width=\"1.8\"></path></svg>Jeda gerak</button>",
           "target": [
             ".motion-dock"
           ]
@@ -1956,7 +1956,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<a class=\"detail-brand\" aria-label=\"Pantai Nuansa Cafe\" href=\"/\">",
+          "html": "<a class=\"detail-brand\" aria-label=\"Nuansa Pantai Café & Resto\" href=\"/\">",
           "target": [
             ".detail-brand"
           ]
@@ -2334,7 +2334,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<button class=\"motion-dock detail-motion-dock\" aria-pressed=\"false\"><span aria-hidden=\"true\">Ⅱ</span>Jeda gerak</button>",
+          "html": "<button class=\"motion-dock detail-motion-dock\" aria-label=\"Jeda gerak\" title=\"Jeda gerak\" aria-pressed=\"false\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M7 4v12M13 4v12\" stroke=\"currentColor\" stroke-width=\"1.8\"></path></svg>Jeda gerak</button>",
           "target": [
             ".motion-dock"
           ]
@@ -2484,7 +2484,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<canvas class=\"detail-living-backdrop\" aria-hidden=\"true\" width=\"360\" height=\"800\" data-frames=\"26\" data-motion=\"running\"></canvas>",
+          "html": "<canvas class=\"detail-living-backdrop\" aria-hidden=\"true\" width=\"360\" height=\"800\" data-frames=\"28\" data-motion=\"running\"></canvas>",
           "target": [
             ".detail-living-backdrop"
           ]
@@ -2740,9 +2740,9 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<span aria-hidden=\"true\">Ⅱ</span>",
+          "html": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M7 4v12M13 4v12\" stroke=\"currentColor\" stroke-width=\"1.8\"></path></svg>",
           "target": [
-            "span[aria-hidden=\"true\"]"
+            "svg[width=\"16\"]"
           ]
         }
       ]
@@ -2776,7 +2776,7 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"detail-brand\" aria-label=\"Pantai Nuansa Cafe\" href=\"/\">",
+          "html": "<a class=\"detail-brand\" aria-label=\"Nuansa Pantai Café & Resto\" href=\"/\">",
           "target": [
             ".detail-brand"
           ]
@@ -3154,7 +3154,7 @@
             }
           ],
           "impact": null,
-          "html": "<button class=\"motion-dock detail-motion-dock\" aria-pressed=\"false\"><span aria-hidden=\"true\">Ⅱ</span>Jeda gerak</button>",
+          "html": "<button class=\"motion-dock detail-motion-dock\" aria-label=\"Jeda gerak\" title=\"Jeda gerak\" aria-pressed=\"false\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M7 4v12M13 4v12\" stroke=\"currentColor\" stroke-width=\"1.8\"></path></svg>Jeda gerak</button>",
           "target": [
             ".motion-dock"
           ]
@@ -3317,7 +3317,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<a class=\"detail-brand\" aria-label=\"Pantai Nuansa Cafe\" href=\"/\">",
+          "html": "<a class=\"detail-brand\" aria-label=\"Nuansa Pantai Café & Resto\" href=\"/\">",
           "target": [
             ".detail-brand"
           ]
@@ -3989,7 +3989,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<button class=\"motion-dock detail-motion-dock\" aria-pressed=\"false\"><span aria-hidden=\"true\">Ⅱ</span>Jeda gerak</button>",
+          "html": "<button class=\"motion-dock detail-motion-dock\" aria-label=\"Jeda gerak\" title=\"Jeda gerak\" aria-pressed=\"false\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M7 4v12M13 4v12\" stroke=\"currentColor\" stroke-width=\"1.8\"></path></svg>Jeda gerak</button>",
           "target": [
             ".motion-dock"
           ]
@@ -4060,7 +4060,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<a class=\"detail-brand\" aria-label=\"Pantai Nuansa Cafe\" href=\"/\">",
+          "html": "<a class=\"detail-brand\" aria-label=\"Nuansa Pantai Café & Resto\" href=\"/\">",
           "target": [
             ".detail-brand"
           ]
@@ -4438,7 +4438,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button class=\"motion-dock detail-motion-dock\" aria-pressed=\"false\"><span aria-hidden=\"true\">Ⅱ</span>Jeda gerak</button>",
+          "html": "<button class=\"motion-dock detail-motion-dock\" aria-label=\"Jeda gerak\" title=\"Jeda gerak\" aria-pressed=\"false\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M7 4v12M13 4v12\" stroke=\"currentColor\" stroke-width=\"1.8\"></path></svg>Jeda gerak</button>",
           "target": [
             ".motion-dock"
           ]
@@ -4895,12 +4895,26 @@
               "relatedNodes": [],
               "impact": "critical",
               "message": "Element has inner text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a title attribute"
             }
           ],
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button class=\"motion-dock detail-motion-dock\" aria-pressed=\"false\"><span aria-hidden=\"true\">Ⅱ</span>Jeda gerak</button>",
+          "html": "<button class=\"motion-dock detail-motion-dock\" aria-label=\"Jeda gerak\" title=\"Jeda gerak\" aria-pressed=\"false\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M7 4v12M13 4v12\" stroke=\"currentColor\" stroke-width=\"1.8\"></path></svg>Jeda gerak</button>",
           "target": [
             ".motion-dock"
           ]
@@ -5014,7 +5028,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span>Pantai Nuansa Cafe</span>",
+          "html": "<span>Nuansa Pantai Café &amp; Resto</span>",
           "target": [
             ".detail-brand > span"
           ]
@@ -6039,7 +6053,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<p>© 2026 Pantai Nuansa Cafe.</p>",
+          "html": "<p>© 2026 Nuansa Pantai Café &amp; Resto.</p>",
           "target": [
             "footer > p"
           ]
@@ -7040,7 +7054,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<a class=\"detail-brand\" aria-label=\"Pantai Nuansa Cafe\" href=\"/\">",
+          "html": "<a class=\"detail-brand\" aria-label=\"Nuansa Pantai Café & Resto\" href=\"/\">",
           "target": [
             ".detail-brand"
           ]
@@ -7097,6 +7111,24 @@
           "html": "<button aria-label=\"Video tanpa suara. Buka dokumentasi: Video area duduk di atas pasir dan suasana pesisir, tanpa suara.\">",
           "target": [
             "figure:nth-child(16) > button"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "label-content-name-mismatch",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element contains visible text as part of its accessible name"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button class=\"motion-dock detail-motion-dock\" aria-label=\"Jeda gerak\" title=\"Jeda gerak\" aria-pressed=\"false\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M7 4v12M13 4v12\" stroke=\"currentColor\" stroke-width=\"1.8\"></path></svg>Jeda gerak</button>",
+          "target": [
+            ".motion-dock"
           ]
         }
       ]
@@ -7547,7 +7579,7 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"detail-brand\" aria-label=\"Pantai Nuansa Cafe\" href=\"/\">",
+          "html": "<a class=\"detail-brand\" aria-label=\"Nuansa Pantai Café & Resto\" href=\"/\">",
           "target": [
             ".detail-brand"
           ]
@@ -8411,7 +8443,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button class=\"motion-dock detail-motion-dock\" aria-pressed=\"false\"><span aria-hidden=\"true\">Ⅱ</span>Jeda gerak</button>",
+          "html": "<button class=\"motion-dock detail-motion-dock\" aria-label=\"Jeda gerak\" title=\"Jeda gerak\" aria-pressed=\"false\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M7 4v12M13 4v12\" stroke=\"currentColor\" stroke-width=\"1.8\"></path></svg>Jeda gerak</button>",
           "target": [
             ".motion-dock"
           ]
@@ -8544,7 +8576,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<a class=\"detail-brand\" aria-label=\"Pantai Nuansa Cafe\" href=\"/\">",
+          "html": "<a class=\"detail-brand\" aria-label=\"Nuansa Pantai Café & Resto\" href=\"/\">",
           "target": [
             ".detail-brand"
           ]
@@ -8564,7 +8596,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span>Pantai Nuansa Cafe</span>",
+          "html": "<span>Nuansa Pantai Café &amp; Resto</span>",
           "target": [
             ".detail-brand > span"
           ]
@@ -8804,7 +8836,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<div class=\"collection-tools\"><p class=\"collection-count\"><strong>16</strong> <!-- -->foto dan video</p><p class=\"collection-description\">Seluruh dokumentasi dari folder foto lokal dan cuplikan video. Pilih satu bingkai untuk melihatnya lebih dekat.</p></div>",
+          "html": "<div class=\"collection-tools\"><p class=\"collection-count\"><strong>16</strong> <!-- -->foto dan video</p><p class=\"collection-description\">Foto dan cuplikan suasana di Pantai Nuansa. Pilih satu bingkai untuk melihatnya lebih dekat.</p></div>",
           "target": [
             ".collection-tools"
           ]
@@ -8864,7 +8896,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<p class=\"collection-description\">Seluruh dokumentasi dari folder foto lokal dan cuplikan video. Pilih satu bingkai untuk melihatnya lebih dekat.</p>",
+          "html": "<p class=\"collection-description\">Foto dan cuplikan suasana di Pantai Nuansa. Pilih satu bingkai untuk melihatnya lebih dekat.</p>",
           "target": [
             ".collection-description"
           ]
@@ -11024,7 +11056,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<p>© 2026 Pantai Nuansa Cafe.</p>",
+          "html": "<p>© 2026 Nuansa Pantai Café &amp; Resto.</p>",
           "target": [
             "footer > p"
           ]
@@ -11044,7 +11076,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button class=\"motion-dock detail-motion-dock\" aria-pressed=\"false\"><span aria-hidden=\"true\">Ⅱ</span>Jeda gerak</button>",
+          "html": "<button class=\"motion-dock detail-motion-dock\" aria-label=\"Jeda gerak\" title=\"Jeda gerak\" aria-pressed=\"false\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" aria-hidden=\"true\"><path d=\"M7 4v12M13 4v12\" stroke=\"currentColor\" stroke-width=\"1.8\"></path></svg>Jeda gerak</button>",
           "target": [
             ".motion-dock"
           ]
@@ -11211,7 +11243,7 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"360\" height=\"509\" data-frames=\"25\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"360\" height=\"509\" data-frames=\"27\" data-motion=\"running\"></canvas>",
                   "target": [
                     ".scene-atmosphere"
                   ]
@@ -11243,7 +11275,7 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"360\" height=\"509\" data-frames=\"25\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"scene-atmosphere\" aria-hidden=\"true\" width=\"360\" height=\"509\" data-frames=\"27\" data-motion=\"running\"></canvas>",
                   "target": [
                     ".scene-atmosphere"
                   ]
@@ -11275,13 +11307,13 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<div class=\"collection-tools\"><p class=\"collection-count\"><strong>16</strong> <!-- -->foto dan video</p><p class=\"collection-description\">Seluruh dokumentasi dari folder foto lokal dan cuplikan video. Pilih satu bingkai untuk melihatnya lebih dekat.</p></div>",
+                  "html": "<div class=\"collection-tools\"><p class=\"collection-count\"><strong>16</strong> <!-- -->foto dan video</p><p class=\"collection-description\">Foto dan cuplikan suasana di Pantai Nuansa. Pilih satu bingkai untuk melihatnya lebih dekat.</p></div>",
                   "target": [
                     ".collection-tools"
                   ]
                 },
                 {
-                  "html": "<canvas class=\"detail-living-backdrop\" aria-hidden=\"true\" width=\"360\" height=\"800\" data-frames=\"26\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"detail-living-backdrop\" aria-hidden=\"true\" width=\"360\" height=\"800\" data-frames=\"28\" data-motion=\"running\"></canvas>",
                   "target": [
                     ".detail-living-backdrop"
                   ]
@@ -11313,13 +11345,13 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<div class=\"collection-tools\"><p class=\"collection-count\"><strong>16</strong> <!-- -->foto dan video</p><p class=\"collection-description\">Seluruh dokumentasi dari folder foto lokal dan cuplikan video. Pilih satu bingkai untuk melihatnya lebih dekat.</p></div>",
+                  "html": "<div class=\"collection-tools\"><p class=\"collection-count\"><strong>16</strong> <!-- -->foto dan video</p><p class=\"collection-description\">Foto dan cuplikan suasana di Pantai Nuansa. Pilih satu bingkai untuk melihatnya lebih dekat.</p></div>",
                   "target": [
                     ".collection-tools"
                   ]
                 },
                 {
-                  "html": "<canvas class=\"detail-living-backdrop\" aria-hidden=\"true\" width=\"360\" height=\"800\" data-frames=\"26\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"detail-living-backdrop\" aria-hidden=\"true\" width=\"360\" height=\"800\" data-frames=\"28\" data-motion=\"running\"></canvas>",
                   "target": [
                     ".detail-living-backdrop"
                   ]
@@ -11351,19 +11383,19 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<p class=\"collection-description\">Seluruh dokumentasi dari folder foto lokal dan cuplikan video. Pilih satu bingkai untuk melihatnya lebih dekat.</p>",
+                  "html": "<p class=\"collection-description\">Foto dan cuplikan suasana di Pantai Nuansa. Pilih satu bingkai untuk melihatnya lebih dekat.</p>",
                   "target": [
                     ".collection-description"
                   ]
                 },
                 {
-                  "html": "<div class=\"collection-tools\"><p class=\"collection-count\"><strong>16</strong> <!-- -->foto dan video</p><p class=\"collection-description\">Seluruh dokumentasi dari folder foto lokal dan cuplikan video. Pilih satu bingkai untuk melihatnya lebih dekat.</p></div>",
+                  "html": "<div class=\"collection-tools\"><p class=\"collection-count\"><strong>16</strong> <!-- -->foto dan video</p><p class=\"collection-description\">Foto dan cuplikan suasana di Pantai Nuansa. Pilih satu bingkai untuk melihatnya lebih dekat.</p></div>",
                   "target": [
                     ".collection-tools"
                   ]
                 },
                 {
-                  "html": "<canvas class=\"detail-living-backdrop\" aria-hidden=\"true\" width=\"360\" height=\"800\" data-frames=\"26\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"detail-living-backdrop\" aria-hidden=\"true\" width=\"360\" height=\"800\" data-frames=\"28\" data-motion=\"running\"></canvas>",
                   "target": [
                     ".detail-living-backdrop"
                   ]
@@ -11376,7 +11408,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<p class=\"collection-description\">Seluruh dokumentasi dari folder foto lokal dan cuplikan video. Pilih satu bingkai untuk melihatnya lebih dekat.</p>",
+          "html": "<p class=\"collection-description\">Foto dan cuplikan suasana di Pantai Nuansa. Pilih satu bingkai untuk melihatnya lebih dekat.</p>",
           "target": [
             ".collection-description"
           ],
@@ -11401,7 +11433,7 @@
                   ]
                 },
                 {
-                  "html": "<canvas class=\"detail-living-backdrop\" aria-hidden=\"true\" width=\"360\" height=\"800\" data-frames=\"26\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"detail-living-backdrop\" aria-hidden=\"true\" width=\"360\" height=\"800\" data-frames=\"28\" data-motion=\"running\"></canvas>",
                   "target": [
                     ".detail-living-backdrop"
                   ]
@@ -11439,7 +11471,7 @@
                   ]
                 },
                 {
-                  "html": "<canvas class=\"detail-living-backdrop\" aria-hidden=\"true\" width=\"360\" height=\"800\" data-frames=\"26\" data-motion=\"running\"></canvas>",
+                  "html": "<canvas class=\"detail-living-backdrop\" aria-hidden=\"true\" width=\"360\" height=\"800\" data-frames=\"28\" data-motion=\"running\"></canvas>",
                   "target": [
                     ".detail-living-backdrop"
                   ]
@@ -11457,27 +11489,6 @@
             "figure:nth-child(1) > figcaption > span"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "messageKey": "nonBmp"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element content contains only non-text characters"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": "serious",
-          "html": "<span aria-hidden=\"true\">Ⅱ</span>",
-          "target": [
-            "span[aria-hidden=\"true\"]"
-          ],
-          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
         }
       ]
     }

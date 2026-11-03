@@ -1,0 +1,12 @@
+import {execFileSync} from 'node:child_process';
+import {mkdir,writeFile,readFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const source='Assets/Audio/GolderHour.mp3',destination='public/assets/audio/golden-hour-ocean.mp3';
+await mkdir('public/assets/audio',{recursive:true});await mkdir('evidence/audio',{recursive:true});
+const metadata=JSON.parse(execFileSync('ffprobe',['-v','error','-show_entries','format=duration','-of','json',source],{encoding:'utf8'}));
+const duration=Number(metadata.format.duration),fadeOut=Math.max(0,duration-3);
+const filter=`[0:a]loudnorm=I=-20:TP=-2:LRA=8,volume=0.78[music];[1:a]highpass=f=65,lowpass=f=1200,tremolo=f=0.12:d=0.65,volume=0.22,pan=stereo|c0=c0|c1=c0[sea];[music][sea]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.85,afade=t=in:d=2,afade=t=out:st=${fadeOut}:d=3[out]`;
+execFileSync('ffmpeg',['-hide_banner','-loglevel','error','-y','-i',source,'-f','lavfi','-i',`anoisesrc=color=brown:amplitude=0.25:sample_rate=44100:duration=${duration}:seed=4721`,'-filter_complex',filter,'-map','[out]','-map_metadata','-1','-vn','-ar','44100','-ac','2','-c:a','libmp3lame','-b:a','128k',destination]);
+execFileSync('ffmpeg',['-hide_banner','-loglevel','error','-y','-i',destination,'-t','24','-c:a','libmp3lame','-b:a','128k','evidence/audio/mix-preview.mp3']);
+await writeFile('evidence/audio/mix-provenance.json',JSON.stringify({source,destination,duration,sourceSha256:createHash('sha256').update(await readFile(source)).digest('hex'),wave:'Original procedural filtered brown noise with slow amplitude modulation; not a field recording',filter,musicRights:'User supplied for local editing; public-performance/online publication permission not evidenced in file metadata',externalServices:[],date:'2026-11-03'},null,2));
+console.log(`Mixed ${duration.toFixed(2)}s music and original procedural ocean ambience.`);

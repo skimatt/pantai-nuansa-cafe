@@ -6,13 +6,14 @@ import { content, rawContent, parseContent, schemas } from '../src/lib/content';
 import { shouldPlayIntro } from '../src/lib/intro';
 import {homepageContent,completeGallery} from '../src/lib/homepage';
 import {forwardFlight} from '../src/lib/coastal-air';
+import {formatMenuPrice,parseOwnerPrice} from '../src/lib/menu-price';
 
-test('confirmed menu facts reference real files while AI images remain placeholders',()=>{
- assert.equal(content.menu.items.length,6);
+test('owner menu facts reference real files while licensed photos remain illustrative',()=>{
+ assert.equal(content.menu.items.length,11);
  for(const item of content.menu.items){
   const asset=content.media.assets.find(x=>x.id===item.imageAssetId);
   assert.ok(asset);assert.ok(existsSync(path.join('public',asset.src)));
-  assert.ok(item.price!==null);assert.equal(item.available,null);assert.equal(item.verified,true);assert.equal(item.sourceType,'owner');assert.equal(asset.sourceType,'generated');assert.equal(asset.verified,false);assert.equal(item.isPlaceholder,true);
+  assert.ok(item.price!==null);assert.equal(item.available,null);assert.equal(item.verified,true);assert.equal(item.sourceType,'owner');assert.equal(asset.sourceType,'licensed');assert.equal(asset.verified,false);assert.equal(item.isPlaceholder,true);
  }
  assert.equal(content.menu.conceptItems.length,8);
  for(const concept of content.menu.conceptItems){assert.equal(concept.price,null);assert.equal(concept.verified,false);}
@@ -51,7 +52,7 @@ test('gallery rejects generated pictures masquerading as documentary media',()=>
  assert.throws(()=>parseContent(fake),/Gallery documentation/);
  const fakePoster=structuredClone(rawContent);fakePoster.gallery.items.find(i=>i.type==='video')!.posterAssetId='coastal-master';
  assert.throws(()=>parseContent(fakePoster),/documentary image poster/);
- assert.equal(content.site.contact.hours,null);assert.equal(content.site.contact.address,null);
+ assert.equal(content.site.contact.hours,null);assert.equal(content.site.contact.address,'Desa Lipah Rayeuk, Kec. Jeumpa, Kab. Bireuen');
  assert.equal(content.site.contact.mapsUrl,'https://maps.app.goo.gl/zjFpYA9izBekeK8a8');
  assert.equal(content.site.contact.phone,'+6285320542581');
 });
@@ -69,8 +70,8 @@ test('owner menu source and AI display labels cannot be silently removed',()=>{
  assert.throws(()=>parseContent(fake),/Generated menu image/);
  const source=structuredClone(rawContent);source.menu.sourceAssetId='coastal-master';
  assert.throws(()=>parseContent(source),/approved owner menu/);
- assert.equal(content.menu.items.find(i=>i.id==='nasi-goreng-telur')?.price,15000);
- assert.equal(content.menu.items.find(i=>i.id==='nasi-goreng-seafood')?.price,35000);
+ assert.equal(content.menu.items.find(i=>i.id==='mie-aceh-telur')?.price,15000);
+ assert.equal(content.menu.items.find(i=>i.id==='rambeu-bakar')?.price,25000);
 });
 test('documentary photos and video cannot silently become AI placeholders',()=>{
  const fake=structuredClone(rawContent);
@@ -89,9 +90,9 @@ test('video requires silent source, real poster and duration metadata',()=>{
 
 test('homepage projects bounded previews while complete collections can grow',()=>{
  const expanded=structuredClone(rawContent);
- for(let i=0;i<24;i++)expanded.menu.items.push({...expanded.menu.items[0],id:`test-extra-${i}`,name:`Test ${i}`});
+ for(let i=0;i<24;i++){expanded.menu.items.push({...expanded.menu.items[0],id:`test-extra-${i}`,name:`Test ${i}`});expanded.menuSource.featured_categories[0].items.push({name:`Test ${i}`,price:'25K / ons'});}
  const full=parseContent(expanded),home=homepageContent(full);
- assert.equal(full.menu.items.length,30);assert.equal(home.menu.items.length,3);
+ assert.equal(full.menu.items.length,35);assert.equal(home.menu.items.length,3);
  assert.equal(home.gallery.items.length,4);assert.equal(home.sections.cafe.explore.hotspots.length,1);
  assert.equal(home.localPhotos.gallery.length,0);assert.equal(full.localPhotos.gallery.length,13);
  assert.ok(JSON.stringify(home).length<JSON.stringify(full).length);
@@ -113,4 +114,15 @@ test('right-facing bird art flies forward and wraps outside the visible viewport
   for(let time=0;time<3600;time+=19){const pose=forwardFlight(width,time,index);assert.ok(pose.x>=-80&&pose.x<width+80);assert.ok(Math.abs(pose.bank)<=.035);}
   const period=(width+160)/(20-index*2);assert.ok(Math.abs(forwardFlight(width,1,index).x-forwardFlight(width,1+period,index).x)<.00001);
  }
+});
+
+test('owner price ranges and per-ons units cannot silently become flat per-portion prices',()=>{
+ assert.equal(formatMenuPrice(parseOwnerPrice('25K / ons')),'Rp25.000 / ons');
+ assert.equal(formatMenuPrice(parseOwnerPrice('12K - 15K')),'Rp12.000–Rp15.000');
+ const wrong=structuredClone(rawContent);delete wrong.menu.items[0].priceUnit;
+ assert.throws(()=>parseContent(wrong),/price mismatch/);
+ const range=structuredClone(rawContent);range.menu.items.find(i=>i.id==='sanger-espreso')!.priceMax=12000;
+ assert.throws(()=>parseContent(range),/price mismatch/);
+ const noCredit=structuredClone(rawContent);delete noCredit.media.assets.find(a=>a.id==='web-rambeu-bakar')!.licenseUrl;
+ assert.throws(()=>parseContent(noCredit),/Licensed references/);
 });

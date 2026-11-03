@@ -125,3 +125,9 @@ Saat perangkat mengaktifkan pengurangan gerakan, animasi lingkungan dan slider o
 Homepage kini menampilkan3 menu pilihan,4 media dan1 informasi fasilitas, dengan Lihat semua ke `/menu/`, `/galeri/`, `/fasilitas/`. Koleksi lengkap memakai sumber JSON/folder yang sama. Pilihan menu/jumlah preview dan copy halaman ada di `content/pages.json`; daftar menu tidak lagi dibatasi8 item. Halaman menu juga menautkan gambar menu asli untuk rincian yang belum ditranskripsi. Foto `foto-website/galeri/` tampil pada halaman Galeri; homepage hanya cuplikan. [Arsitektur, sumber dan hasil pemeriksaan](docs/implementation/HOMEPAGE_DETAIL_PAGES.md).
 
 Build menjalankan normalisasi nama segment ekspor Next16.4 pada Windows. Unggah seluruh `out/`, termasuk seluruh file `__next*.txt` dan subfolder route, agar navigasi klien berfungsi.
+
+## Data menu terbaru dari pengelola
+
+Daftar aktif kini11 pilihan dalam4 kategori, bersumber dari `content/menu-source.json`. `content/menu.json` menyimpan struktur/harga per ons dan rentang yang divalidasi terhadap sumber itu. Homepage tetap3 pilihan. Nama usaha/alamat/Instagram/TikTok diperbarui sesuai data pengguna. Menu.png lama merupakan arsip, bukan daftar harga aktif.
+
+Sebelas foto internet berlisensi memakai sourceType=licensed dan label ilustrasi penyajian; tidak diklaim produk asli restoran. Kredit dan lisensi tampil di UI dan `public/licenses/menu-photos.json`. [Sumber, lisensi, pipeline dan hasil uji](docs/implementation/MENU_OWNER_UPDATE.md).18 unit/folder test dan10 browser test terkait lulus. Folder foto asli menu memakai ID terbaru yang dibuat otomatis saat sinkronisasi.
