@@ -1,0 +1,516 @@
+{
+  "version": 1,
+  "name": "Pantai Nuansa — Coastal Asset Kit",
+  "themeNotice": "Ilustrasi tematik; bukan inventaris vegetasi/satwa atau dokumentasi fasilitas lokasi.",
+  "assets": [
+    {
+      "id": "wave-serrated",
+      "label": "Ombak bergerigi",
+      "category": "transition",
+      "width": 1920,
+      "height": 420,
+      "sourceType": "procedural",
+      "verified": false,
+      "isPlaceholder": true,
+      "license": "Original procedural artwork by project; see provenance",
+      "svg": "svg/wave-serrated.svg",
+      "png": "png/wave-serrated.png",
+      "webp": "webp/wave-serrated.webp",
+      "frames": 12,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "foam-back",
+        "foam-mid",
+        "water-body",
+        "foam-teeth"
+      ],
+      "sprite": "sprites/wave-serrated.webp",
+      "frameWidth": 960,
+      "frameHeight": 210,
+      "fps": 8
+    },
+    {
+      "id": "wave-curl",
+      "label": "Gulungan ombak",
+      "category": "transition",
+      "width": 1920,
+      "height": 420,
+      "sourceType": "procedural",
+      "verified": false,
+      "isPlaceholder": true,
+      "license": "Original procedural artwork by project; see provenance",
+      "svg": "svg/wave-curl.svg",
+      "png": "png/wave-curl.png",
+      "webp": "webp/wave-curl.webp",
+      "frames": 12,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "foam-back",
+        "foam-mid",
+        "water-body",
+        "foam-teeth",
+        "curl"
+      ],
+      "sprite": "sprites/wave-curl.webp",
+      "frameWidth": 960,
+      "frameHeight": 210,
+      "fps": 8
+    },
+    {
+      "id": "foam-edge",
+      "label": "Tepi buih",
+      "category": "overlay",
+      "width": 1920,
+      "height": 180,
+      "sourceType": "procedural",
+      "verified": false,
+      "isPlaceholder": true,
+      "license": "Original procedural artwork by project; see provenance",
+      "svg": "svg/foam-edge.svg",
+      "png": "png/foam-edge.png",
+      "webp": "webp/foam-edge.webp",
+      "frames": 1,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "foam-back",
+        "foam-mid",
+        "water-body",
+        "foam-teeth"
+      ]
+    },
+    {
+      "id": "dune-sand",
+      "label": "Gundukan dan tekstur pasir",
+      "category": "environment",
+      "width": 1200,
+      "height": 360,
+      "sourceType": "procedural",
+      "verified": false,
+      "isPlaceholder": true,
+      "license": "Original procedural artwork by project; see provenance",
+      "svg": "svg/dune-sand.svg",
+      "png": "png/dune-sand.png",
+      "webp": "webp/dune-sand.webp",
+      "frames": 1,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "dune-back",
+        "dune-mid",
+        "dune-front",
+        "sand-ripples",
+        "grains"
+      ]
+    },
+    {
+      "id": "sand-gust",
+      "label": "Pasir tertiup angin",
+      "category": "particle",
+      "width": 1200,
+      "height": 360,
+      "sourceType": "procedural",
+      "verified": false,
+      "isPlaceholder": true,
+      "license": "Original procedural artwork by project; see provenance",
+      "svg": "svg/sand-gust.svg",
+      "png": "png/sand-gust.png",
+      "webp": "webp/sand-gust.webp",
+      "frames": 8,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "wind-streaks"
+      ],
+      "sprite": "sprites/sand-gust.webp",
+      "frameWidth": 600,
+      "frameHeight": 180,
+      "fps": 8
+    },
+    {
+      "id": "gull-flight",
+      "label": "Burung laut terbang",
+      "category": "fauna",
+      "width": 320,
+      "height": 280,
+      "sourceType": "procedural",
+      "verified": false,
+      "isPlaceholder": true,
+      "license": "Original procedural artwork by project; see provenance",
+      "svg": "svg/gull-flight.svg",
+      "png": "png/gull-flight.png",
+      "webp": "webp/gull-flight.webp",
+      "frames": 8,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "far-wing",
+        "body",
+        "near-wing",
+        "head"
+      ],
+      "sprite": "sprites/gull-flight.webp",
+      "frameWidth": 320,
+      "frameHeight": 280,
+      "fps": 10
+    },
+    {
+      "id": "egret-flight",
+      "label": "Bangau tematik terbang",
+      "category": "fauna",
+      "width": 320,
+      "height": 280,
+      "sourceType": "procedural",
+      "verified": false,
+      "isPlaceholder": true,
+      "license": "Original procedural artwork by project; see provenance",
+      "svg": "svg/egret-flight.svg",
+      "png": "png/egret-flight.png",
+      "webp": "webp/egret-flight.webp",
+      "frames": 8,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "far-wing",
+        "body",
+        "near-wing",
+        "neck",
+        "legs",
+        "head"
+      ],
+      "sprite": "sprites/egret-flight.webp",
+      "frameWidth": 320,
+      "frameHeight": 280,
+      "fps": 10
+    },
+    {
+      "id": "egret-standing",
+      "label": "Bangau tematik berdiri",
+      "category": "fauna",
+      "width": 320,
+      "height": 280,
+      "sourceType": "procedural",
+      "verified": false,
+      "isPlaceholder": true,
+      "license": "Original procedural artwork by project; see provenance",
+      "svg": "svg/egret-standing.svg",
+      "png": "png/egret-standing.png",
+      "webp": "webp/egret-standing.webp",
+      "frames": 1,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "legs",
+        "body",
+        "neck",
+        "head"
+      ]
+    },
+    {
+      "id": "tree-coastal-pine",
+      "label": "Pohon pesisir ramping",
+      "category": "vegetation",
+      "width": 548,
+      "height": 940,
+      "sourceType": "generated",
+      "verified": false,
+      "isPlaceholder": true,
+      "license": "Original procedural artwork by project; see provenance",
+      "svg": "svg/tree-coastal-pine.svg",
+      "png": "png/tree-coastal-pine.png",
+      "webp": "webp/tree-coastal-pine.webp",
+      "frames": 1,
+      "pivot": [
+        0.5,
+        0.96
+      ],
+      "layers": [
+        "trunk-and-roots",
+        "canopy-wind-pivot",
+        "bark-highlights"
+      ],
+      "rasterProvenance": "source/coastal-tree-sheet-v1.png",
+      "note": "Painterly raster generated by built-in imagegen; SVG and GLB are independent procedural structural models, not sources of this raster."
+    },
+    {
+      "id": "tree-almond",
+      "label": "Ketapang tematik",
+      "category": "vegetation",
+      "width": 571,
+      "height": 847,
+      "sourceType": "generated",
+      "verified": false,
+      "isPlaceholder": true,
+      "license": "Original procedural artwork by project; see provenance",
+      "svg": "svg/tree-almond.svg",
+      "png": "png/tree-almond.png",
+      "webp": "webp/tree-almond.webp",
+      "frames": 1,
+      "pivot": [
+        0.5,
+        0.96
+      ],
+      "layers": [
+        "trunk-and-roots",
+        "canopy-wind-pivot",
+        "bark-highlights"
+      ],
+      "rasterProvenance": "source/coastal-tree-sheet-v1.png",
+      "note": "Painterly raster generated by built-in imagegen; SVG and GLB are independent procedural structural models, not sources of this raster."
+    },
+    {
+      "id": "tree-banyan",
+      "label": "Beringin tematik",
+      "category": "vegetation",
+      "width": 595,
+      "height": 850,
+      "sourceType": "generated",
+      "verified": false,
+      "isPlaceholder": true,
+      "license": "Original procedural artwork by project; see provenance",
+      "svg": "svg/tree-banyan.svg",
+      "png": "png/tree-banyan.png",
+      "webp": "webp/tree-banyan.webp",
+      "frames": 1,
+      "pivot": [
+        0.5,
+        0.96
+      ],
+      "layers": [
+        "trunk-and-roots",
+        "canopy-wind-pivot",
+        "bark-highlights"
+      ],
+      "rasterProvenance": "source/coastal-tree-sheet-v1.png",
+      "note": "Painterly raster generated by built-in imagegen; SVG and GLB are independent procedural structural models, not sources of this raster."
+    },
+    {
+      "id": "coastal-grass",
+      "label": "Rumpun rumput pesisir",
+      "category": "vegetation",
+      "width": 600,
+      "height": 420,
+      "sourceType": "procedural",
+      "verified": false,
+      "isPlaceholder": true,
+      "license": "Original procedural artwork by project; see provenance",
+      "svg": "svg/coastal-grass.svg",
+      "png": "png/coastal-grass.png",
+      "webp": "webp/coastal-grass.webp",
+      "frames": 1,
+      "pivot": [
+        0.5,
+        0.96
+      ],
+      "layers": [
+        "grass-roots"
+      ]
+    },
+    {
+      "id": "shore-rocks",
+      "label": "Batu pesisir",
+      "category": "prop",
+      "width": 640,
+      "height": 360,
+      "sourceType": "procedural",
+      "verified": false,
+      "isPlaceholder": true,
+      "license": "Original procedural artwork by project; see provenance",
+      "svg": "svg/shore-rocks.svg",
+      "png": "png/shore-rocks.png",
+      "webp": "webp/shore-rocks.webp",
+      "frames": 1,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "far-stone",
+        "near-stones",
+        "light-facets"
+      ]
+    },
+    {
+      "id": "shell-marker",
+      "label": "Kerang untuk penanda",
+      "category": "prop",
+      "width": 420,
+      "height": 360,
+      "sourceType": "procedural",
+      "verified": false,
+      "isPlaceholder": true,
+      "license": "Original procedural artwork by project; see provenance",
+      "svg": "svg/shell-marker.svg",
+      "png": "png/shell-marker.png",
+      "webp": "webp/shell-marker.webp",
+      "frames": 1,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "shell-body",
+        "shell-ribs"
+      ]
+    },
+    {
+      "id": "driftwood-branch",
+      "label": "Ranting kayu pesisir",
+      "category": "prop",
+      "width": 760,
+      "height": 320,
+      "sourceType": "procedural",
+      "verified": false,
+      "isPlaceholder": true,
+      "license": "Original procedural artwork by project; see provenance",
+      "svg": "svg/driftwood-branch.svg",
+      "png": "png/driftwood-branch.png",
+      "webp": "webp/driftwood-branch.webp",
+      "frames": 1,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "layers": [
+        "driftwood",
+        "bark"
+      ]
+    }
+  ],
+  "models": [
+    {
+      "id": "wave-serrated",
+      "glb": "models/wave-serrated.glb",
+      "obj": "models/wave-serrated.obj",
+      "bytes": 45392,
+      "animationClips": [
+        {
+          "name": "Surf_loop",
+          "duration": 4,
+          "tracks": 3
+        }
+      ],
+      "source": "tools/build-coastal-models.mjs",
+      "sourceType": "procedural",
+      "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+    },
+    {
+      "id": "dune-sand",
+      "glb": "models/dune-sand.glb",
+      "obj": "models/dune-sand.obj",
+      "bytes": 54424,
+      "animationClips": [],
+      "source": "tools/build-coastal-models.mjs",
+      "sourceType": "procedural",
+      "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+    },
+    {
+      "id": "gull-flight",
+      "glb": "models/gull-flight.glb",
+      "obj": "models/gull-flight.obj",
+      "bytes": 34832,
+      "animationClips": [
+        {
+          "name": "Flight_loop",
+          "duration": 1,
+          "tracks": 2
+        }
+      ],
+      "source": "tools/build-coastal-models.mjs",
+      "sourceType": "procedural",
+      "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+    },
+    {
+      "id": "egret-flight",
+      "glb": "models/egret-flight.glb",
+      "obj": "models/egret-flight.obj",
+      "bytes": 52500,
+      "animationClips": [
+        {
+          "name": "Flight_loop",
+          "duration": 1,
+          "tracks": 2
+        }
+      ],
+      "source": "tools/build-coastal-models.mjs",
+      "sourceType": "procedural",
+      "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+    },
+    {
+      "id": "egret-standing",
+      "glb": "models/egret-standing.glb",
+      "obj": "models/egret-standing.obj",
+      "bytes": 35212,
+      "animationClips": [],
+      "source": "tools/build-coastal-models.mjs",
+      "sourceType": "procedural",
+      "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+    },
+    {
+      "id": "tree-coastal-pine",
+      "glb": "models/tree-coastal-pine.glb",
+      "obj": "models/tree-coastal-pine.obj",
+      "bytes": 271736,
+      "animationClips": [
+        {
+          "name": "Wind_loop",
+          "duration": 4,
+          "tracks": 1
+        }
+      ],
+      "source": "tools/build-coastal-models.mjs",
+      "sourceType": "procedural",
+      "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+    },
+    {
+      "id": "tree-almond",
+      "glb": "models/tree-almond.glb",
+      "obj": "models/tree-almond.obj",
+      "bytes": 255896,
+      "animationClips": [
+        {
+          "name": "Wind_loop",
+          "duration": 4,
+          "tracks": 1
+        }
+      ],
+      "source": "tools/build-coastal-models.mjs",
+      "sourceType": "procedural",
+      "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+    },
+    {
+      "id": "tree-banyan",
+      "glb": "models/tree-banyan.glb",
+      "obj": "models/tree-banyan.obj",
+      "bytes": 405260,
+      "animationClips": [
+        {
+          "name": "Wind_loop",
+          "duration": 4,
+          "tracks": 1
+        }
+      ],
+      "source": "tools/build-coastal-models.mjs",
+      "sourceType": "procedural",
+      "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+    }
+  ]
+}

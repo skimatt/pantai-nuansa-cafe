@@ -1,0 +1,28 @@
+next 16.4.4
+License: MIT
+Original notice: next-LICENSE.txt
+Source: https://nextjs.org
+
+react 19.2.4
+License: MIT
+Original notice: react-LICENSE.txt
+Source: https://react.dev/
+
+react-dom 19.2.4
+License: MIT
+Original notice: react-dom-LICENSE.txt
+Source: https://react.dev/
+
+gsap 3.15.0
+License: Standard 'no charge' license: https://gsap.com/standard-license.
+Source: https://gsap.com
+
+@fontsource/cormorant-garamond 5.3.0
+License: OFL-1.1
+Original notice: fontsource-cormorant-garamond-LICENSE.txt
+Source: https://fontsource.org/fonts/cormorant-garamond
+
+@fontsource/dm-sans 5.3.0
+License: OFL-1.1
+Original notice: fontsource-dm-sans-LICENSE.txt
+Source: https://fontsource.org/fonts/dm-sans

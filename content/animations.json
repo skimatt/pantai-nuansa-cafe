@@ -1,0 +1,90 @@
+{
+  "presets": {
+    "photoReveal": {
+      "duration": 0.8,
+      "ease": "power2.out"
+    },
+    "cameraDepth": {
+      "intensity": 0.2
+    },
+    "gallery": {
+      "scrub": true
+    },
+    "journey": {
+      "photoTravel": 28,
+      "backdropTravel": 36,
+      "scrub": 0.8
+    }
+  },
+  "reducedMotionFallback": true,
+  "world": {
+    "fps": 30,
+    "pixelRatio": 1.5,
+    "wind": 1.25,
+    "surfPeriod": 8,
+    "sandParticles": 45
+  },
+  "navigation": {
+    "duration": 1.1
+  },
+  "gallery": {
+    "intervalSeconds": 5.5,
+    "enabled": true
+  },
+  "atmospheres": {
+    "discover": {
+      "wind": 1.6,
+      "surf": 0.35,
+      "sand": 36,
+      "birds": 4,
+      "tone": "day",
+      "side": "left",
+      "foliage": 1
+    },
+    "experience": {
+      "wind": 2.2,
+      "surf": 1.4,
+      "sand": 18,
+      "birds": 3,
+      "tone": "night",
+      "side": "left",
+      "foliage": 1.1
+    },
+    "explore": {
+      "wind": 1.9,
+      "surf": 0,
+      "sand": 42,
+      "birds": 3,
+      "tone": "day",
+      "side": "right",
+      "foliage": 0.85
+    },
+    "taste": {
+      "wind": 1.1,
+      "surf": 0,
+      "sand": 28,
+      "birds": 0,
+      "tone": "day",
+      "side": "left",
+      "foliage": 0.65
+    },
+    "moments": {
+      "wind": 1.8,
+      "surf": 1.15,
+      "sand": 24,
+      "birds": 4,
+      "tone": "sunset",
+      "side": "right",
+      "foliage": 0.95
+    },
+    "findUs": {
+      "wind": 1.6,
+      "surf": 1,
+      "sand": 18,
+      "birds": 3,
+      "tone": "night",
+      "side": "left",
+      "foliage": 1.05
+    }
+  }
+}

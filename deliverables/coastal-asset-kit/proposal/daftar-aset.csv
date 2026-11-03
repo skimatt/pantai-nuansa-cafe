@@ -1,0 +1,16 @@
+id,nama,kategori,sumber,frame,png,svg
+wave-serrated,Ombak bergerigi,transition,procedural,12,png/wave-serrated.png,svg/wave-serrated.svg
+wave-curl,Gulungan ombak,transition,procedural,12,png/wave-curl.png,svg/wave-curl.svg
+foam-edge,Tepi buih,overlay,procedural,1,png/foam-edge.png,svg/foam-edge.svg
+dune-sand,Gundukan dan tekstur pasir,environment,procedural,1,png/dune-sand.png,svg/dune-sand.svg
+sand-gust,Pasir tertiup angin,particle,procedural,8,png/sand-gust.png,svg/sand-gust.svg
+gull-flight,Burung laut terbang,fauna,procedural,8,png/gull-flight.png,svg/gull-flight.svg
+egret-flight,Bangau tematik terbang,fauna,procedural,8,png/egret-flight.png,svg/egret-flight.svg
+egret-standing,Bangau tematik berdiri,fauna,procedural,1,png/egret-standing.png,svg/egret-standing.svg
+tree-coastal-pine,Pohon pesisir ramping,vegetation,generated,1,png/tree-coastal-pine.png,svg/tree-coastal-pine.svg
+tree-almond,Ketapang tematik,vegetation,generated,1,png/tree-almond.png,svg/tree-almond.svg
+tree-banyan,Beringin tematik,vegetation,generated,1,png/tree-banyan.png,svg/tree-banyan.svg
+coastal-grass,Rumpun rumput pesisir,vegetation,procedural,1,png/coastal-grass.png,svg/coastal-grass.svg
+shore-rocks,Batu pesisir,prop,procedural,1,png/shore-rocks.png,svg/shore-rocks.svg
+shell-marker,Kerang untuk penanda,prop,procedural,1,png/shell-marker.png,svg/shell-marker.svg
+driftwood-branch,Ranting kayu pesisir,prop,procedural,1,png/driftwood-branch.png,svg/driftwood-branch.svg

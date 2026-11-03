@@ -1,0 +1,77 @@
+[
+  {
+    "index": 0,
+    "file": "AQMYMeidF_7Lhc9p40b07qFZF5M3sRexnvPrmz5gY_rbggpQhvKvdolg5EOL4bElxVvz1LmjN-gz4ANI-L89Zdqa.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ],
+    "format": {
+      "duration": "30.856463",
+      "size": "4113638"
+    }
+  },
+  {
+    "index": 1,
+    "file": "snapgram.io_iw0mypv34hul.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ],
+    "format": {
+      "duration": "20.407483",
+      "size": "2927492"
+    }
+  },
+  {
+    "index": 2,
+    "file": "snapgram.io_xr9cdzgnipm1.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 720,
+        "height": 1280,
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ],
+    "format": {
+      "duration": "19.269705",
+      "size": "3638350"
+    }
+  }
+]

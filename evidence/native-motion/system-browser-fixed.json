@@ -1,0 +1,38 @@
+[
+  {
+    "channel": "chrome",
+    "before": {
+      "reduced": true,
+      "motion": "reduced"
+    },
+    "after": {
+      "motion": "reduced"
+    },
+    "enabledBefore": "18",
+    "enabledAfter": "75",
+    "reload": {
+      "reduced": true,
+      "motion": "running"
+    },
+    "disabled": "reduced",
+    "errors": []
+  },
+  {
+    "channel": "msedge",
+    "before": {
+      "reduced": true,
+      "motion": "reduced"
+    },
+    "after": {
+      "motion": "reduced"
+    },
+    "enabledBefore": "24",
+    "enabledAfter": "90",
+    "reload": {
+      "reduced": true,
+      "motion": "running"
+    },
+    "disabled": "reduced",
+    "errors": []
+  }
+]

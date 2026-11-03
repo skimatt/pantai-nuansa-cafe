@@ -1,0 +1,226 @@
+{
+  "assets": [
+    {
+      "id": "wave-serrated",
+      "width": 1920,
+      "height": 420,
+      "alpha": [
+        0,
+        255
+      ],
+      "layers": 4,
+      "uniqueFrames": 12,
+      "bytes": 36766
+    },
+    {
+      "id": "wave-curl",
+      "width": 1920,
+      "height": 420,
+      "alpha": [
+        0,
+        255
+      ],
+      "layers": 5,
+      "uniqueFrames": 12,
+      "bytes": 46537
+    },
+    {
+      "id": "foam-edge",
+      "width": 1920,
+      "height": 180,
+      "alpha": [
+        0,
+        255
+      ],
+      "layers": 4,
+      "uniqueFrames": 1,
+      "bytes": 30514
+    },
+    {
+      "id": "dune-sand",
+      "width": 1200,
+      "height": 360,
+      "alpha": [
+        0,
+        255
+      ],
+      "layers": 5,
+      "uniqueFrames": 1,
+      "bytes": 43163
+    },
+    {
+      "id": "sand-gust",
+      "width": 1200,
+      "height": 360,
+      "alpha": [
+        0,
+        194
+      ],
+      "layers": 1,
+      "uniqueFrames": 8,
+      "bytes": 29949
+    },
+    {
+      "id": "gull-flight",
+      "width": 320,
+      "height": 280,
+      "alpha": [
+        0,
+        255
+      ],
+      "layers": 4,
+      "uniqueFrames": 5,
+      "bytes": 7279
+    },
+    {
+      "id": "egret-flight",
+      "width": 320,
+      "height": 280,
+      "alpha": [
+        0,
+        255
+      ],
+      "layers": 6,
+      "uniqueFrames": 5,
+      "bytes": 8971
+    },
+    {
+      "id": "egret-standing",
+      "width": 320,
+      "height": 280,
+      "alpha": [
+        0,
+        255
+      ],
+      "layers": 4,
+      "uniqueFrames": 1,
+      "bytes": 6752
+    },
+    {
+      "id": "tree-coastal-pine",
+      "width": 548,
+      "height": 940,
+      "alpha": [
+        0,
+        254
+      ],
+      "layers": 3,
+      "uniqueFrames": 1,
+      "bytes": 776197
+    },
+    {
+      "id": "tree-almond",
+      "width": 571,
+      "height": 847,
+      "alpha": [
+        0,
+        253
+      ],
+      "layers": 3,
+      "uniqueFrames": 1,
+      "bytes": 700060
+    },
+    {
+      "id": "tree-banyan",
+      "width": 595,
+      "height": 850,
+      "alpha": [
+        0,
+        253
+      ],
+      "layers": 3,
+      "uniqueFrames": 1,
+      "bytes": 935030
+    },
+    {
+      "id": "coastal-grass",
+      "width": 600,
+      "height": 420,
+      "alpha": [
+        0,
+        255
+      ],
+      "layers": 1,
+      "uniqueFrames": 1,
+      "bytes": 91076
+    },
+    {
+      "id": "shore-rocks",
+      "width": 640,
+      "height": 360,
+      "alpha": [
+        0,
+        255
+      ],
+      "layers": 3,
+      "uniqueFrames": 1,
+      "bytes": 11440
+    },
+    {
+      "id": "shell-marker",
+      "width": 420,
+      "height": 360,
+      "alpha": [
+        0,
+        255
+      ],
+      "layers": 2,
+      "uniqueFrames": 1,
+      "bytes": 23824
+    },
+    {
+      "id": "driftwood-branch",
+      "width": 760,
+      "height": 320,
+      "alpha": [
+        0,
+        255
+      ],
+      "layers": 2,
+      "uniqueFrames": 1,
+      "bytes": 13708
+    }
+  ],
+  "models": [
+    {
+      "id": "wave-serrated",
+      "validGlbHeader": true,
+      "clips": 1
+    },
+    {
+      "id": "dune-sand",
+      "validGlbHeader": true,
+      "clips": 0
+    },
+    {
+      "id": "gull-flight",
+      "validGlbHeader": true,
+      "clips": 1
+    },
+    {
+      "id": "egret-flight",
+      "validGlbHeader": true,
+      "clips": 1
+    },
+    {
+      "id": "egret-standing",
+      "validGlbHeader": true,
+      "clips": 0
+    },
+    {
+      "id": "tree-coastal-pine",
+      "validGlbHeader": true,
+      "clips": 1
+    },
+    {
+      "id": "tree-almond",
+      "validGlbHeader": true,
+      "clips": 1
+    },
+    {
+      "id": "tree-banyan",
+      "validGlbHeader": true,
+      "clips": 1
+    }
+  ]
+}

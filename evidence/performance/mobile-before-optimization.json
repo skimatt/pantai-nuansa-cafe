@@ -1,0 +1,180 @@
+[
+  {
+    "date": "2026-11-03",
+    "browser": "156.0.8078.4",
+    "viewport": "390×844",
+    "cpuSlowdown": 4,
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000,
+    "reducedMotion": "no-preference",
+    "lcpMs": 1356,
+    "cls": 0.0019986030792728754,
+    "maxObservedInteractionMs": 56,
+    "longTaskCount": 4,
+    "maxLongTaskMs": 315,
+    "frameIntervalMedianMs": 16.699999999999818,
+    "frameIntervalP95Ms": 16.799999999999727,
+    "resourceBytes": 1262194,
+    "resources": [
+      {
+        "name": "3ke8v2xwe24c9.css",
+        "bytes": 23260
+      },
+      {
+        "name": "0kqziy-7_gy73.js",
+        "bytes": 22635
+      },
+      {
+        "name": "3v5m1v6-71-ar.js",
+        "bytes": 182551
+      },
+      {
+        "name": "2pffymnt3iag4.js",
+        "bytes": 229352
+      },
+      {
+        "name": "turbopack-2u1d16houkiyo.js",
+        "bytes": 10274
+      },
+      {
+        "name": "3qfy96eoyh-ek.js",
+        "bytes": 14294
+      },
+      {
+        "name": "1hdjwgiu-xwy3.js",
+        "bytes": 267702
+      },
+      {
+        "name": "coastal-master-v1.webp",
+        "bytes": 278658
+      },
+      {
+        "name": "coastal-mobile-v1.webp",
+        "bytes": 129806
+      },
+      {
+        "name": "dm-sans-latin-400-normal.0471snlmja818.woff2",
+        "bytes": 14500
+      },
+      {
+        "name": "dm-sans-latin-500-normal.0brn-8r9pdr2e.woff2",
+        "bytes": 14604
+      },
+      {
+        "name": "cormorant-garamond-latin-400-normal.1fm7t8dmldrtt.woff2",
+        "bytes": 23176
+      },
+      {
+        "name": "cormorant-garamond-latin-400-italic.1zhb_kb4w2oq1.woff2",
+        "bytes": 23960
+      },
+      {
+        "name": "clouds.svg",
+        "bytes": 595
+      },
+      {
+        "name": "waves.svg",
+        "bytes": 604
+      },
+      {
+        "name": "birds.svg",
+        "bytes": 550
+      },
+      {
+        "name": "palm-foreground.svg",
+        "bytes": 25673
+      }
+    ],
+    "heapBytes": 12700000,
+    "limitations": "Synthetic local Chromium CDP run, not physical mid-range device. Interaction metric is a limited event-timing sample, not field INP. Includes local uncompressed HTTP transfer."
+  },
+  {
+    "date": "2026-11-03",
+    "browser": "156.0.8078.4",
+    "viewport": "390×844",
+    "cpuSlowdown": 4,
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000,
+    "reducedMotion": "reduce",
+    "lcpMs": 1296,
+    "cls": 0.0019986030792728754,
+    "maxObservedInteractionMs": 40,
+    "longTaskCount": 3,
+    "maxLongTaskMs": 267,
+    "frameIntervalMedianMs": 16.699999999999818,
+    "frameIntervalP95Ms": 16.799999999999955,
+    "resourceBytes": 1262194,
+    "resources": [
+      {
+        "name": "3ke8v2xwe24c9.css",
+        "bytes": 23260
+      },
+      {
+        "name": "0kqziy-7_gy73.js",
+        "bytes": 22635
+      },
+      {
+        "name": "3v5m1v6-71-ar.js",
+        "bytes": 182551
+      },
+      {
+        "name": "2pffymnt3iag4.js",
+        "bytes": 229352
+      },
+      {
+        "name": "turbopack-2u1d16houkiyo.js",
+        "bytes": 10274
+      },
+      {
+        "name": "3qfy96eoyh-ek.js",
+        "bytes": 14294
+      },
+      {
+        "name": "1hdjwgiu-xwy3.js",
+        "bytes": 267702
+      },
+      {
+        "name": "coastal-master-v1.webp",
+        "bytes": 278658
+      },
+      {
+        "name": "coastal-mobile-v1.webp",
+        "bytes": 129806
+      },
+      {
+        "name": "dm-sans-latin-400-normal.0471snlmja818.woff2",
+        "bytes": 14500
+      },
+      {
+        "name": "dm-sans-latin-500-normal.0brn-8r9pdr2e.woff2",
+        "bytes": 14604
+      },
+      {
+        "name": "cormorant-garamond-latin-400-normal.1fm7t8dmldrtt.woff2",
+        "bytes": 23176
+      },
+      {
+        "name": "cormorant-garamond-latin-400-italic.1zhb_kb4w2oq1.woff2",
+        "bytes": 23960
+      },
+      {
+        "name": "clouds.svg",
+        "bytes": 595
+      },
+      {
+        "name": "waves.svg",
+        "bytes": 604
+      },
+      {
+        "name": "birds.svg",
+        "bytes": 550
+      },
+      {
+        "name": "palm-foreground.svg",
+        "bytes": 25673
+      }
+    ],
+    "heapBytes": 11900000,
+    "limitations": "Synthetic local Chromium CDP run, not physical mid-range device. Interaction metric is a limited event-timing sample, not field INP. Includes local uncompressed HTTP transfer."
+  }
+]

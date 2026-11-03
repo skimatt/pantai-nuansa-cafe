@@ -1,0 +1,80 @@
+{
+  "01-together.jpg": {
+    "caption": "Di antara ombak dan cerita.",
+    "alt": "Dua orang berjalan di pasir dalam sesi foto tepi pantai.",
+    "credit": "Foto: @raja_poutrett",
+    "order": 0
+  },
+  "02-close.jpg": {
+    "caption": "Dekat, tanpa banyak kata.",
+    "alt": "Potret dua orang dalam sesi foto dengan laut di latar belakang.",
+    "credit": "Foto: @raja_poutrett",
+    "order": 1
+  },
+  "03-sunset.webp": {
+    "caption": "Senja dalam satu bingkai.",
+    "alt": "Potret seorang perempuan dengan ombak dan cahaya senja di belakangnya.",
+    "credit": "Dokumentasi yang disediakan untuk proyek ini.",
+    "order": 2
+  },
+  "04-shore.jpg": {
+    "caption": "Sejenak di tepi air.",
+    "alt": "Sesi foto seorang perempuan di tepian pantai dengan ombak.",
+    "credit": "Foto: @raja_poutrett",
+    "order": 3
+  },
+  "05-documentation-1.jpg": {
+    "caption": "Satu bingkai, berdua.",
+    "alt": "Dua orang dalam sesi foto dengan dekorasi bunga di tepi pantai.",
+    "credit": "Foto: @raja_poutrett",
+    "order": 4
+  },
+  "06-documentation-5.jpg": {
+    "caption": "Sepiring cerita.",
+    "alt": "Dokumentasi sajian dengan nasi, lauk dan sayuran; bukan konfirmasi nama menu atau harga.",
+    "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+    "order": 5
+  },
+  "07-documentation-6.webp": {
+    "caption": "Cerita dalam monokrom.",
+    "alt": "Kolase potret pasangan dalam warna dan hitam putih.",
+    "credit": "Kredit pada gambar dan nama sumber dipertahankan.",
+    "order": 6
+  },
+  "08-documentation-7.webp": {
+    "caption": "Dua sudut, satu cerita.",
+    "alt": "Komposisi foto pasangan dan detail gelas dalam sesi foto.",
+    "credit": "Kredit pada gambar dan nama sumber dipertahankan.",
+    "order": 7
+  },
+  "09-documentation-8.webp": {
+    "caption": "Potret dalam cahaya.",
+    "alt": "Potret seorang perempuan dengan permainan cahaya merah.",
+    "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+    "order": 8
+  },
+  "10-documentation-9.webp": {
+    "caption": "Potongan suasana.",
+    "alt": "Kolase potret seorang perempuan dengan suasana tepi pantai.",
+    "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+    "order": 9
+  },
+  "11-documentation-10.webp": {
+    "caption": "Warna sebuah momen.",
+    "alt": "Potret seorang perempuan dengan efek gerak cahaya merah.",
+    "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+    "order": 10
+  },
+  "12-documentation-12.webp": {
+    "caption": "Dari senja, untuk dikenang.",
+    "alt": "Kolase potret dengan matahari senja dan ombak.",
+    "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+    "order": 11
+  },
+  "13-documentation-13.webp": {
+    "caption": "Cahaya dan kenangan.",
+    "alt": "Kolase pasir pantai dan potret dengan cahaya merah.",
+    "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+    "order": 12
+  }
+}

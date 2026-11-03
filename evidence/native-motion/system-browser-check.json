@@ -1,0 +1,24 @@
+[
+  {
+    "channel": "chrome",
+    "before": {
+      "reduced": true,
+      "motion": "reduced"
+    },
+    "after": {
+      "motion": "reduced"
+    },
+    "errors": []
+  },
+  {
+    "channel": "msedge",
+    "before": {
+      "reduced": true,
+      "motion": "reduced"
+    },
+    "after": {
+      "motion": "reduced"
+    },
+    "errors": []
+  }
+]

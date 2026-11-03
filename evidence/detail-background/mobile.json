@@ -1,0 +1,32 @@
+{
+  "reports": [
+    {
+      "route": "menu",
+      "dimensions": {
+        "width": 360,
+        "height": 800
+      },
+      "changed": true,
+      "pausedStable": true
+    },
+    {
+      "route": "galeri",
+      "dimensions": {
+        "width": 360,
+        "height": 800
+      },
+      "changed": true,
+      "pausedStable": true
+    },
+    {
+      "route": "fasilitas",
+      "dimensions": {
+        "width": 360,
+        "height": 800
+      },
+      "changed": true,
+      "pausedStable": true
+    }
+  ],
+  "errors": []
+}

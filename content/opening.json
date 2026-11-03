@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "durationTargetSeconds": 5.5,
+  "showSkip": true,
+  "oncePerSession": true,
+  "defaultMuted": true,
+  "scenes": [
+    "ocean-awakens",
+    "palm-passage",
+    "destination-reveal",
+    "hero-settle"
+  ],
+  "storageKey": "nuansa-opening-v1"
+}

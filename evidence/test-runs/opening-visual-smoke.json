@@ -1,0 +1,114 @@
+[
+  {
+    "label": "desktop",
+    "width": 1440,
+    "height": 900,
+    "errors": [],
+    "anchors": [
+      {
+        "href": "#hero-content",
+        "exists": true
+      },
+      {
+        "href": "#hero",
+        "exists": true
+      },
+      {
+        "href": "#discover",
+        "exists": true
+      },
+      {
+        "href": "#explore",
+        "exists": true
+      },
+      {
+        "href": "#moments",
+        "exists": true
+      },
+      {
+        "href": "#find-us",
+        "exists": true
+      },
+      {
+        "href": "#perjalanan",
+        "exists": true
+      },
+      {
+        "href": "#perjalanan",
+        "exists": true
+      },
+      {
+        "href": "#experience",
+        "exists": true
+      },
+      {
+        "href": "#taste",
+        "exists": true
+      },
+      {
+        "href": "#hero",
+        "exists": true
+      },
+      {
+        "href": "#hero",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "label": "mobile",
+    "width": 390,
+    "height": 844,
+    "errors": [],
+    "anchors": [
+      {
+        "href": "#hero-content",
+        "exists": true
+      },
+      {
+        "href": "#hero",
+        "exists": true
+      },
+      {
+        "href": "#discover",
+        "exists": true
+      },
+      {
+        "href": "#explore",
+        "exists": true
+      },
+      {
+        "href": "#moments",
+        "exists": true
+      },
+      {
+        "href": "#find-us",
+        "exists": true
+      },
+      {
+        "href": "#perjalanan",
+        "exists": true
+      },
+      {
+        "href": "#perjalanan",
+        "exists": true
+      },
+      {
+        "href": "#experience",
+        "exists": true
+      },
+      {
+        "href": "#taste",
+        "exists": true
+      },
+      {
+        "href": "#hero",
+        "exists": true
+      },
+      {
+        "href": "#hero",
+        "exists": true
+      }
+    ]
+  }
+]

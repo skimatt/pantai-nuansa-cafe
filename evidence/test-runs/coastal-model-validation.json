@@ -1,0 +1,45 @@
+{
+  "errors": [],
+  "models": [
+    {
+      "path": "models/wave-serrated.glb",
+      "meshes": 3,
+      "clips": 1
+    },
+    {
+      "path": "models/dune-sand.glb",
+      "meshes": 1,
+      "clips": 0
+    },
+    {
+      "path": "models/gull-flight.glb",
+      "meshes": 6,
+      "clips": 1
+    },
+    {
+      "path": "models/egret-flight.glb",
+      "meshes": 11,
+      "clips": 1
+    },
+    {
+      "path": "models/egret-standing.glb",
+      "meshes": 9,
+      "clips": 0
+    },
+    {
+      "path": "models/tree-coastal-pine.glb",
+      "meshes": 74,
+      "clips": 1
+    },
+    {
+      "path": "models/tree-almond.glb",
+      "meshes": 70,
+      "clips": 1
+    },
+    {
+      "path": "models/tree-banyan.glb",
+      "meshes": 114,
+      "clips": 1
+    }
+  ]
+}

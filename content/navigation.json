@@ -1,0 +1,57 @@
+{
+  "items": [
+    {
+      "label": "Beranda",
+      "target": "#hero",
+      "enabled": true
+    },
+    {
+      "label": "Jelajahi",
+      "target": "#discover",
+      "enabled": true
+    },
+    {
+      "label": "Pengalaman",
+      "target": "#experience",
+      "enabled": true
+    },
+    {
+      "label": "Fasilitas",
+      "target": "#explore",
+      "enabled": true
+    },
+    {
+      "label": "Kuliner",
+      "target": "#taste",
+      "enabled": true
+    },
+    {
+      "label": "Galeri",
+      "target": "#moments",
+      "enabled": true
+    },
+    {
+      "label": "Lokasi",
+      "target": "#find-us",
+      "enabled": true
+    }
+  ],
+  "foundationItems": [
+    {
+      "label": "Jelajahi",
+      "target": "#discover"
+    },
+    {
+      "label": "Fasilitas",
+      "target": "#explore"
+    },
+    {
+      "label": "Galeri",
+      "target": "#moments"
+    },
+    {
+      "label": "Lokasi",
+      "target": "#find-us"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "title": "Pantai Nuansa Cafe",
+      "description": "Konten menunggu verifikasi pengelola.",
+      "verified": false
+    },
+    {
+      "id": "discover",
+      "enabled": true,
+      "title": "Jelajahi Nuansa",
+      "description": "Dokumentasi sesi foto pantai dan perjalanan menuju suasana senja.",
+      "verified": false
+    },
+    {
+      "id": "experience",
+      "enabled": true,
+      "title": "Rasakan Suasananya",
+      "description": "Cuplikan video senja tanpa suara, diputar atas pilihan pengunjung.",
+      "verified": false
+    },
+    {
+      "id": "explore",
+      "enabled": true,
+      "title": "Fasilitas",
+      "description": "Konten menunggu verifikasi pengelola.",
+      "verified": false
+    },
+    {
+      "id": "taste",
+      "enabled": true,
+      "title": "Cita Rasa Nuansa",
+      "description": "Konten menunggu verifikasi pengelola.",
+      "verified": false
+    },
+    {
+      "id": "moments",
+      "enabled": true,
+      "title": "Momen di Nuansa",
+      "description": "Konten menunggu verifikasi pengelola.",
+      "verified": false
+    },
+    {
+      "id": "find-us",
+      "enabled": true,
+      "title": "Temukan Lokasinya",
+      "description": "Konten menunggu verifikasi pengelola.",
+      "verified": false
+    }
+  ],
+  "journey": {
+    "discover": {
+      "chapter": "02 / 07",
+      "eyebrow": "JELAJAHI NUANSA",
+      "title": "Di antara laut",
+      "titleAccent": "dan cerita.",
+      "description": "Pantai Nuansa Cafe memiliki area duduk outdoor beratap, dengan meja dan kursi langsung di atas pasir serta pandangan ke pantai. Dari suasana pesisir, perjalanan berlanjut menuju dokumentasi yang terekam dalam foto dan video.",
+      "note": "Dokumentasi pilihan, ditampilkan dengan izin penggunaan.",
+      "nextLabel": "Menuju suasana senja",
+      "backgroundNotice": "Latar ilustratif. Foto merupakan dokumentasi, bukan gambar AI.",
+      "photos": [
+        {
+          "assetId": "journey-together",
+          "number": "01",
+          "caption": "Cerita berdua, di tepi laut.",
+          "credit": "Foto: @raja_poutrett",
+          "sizes": "(max-width: 640px) 78vw, (max-width: 1000px) 50vw, 400px"
+        },
+        {
+          "assetId": "journey-shore",
+          "number": "02",
+          "caption": "Satu bingkai. Banyak cerita.",
+          "credit": "Foto: @raja_poutrett",
+          "sizes": "(max-width: 640px) 65vw, (max-width: 1000px) 40vw, 280px"
+        }
+      ]
+    },
+    "experience": {
+      "chapter": "03 / 07",
+      "eyebrow": "RASAKAN SUASANANYA",
+      "title": "Sebentar,",
+      "titleAccent": "di tepi laut.",
+      "description": "Langit senja, gerak ombak, dan momen bersama. Putar cuplikan dokumentasi untuk melihat suasananya lebih dekat.",
+      "assetId": "journey-senja",
+      "posterAssetId": "journey-senja-poster",
+      "titleLabel": "Cuplikan suasana senja di tepi laut",
+      "durationLabel": "00:14",
+      "formatLabel": "DOKUMENTASI · VIDEO TANPA SUARA",
+      "credit": "Sumber: dokumentasi yang disediakan untuk proyek ini.",
+      "playLabel": "Putar video senja",
+      "pauseLabel": "Jeda video senja",
+      "replayLabel": "Putar ulang video senja",
+      "errorMessage": "Video belum dapat diputar. Anda tetap dapat melihat poster dan membaca deskripsi visualnya.",
+      "retryLabel": "Coba putar lagi",
+      "descriptionLabel": "Deskripsi visual video",
+      "visualDescription": "Cuplikan menampilkan sekelompok pengunjung duduk mengelilingi meja di atas pasir, dengan kursi merah dan laut di belakangnya. Langit berwarna jingga menjelang senja. Kamera bergerak mendekati meja dan mengarah ke garis pantai. Cuplikan ini ditampilkan tanpa suara.",
+      "noScriptMessage": "Pemutar interaktif memerlukan JavaScript. Video tetap dapat dibuka langsung.",
+      "openFileLabel": "Buka berkas video",
+      "silentNotice": "Tanpa suara · klik untuk video lengkap",
+      "nextLabel": "Lanjutkan ke pilihan kuliner",
+      "artNotice": "Latar pesisir adalah ilustrasi. Video dan poster berasal dari dokumentasi.",
+      "loadingLabel": "Menyiapkan cuplikan…",
+      "previewAssetId": "journey-senja-hover",
+      "previewHint": "Arahkan penunjuk untuk cuplikan. Klik untuk menonton."
+    }
+  },
+  "cafe": {
+    "explore": {
+      "chapter": "04 / 07",
+      "eyebrow": "SEBUAH RUANG UNTUK SINGGAH",
+      "title": "Di bawah atap,",
+      "titleAccent": "di atas pasir.",
+      "description": "Area duduk outdoor beratap, dengan meja melingkar dan kursi langsung di atas pasir. Pandangan pantai terbuka di depan mata.",
+      "legendLabel": "Kenali areanya",
+      "artNotice": "Ilustrasi berdasarkan keterangan pengelola; bentuk bangunan bukan dokumentasi.",
+      "nextLabel": "Temukan pilihan rasa",
+      "sourceLabel": "Fasilitas dikonfirmasi pengelola",
+      "verified": true,
+      "sourceType": "owner-chat",
+      "confirmedAt": "2026-11-03",
+      "hotspots": [
+        {
+          "id": "seating",
+          "number": "01",
+          "label": "Area duduk di atas pasir",
+          "description": "Area duduk beratap dengan meja melingkar. Kursi dan meja berada langsung di atas pasir.",
+          "x": 74,
+          "y": 65
+        },
+        {
+          "id": "sea-view",
+          "number": "02",
+          "label": "Pandangan langsung ke pantai",
+          "description": "Area outdoor berada di pinggir pantai, dengan pandangan langsung ke pantai dan laut.",
+          "x": 53,
+          "y": 44
+        }
+      ]
+    },
+    "taste": {
+      "chapter": "05 / 07",
+      "eyebrow": "PILIHAN RASA NUANSA",
+      "title": "Biar rasa",
+      "titleAccent": "bercerita.",
+      "description": "Pilih satu menu, bayangkan momennya. Nama dan harga di bawah mengacu pada daftar yang dikonfirmasi pengelola.",
+      "listLabel": "Pilihan menu",
+      "imageBadge": "Ilustrasi AI · bukan foto produk",
+      "sourceLabel": "Nama & harga: menu pengelola",
+      "fullMenuLabel": "Lihat semua menu",
+      "originalLabel": "Daftar menu pengelola",
+      "originalOpenLabel": "Buka gambar menu ukuran penuh",
+      "noScriptLabel": "Lihat menu asli",
+      "imageNotice": "Ilustrasi penyajian. Tampilan sajian asli dapat berbeda.",
+      "imageOwnerBadge": "Foto dokumentasi",
+      "imageOwnerNotice": "Foto dari pengelola. Nama dan harga tetap mengikuti daftar menu yang dikonfirmasi."
+    }
+  },
+  "golden": {
+    "moments": {
+      "chapter": "06 / 07",
+      "eyebrow": "MOMEN DI NUANSA",
+      "title": "Yang singgah,",
+      "titleAccent": "yang tinggal.",
+      "description": "Beberapa cerita dari tepi laut. Jelajahi pilihan foto dan video, lalu temukan seluruh dokumentasinya di galeri.",
+      "openLabel": "Buka dokumentasi:",
+      "previousLabel": "Dokumentasi sebelumnya",
+      "nextLabel": "Dokumentasi berikutnya",
+      "closeLabel": "Tutup dokumentasi",
+      "viewerLabel": "Dokumentasi Nuansa",
+      "videoLabel": "Video tanpa suara",
+      "errorMessage": "Media ini belum dapat dimuat. Pilih dokumentasi lain atau buka berkas aslinya.",
+      "openFileLabel": "Buka berkas asli",
+      "artNotice": "Latar senja adalah ilustrasi. Foto dan video merupakan dokumentasi berizin.",
+      "pauseLabel": "Jeda galeri",
+      "resumeLabel": "Lanjutkan galeri",
+      "autoLabel": "Dokumentasi berganti otomatis; arahkan penunjuk atau gunakan kontrol untuk menjeda."
+    },
+    "findUs": {
+      "chapter": "07 / 07",
+      "eyebrow": "MARI BERSUA",
+      "title": "Ke tepi laut,",
+      "titleAccent": "ke Nuansa.",
+      "description": "Simpan pin lokasinya, lalu hubungi pengelola untuk informasi kunjungan. Sampai bertemu di tepi pantai.",
+      "mapsLabel": "Buka di Google Maps",
+      "phoneLabel": "Hubungi pengelola",
+      "instagramLabel": "Instagram pengelola",
+      "hoursLabel": "Jam operasional",
+      "hoursPending": "Konfirmasi kepada pengelola",
+      "locationLabel": "Lokasi",
+      "locationValue": "Pin dibagikan pengelola",
+      "artNotice": "Ilustrasi pesisir; navigasi mengikuti pin Google Maps pengelola.",
+      "copyright": "© 2026 Pantai Nuansa Cafe.",
+      "footerTagline": "Bersua di tepi pantai."
+    }
+  },
+  "album": {
+    "chapter": "07 / 08",
+    "eyebrow": "ALBUM PANTAI NUANSA",
+    "title": "Cerita dalam gambar.",
+    "description": "Jelajahi dokumentasi pilihan. Buka foto untuk melihatnya lebih dekat beserta keterangannya.",
+    "openLabel": "Buka foto album:",
+    "emptyState": "Dokumentasi foto akan hadir di sini.",
+    "stripLabel": "Foto dokumentasi tambahan",
+    "nextLabel": "Foto tambahan berikutnya",
+    "previousLabel": "Foto tambahan sebelumnya",
+    "ownerPhotoBadge": "Foto dokumentasi",
+    "ownerPhotoNotice": "Foto dari pengelola. Nama dan harga tetap mengikuti daftar menu yang dikonfirmasi."
+  }
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "date": "2026-11-03",
+    "browser": "156.0.8078.4",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": "no-preference",
+    "cpuSlowdown": 4,
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000,
+    "heroLcpMs": 3212,
+    "heroCls": 0.02530898340109162,
+    "scenes": [
+      {
+        "id": "perjalanan",
+        "observedDraws": 22,
+        "elapsedMs": 2214,
+        "drawsPerSecond": 9.94
+      },
+      {
+        "id": "discover",
+        "observedDraws": 45,
+        "elapsedMs": 2210,
+        "drawsPerSecond": 20.36
+      },
+      {
+        "id": "experience",
+        "observedDraws": 45,
+        "elapsedMs": 2200,
+        "drawsPerSecond": 20.45
+      },
+      {
+        "id": "explore",
+        "observedDraws": 45,
+        "elapsedMs": 2207,
+        "drawsPerSecond": 20.39
+      },
+      {
+        "id": "taste",
+        "observedDraws": 44,
+        "elapsedMs": 2202,
+        "drawsPerSecond": 19.98
+      },
+      {
+        "id": "moments",
+        "observedDraws": 45,
+        "elapsedMs": 2216,
+        "drawsPerSecond": 20.31
+      },
+      {
+        "id": "album",
+        "observedDraws": 0,
+        "elapsedMs": 2204,
+        "drawsPerSecond": 0
+      },
+      {
+        "id": "find-us",
+        "observedDraws": 45,
+        "elapsedMs": 2217,
+        "drawsPerSecond": 20.3
+      }
+    ],
+    "cls": 0.02530898340109162,
+    "longTaskCount": 103,
+    "maxLongTaskMs": 311,
+    "resourceBytes": 3360278,
+    "videoRequestsBeforePlay": 0,
+    "limitations": "Single local Chromium CPU/network simulation, measured alone. Canvas draw cadence is not screen FPS; no physical Android/iOS, field INP or research participant results."
+  },
+  {
+    "date": "2026-11-03",
+    "browser": "156.0.8078.4",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "reducedMotion": "reduce",
+    "cpuSlowdown": 4,
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000,
+    "heroLcpMs": 2908,
+    "heroCls": 0.02530898340109162,
+    "scenes": [
+      {
+        "id": "perjalanan",
+        "observedDraws": 0,
+        "elapsedMs": 2211,
+        "drawsPerSecond": 0
+      },
+      {
+        "id": "discover",
+        "observedDraws": 0,
+        "elapsedMs": 2215,
+        "drawsPerSecond": 0
+      },
+      {
+        "id": "experience",
+        "observedDraws": 0,
+        "elapsedMs": 2206,
+        "drawsPerSecond": 0
+      },
+      {
+        "id": "explore",
+        "observedDraws": 1,
+        "elapsedMs": 2206,
+        "drawsPerSecond": 0.45
+      },
+      {
+        "id": "taste",
+        "observedDraws": 0,
+        "elapsedMs": 2211,
+        "drawsPerSecond": 0
+      },
+      {
+        "id": "moments",
+        "observedDraws": 1,
+        "elapsedMs": 2201,
+        "drawsPerSecond": 0.45
+      },
+      {
+        "id": "album",
+        "observedDraws": 0,
+        "elapsedMs": 2209,
+        "drawsPerSecond": 0
+      },
+      {
+        "id": "find-us",
+        "observedDraws": 0,
+        "elapsedMs": 2206,
+        "drawsPerSecond": 0
+      }
+    ],
+    "cls": 0.02530898340109162,
+    "longTaskCount": 12,
+    "maxLongTaskMs": 219,
+    "resourceBytes": 3360278,
+    "videoRequestsBeforePlay": 0,
+    "limitations": "Single local Chromium CPU/network simulation, measured alone. Canvas draw cadence is not screen FPS; no physical Android/iOS, field INP or research participant results."
+  }
+]

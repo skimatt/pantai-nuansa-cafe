@@ -1,0 +1,10 @@
+src/components/JourneyScenes.tsx
+src/components/DocumentaryVideo.tsx
+src/app/journey.css
+tools/inspect-source-media.mjs
+tools/prepare-journey-assets.mjs
+tools/configure-journey-content.py
+tests/e2e/journey.spec.ts
+docs/implementation/P3_PLAN.md
+docs/implementation/P3_PROVENANCE.md
+docs/implementation/P3_REPORT.md

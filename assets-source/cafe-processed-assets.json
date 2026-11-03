@@ -1,0 +1,52 @@
+[
+  {
+    "src": "/assets/cafe/rice-chicken.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 73392
+  },
+  {
+    "src": "/assets/cafe/rice-seafood.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 74336
+  },
+  {
+    "src": "/assets/cafe/rice-katsu.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 97674
+  },
+  {
+    "src": "/assets/cafe/chicken-pepper.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 82544
+  },
+  {
+    "src": "/assets/cafe/aceh-noodles.webp",
+    "width": 640,
+    "height": 640,
+    "bytes": 84328
+  },
+  {
+    "src": "/assets/cafe/setting-1536.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 323718
+  },
+  {
+    "src": "/assets/cafe/setting-900.webp",
+    "width": 900,
+    "height": 600,
+    "bytes": 138576
+  },
+  {
+    "src": "/assets/cafe/menu-original.png",
+    "width": 674,
+    "height": 905,
+    "bytes": 921050,
+    "sha256": "5423fa5344b5a75f669a2c83d54bb274594dde36206442fefa98a1ee54218783",
+    "sourceFile": "Menu.png"
+  }
+]

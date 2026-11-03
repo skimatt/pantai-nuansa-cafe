@@ -1,0 +1,68 @@
+[
+  {
+    "src": "/assets/journey/shore-480.webp",
+    "width": 480,
+    "height": 600,
+    "bytes": 25992,
+    "sourceFile": "By @raja_poutrett muse- @awehsaragih_ & @kyamarissa_ Mua @aisyamakeup10 Decor @momol.projectPlac (1).jpg"
+  },
+  {
+    "src": "/assets/journey/shore-960.webp",
+    "width": 960,
+    "height": 1200,
+    "bytes": 76292,
+    "sourceFile": "By @raja_poutrett muse- @awehsaragih_ & @kyamarissa_ Mua @aisyamakeup10 Decor @momol.projectPlac (1).jpg"
+  },
+  {
+    "src": "/assets/journey/together-480.webp",
+    "width": 480,
+    "height": 600,
+    "bytes": 33636,
+    "sourceFile": "By @raja_poutrett muse- @awehsaragih_ & @kyamarissa_ Mua @aisyamakeup10 Decor @momol.projectPlac (3).jpg"
+  },
+  {
+    "src": "/assets/journey/together-960.webp",
+    "width": 960,
+    "height": 1200,
+    "bytes": 97246,
+    "sourceFile": "By @raja_poutrett muse- @awehsaragih_ & @kyamarissa_ Mua @aisyamakeup10 Decor @momol.projectPlac (3).jpg"
+  },
+  {
+    "src": "/assets/journey/senja-silent-v1.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 540,
+        "height": 960
+      }
+    ],
+    "format": {
+      "duration": "14.000000",
+      "size": "1303447"
+    },
+    "sourceFile": "AQMYMeidF_7Lhc9p40b07qFZF5M3sRexnvPrmz5gY_rbggpQhvKvdolg5EOL4bElxVvz1LmjN-gz4ANI-L89Zdqa.mp4"
+  },
+  {
+    "src": "/assets/journey/senja-poster-v1.webp",
+    "width": 540,
+    "height": 960,
+    "bytes": 50038,
+    "sourceFile": "AQMYMeidF_7Lhc9p40b07qFZF5M3sRexnvPrmz5gY_rbggpQhvKvdolg5EOL4bElxVvz1LmjN-gz4ANI-L89Zdqa.mp4",
+    "frameSeconds": 2
+  },
+  {
+    "src": "/assets/journey/dunes-master-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 190590
+  },
+  {
+    "src": "/assets/journey/dunes-mobile-v1.webp",
+    "width": 780,
+    "height": 1200,
+    "bytes": 101016
+  }
+]

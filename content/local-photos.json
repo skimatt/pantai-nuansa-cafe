@@ -1,0 +1,508 @@
+{
+  "assets": [
+    {
+      "id": "folder-gallery-8e19f96990b6",
+      "src": "/assets/local-photos/gallery-8e19f96990b6-76d8da15d41bf6e5.webp",
+      "type": "image",
+      "sceneId": "album",
+      "sourceType": "owner",
+      "license": "Local-folder publication intent; uploader must own or hold permission",
+      "attribution": "Foto: @raja_poutrett",
+      "verified": false,
+      "isPlaceholder": false,
+      "alt": "Dua orang berjalan di pasir dalam sesi foto tepi pantai.",
+      "width": 1200,
+      "height": 1500,
+      "variants": [
+        "/assets/local-photos/gallery-8e19f96990b6-76d8da15d41bf6e5-480.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.5,
+      "status": "prototype",
+      "promptVersion": "local-folder-v1",
+      "provenance": "docs/implementation/LOCAL_PHOTO_WORKFLOW.md",
+      "sourceFile": "foto-website/galeri/01-together.jpg",
+      "permission": "local-folder-publish-intent"
+    },
+    {
+      "id": "folder-gallery-30b4bf58cea8",
+      "src": "/assets/local-photos/gallery-30b4bf58cea8-1f4673ff1c04569c.webp",
+      "type": "image",
+      "sceneId": "album",
+      "sourceType": "owner",
+      "license": "Local-folder publication intent; uploader must own or hold permission",
+      "attribution": "Foto: @raja_poutrett",
+      "verified": false,
+      "isPlaceholder": false,
+      "alt": "Potret dua orang dalam sesi foto dengan laut di latar belakang.",
+      "width": 1200,
+      "height": 1500,
+      "variants": [
+        "/assets/local-photos/gallery-30b4bf58cea8-1f4673ff1c04569c-480.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.5,
+      "status": "prototype",
+      "promptVersion": "local-folder-v1",
+      "provenance": "docs/implementation/LOCAL_PHOTO_WORKFLOW.md",
+      "sourceFile": "foto-website/galeri/02-close.jpg",
+      "permission": "local-folder-publish-intent"
+    },
+    {
+      "id": "folder-gallery-eeb9cd9fb9ab",
+      "src": "/assets/local-photos/gallery-eeb9cd9fb9ab-1482a92d54eb2b1e.webp",
+      "type": "image",
+      "sceneId": "album",
+      "sourceType": "owner",
+      "license": "Local-folder publication intent; uploader must own or hold permission",
+      "attribution": "Dokumentasi yang disediakan untuk proyek ini.",
+      "verified": false,
+      "isPlaceholder": false,
+      "alt": "Potret seorang perempuan dengan ombak dan cahaya senja di belakangnya.",
+      "width": 1080,
+      "height": 1350,
+      "variants": [
+        "/assets/local-photos/gallery-eeb9cd9fb9ab-1482a92d54eb2b1e-480.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.5,
+      "status": "prototype",
+      "promptVersion": "local-folder-v1",
+      "provenance": "docs/implementation/LOCAL_PHOTO_WORKFLOW.md",
+      "sourceFile": "foto-website/galeri/03-sunset.webp",
+      "permission": "local-folder-publish-intent"
+    },
+    {
+      "id": "folder-gallery-3c3e3ca2d738",
+      "src": "/assets/local-photos/gallery-3c3e3ca2d738-3a7b3753c2a69de7.webp",
+      "type": "image",
+      "sceneId": "album",
+      "sourceType": "owner",
+      "license": "Local-folder publication intent; uploader must own or hold permission",
+      "attribution": "Foto: @raja_poutrett",
+      "verified": false,
+      "isPlaceholder": false,
+      "alt": "Sesi foto seorang perempuan di tepian pantai dengan ombak.",
+      "width": 1200,
+      "height": 1500,
+      "variants": [
+        "/assets/local-photos/gallery-3c3e3ca2d738-3a7b3753c2a69de7-480.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.5,
+      "status": "prototype",
+      "promptVersion": "local-folder-v1",
+      "provenance": "docs/implementation/LOCAL_PHOTO_WORKFLOW.md",
+      "sourceFile": "foto-website/galeri/04-shore.jpg",
+      "permission": "local-folder-publish-intent"
+    },
+    {
+      "id": "folder-gallery-87191780837c",
+      "src": "/assets/local-photos/gallery-87191780837c-87116a2e4b705463.webp",
+      "type": "image",
+      "sceneId": "album",
+      "sourceType": "owner",
+      "license": "Local-folder publication intent; uploader must own or hold permission",
+      "attribution": "Foto: @raja_poutrett",
+      "verified": false,
+      "isPlaceholder": false,
+      "alt": "Dua orang dalam sesi foto dengan dekorasi bunga di tepi pantai.",
+      "width": 1200,
+      "height": 1500,
+      "variants": [
+        "/assets/local-photos/gallery-87191780837c-87116a2e4b705463-480.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.5,
+      "status": "prototype",
+      "promptVersion": "local-folder-v1",
+      "provenance": "docs/implementation/LOCAL_PHOTO_WORKFLOW.md",
+      "sourceFile": "foto-website/galeri/05-documentation-1.jpg",
+      "permission": "local-folder-publish-intent"
+    },
+    {
+      "id": "folder-gallery-ba5789c68319",
+      "src": "/assets/local-photos/gallery-ba5789c68319-ddde49c0b0836e25.webp",
+      "type": "image",
+      "sceneId": "album",
+      "sourceType": "owner",
+      "license": "Local-folder publication intent; uploader must own or hold permission",
+      "attribution": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "verified": false,
+      "isPlaceholder": false,
+      "alt": "Dokumentasi sajian dengan nasi, lauk dan sayuran; bukan konfirmasi nama menu atau harga.",
+      "width": 1200,
+      "height": 1366,
+      "variants": [
+        "/assets/local-photos/gallery-ba5789c68319-ddde49c0b0836e25-480.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.5,
+      "status": "prototype",
+      "promptVersion": "local-folder-v1",
+      "provenance": "docs/implementation/LOCAL_PHOTO_WORKFLOW.md",
+      "sourceFile": "foto-website/galeri/06-documentation-5.jpg",
+      "permission": "local-folder-publish-intent"
+    },
+    {
+      "id": "folder-gallery-719b5859bdd7",
+      "src": "/assets/local-photos/gallery-719b5859bdd7-bdd84e0bb29a0da3.webp",
+      "type": "image",
+      "sceneId": "album",
+      "sourceType": "owner",
+      "license": "Local-folder publication intent; uploader must own or hold permission",
+      "attribution": "Kredit pada gambar dan nama sumber dipertahankan.",
+      "verified": false,
+      "isPlaceholder": false,
+      "alt": "Kolase potret pasangan dalam warna dan hitam putih.",
+      "width": 1200,
+      "height": 1500,
+      "variants": [
+        "/assets/local-photos/gallery-719b5859bdd7-bdd84e0bb29a0da3-480.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.5,
+      "status": "prototype",
+      "promptVersion": "local-folder-v1",
+      "provenance": "docs/implementation/LOCAL_PHOTO_WORKFLOW.md",
+      "sourceFile": "foto-website/galeri/07-documentation-6.webp",
+      "permission": "local-folder-publish-intent"
+    },
+    {
+      "id": "folder-gallery-ade4c1849294",
+      "src": "/assets/local-photos/gallery-ade4c1849294-b1115e4230083a8c.webp",
+      "type": "image",
+      "sceneId": "album",
+      "sourceType": "owner",
+      "license": "Local-folder publication intent; uploader must own or hold permission",
+      "attribution": "Kredit pada gambar dan nama sumber dipertahankan.",
+      "verified": false,
+      "isPlaceholder": false,
+      "alt": "Komposisi foto pasangan dan detail gelas dalam sesi foto.",
+      "width": 1200,
+      "height": 1500,
+      "variants": [
+        "/assets/local-photos/gallery-ade4c1849294-b1115e4230083a8c-480.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.5,
+      "status": "prototype",
+      "promptVersion": "local-folder-v1",
+      "provenance": "docs/implementation/LOCAL_PHOTO_WORKFLOW.md",
+      "sourceFile": "foto-website/galeri/08-documentation-7.webp",
+      "permission": "local-folder-publish-intent"
+    },
+    {
+      "id": "folder-gallery-ba712ff330d6",
+      "src": "/assets/local-photos/gallery-ba712ff330d6-285a1f538e8730ee.webp",
+      "type": "image",
+      "sceneId": "album",
+      "sourceType": "owner",
+      "license": "Local-folder publication intent; uploader must own or hold permission",
+      "attribution": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "verified": false,
+      "isPlaceholder": false,
+      "alt": "Potret seorang perempuan dengan permainan cahaya merah.",
+      "width": 1080,
+      "height": 1350,
+      "variants": [
+        "/assets/local-photos/gallery-ba712ff330d6-285a1f538e8730ee-480.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.5,
+      "status": "prototype",
+      "promptVersion": "local-folder-v1",
+      "provenance": "docs/implementation/LOCAL_PHOTO_WORKFLOW.md",
+      "sourceFile": "foto-website/galeri/09-documentation-8.webp",
+      "permission": "local-folder-publish-intent"
+    },
+    {
+      "id": "folder-gallery-50f05059e4a8",
+      "src": "/assets/local-photos/gallery-50f05059e4a8-b49743031f20082d.webp",
+      "type": "image",
+      "sceneId": "album",
+      "sourceType": "owner",
+      "license": "Local-folder publication intent; uploader must own or hold permission",
+      "attribution": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "verified": false,
+      "isPlaceholder": false,
+      "alt": "Kolase potret seorang perempuan dengan suasana tepi pantai.",
+      "width": 1080,
+      "height": 1350,
+      "variants": [
+        "/assets/local-photos/gallery-50f05059e4a8-b49743031f20082d-480.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.5,
+      "status": "prototype",
+      "promptVersion": "local-folder-v1",
+      "provenance": "docs/implementation/LOCAL_PHOTO_WORKFLOW.md",
+      "sourceFile": "foto-website/galeri/10-documentation-9.webp",
+      "permission": "local-folder-publish-intent"
+    },
+    {
+      "id": "folder-gallery-21979ea2d204",
+      "src": "/assets/local-photos/gallery-21979ea2d204-873981de9f3f5735.webp",
+      "type": "image",
+      "sceneId": "album",
+      "sourceType": "owner",
+      "license": "Local-folder publication intent; uploader must own or hold permission",
+      "attribution": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "verified": false,
+      "isPlaceholder": false,
+      "alt": "Potret seorang perempuan dengan efek gerak cahaya merah.",
+      "width": 1080,
+      "height": 1350,
+      "variants": [
+        "/assets/local-photos/gallery-21979ea2d204-873981de9f3f5735-480.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.5,
+      "status": "prototype",
+      "promptVersion": "local-folder-v1",
+      "provenance": "docs/implementation/LOCAL_PHOTO_WORKFLOW.md",
+      "sourceFile": "foto-website/galeri/11-documentation-10.webp",
+      "permission": "local-folder-publish-intent"
+    },
+    {
+      "id": "folder-gallery-35abd91514e6",
+      "src": "/assets/local-photos/gallery-35abd91514e6-2c88573ac52e9a93.webp",
+      "type": "image",
+      "sceneId": "album",
+      "sourceType": "owner",
+      "license": "Local-folder publication intent; uploader must own or hold permission",
+      "attribution": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "verified": false,
+      "isPlaceholder": false,
+      "alt": "Kolase potret dengan matahari senja dan ombak.",
+      "width": 1080,
+      "height": 1350,
+      "variants": [
+        "/assets/local-photos/gallery-35abd91514e6-2c88573ac52e9a93-480.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.5,
+      "status": "prototype",
+      "promptVersion": "local-folder-v1",
+      "provenance": "docs/implementation/LOCAL_PHOTO_WORKFLOW.md",
+      "sourceFile": "foto-website/galeri/12-documentation-12.webp",
+      "permission": "local-folder-publish-intent"
+    },
+    {
+      "id": "folder-gallery-b71eeaacd360",
+      "src": "/assets/local-photos/gallery-b71eeaacd360-ef1a3b59d8e3cb91.webp",
+      "type": "image",
+      "sceneId": "album",
+      "sourceType": "owner",
+      "license": "Local-folder publication intent; uploader must own or hold permission",
+      "attribution": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "verified": false,
+      "isPlaceholder": false,
+      "alt": "Kolase pasir pantai dan potret dengan cahaya merah.",
+      "width": 1080,
+      "height": 1350,
+      "variants": [
+        "/assets/local-photos/gallery-b71eeaacd360-ef1a3b59d8e3cb91-480.webp"
+      ],
+      "loading": "lazy",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "depth": 0.5,
+      "status": "prototype",
+      "promptVersion": "local-folder-v1",
+      "provenance": "docs/implementation/LOCAL_PHOTO_WORKFLOW.md",
+      "sourceFile": "foto-website/galeri/13-documentation-13.webp",
+      "permission": "local-folder-publish-intent"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "local-gallery-8e19f96990b6",
+      "type": "image",
+      "assetId": "folder-gallery-8e19f96990b6",
+      "caption": "Di antara ombak dan cerita.",
+      "alt": "Dua orang berjalan di pasir dalam sesi foto tepi pantai.",
+      "credit": "Foto: @raja_poutrett",
+      "verified": false,
+      "sortOrder": 0
+    },
+    {
+      "id": "local-gallery-30b4bf58cea8",
+      "type": "image",
+      "assetId": "folder-gallery-30b4bf58cea8",
+      "caption": "Dekat, tanpa banyak kata.",
+      "alt": "Potret dua orang dalam sesi foto dengan laut di latar belakang.",
+      "credit": "Foto: @raja_poutrett",
+      "verified": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "local-gallery-eeb9cd9fb9ab",
+      "type": "image",
+      "assetId": "folder-gallery-eeb9cd9fb9ab",
+      "caption": "Senja dalam satu bingkai.",
+      "alt": "Potret seorang perempuan dengan ombak dan cahaya senja di belakangnya.",
+      "credit": "Dokumentasi yang disediakan untuk proyek ini.",
+      "verified": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "local-gallery-3c3e3ca2d738",
+      "type": "image",
+      "assetId": "folder-gallery-3c3e3ca2d738",
+      "caption": "Sejenak di tepi air.",
+      "alt": "Sesi foto seorang perempuan di tepian pantai dengan ombak.",
+      "credit": "Foto: @raja_poutrett",
+      "verified": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "local-gallery-87191780837c",
+      "type": "image",
+      "assetId": "folder-gallery-87191780837c",
+      "caption": "Satu bingkai, berdua.",
+      "alt": "Dua orang dalam sesi foto dengan dekorasi bunga di tepi pantai.",
+      "credit": "Foto: @raja_poutrett",
+      "verified": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "local-gallery-ba5789c68319",
+      "type": "image",
+      "assetId": "folder-gallery-ba5789c68319",
+      "caption": "Sepiring cerita.",
+      "alt": "Dokumentasi sajian dengan nasi, lauk dan sayuran; bukan konfirmasi nama menu atau harga.",
+      "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "verified": false,
+      "sortOrder": 5
+    },
+    {
+      "id": "local-gallery-719b5859bdd7",
+      "type": "image",
+      "assetId": "folder-gallery-719b5859bdd7",
+      "caption": "Cerita dalam monokrom.",
+      "alt": "Kolase potret pasangan dalam warna dan hitam putih.",
+      "credit": "Kredit pada gambar dan nama sumber dipertahankan.",
+      "verified": false,
+      "sortOrder": 6
+    },
+    {
+      "id": "local-gallery-ade4c1849294",
+      "type": "image",
+      "assetId": "folder-gallery-ade4c1849294",
+      "caption": "Dua sudut, satu cerita.",
+      "alt": "Komposisi foto pasangan dan detail gelas dalam sesi foto.",
+      "credit": "Kredit pada gambar dan nama sumber dipertahankan.",
+      "verified": false,
+      "sortOrder": 7
+    },
+    {
+      "id": "local-gallery-ba712ff330d6",
+      "type": "image",
+      "assetId": "folder-gallery-ba712ff330d6",
+      "caption": "Potret dalam cahaya.",
+      "alt": "Potret seorang perempuan dengan permainan cahaya merah.",
+      "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "verified": false,
+      "sortOrder": 8
+    },
+    {
+      "id": "local-gallery-50f05059e4a8",
+      "type": "image",
+      "assetId": "folder-gallery-50f05059e4a8",
+      "caption": "Potongan suasana.",
+      "alt": "Kolase potret seorang perempuan dengan suasana tepi pantai.",
+      "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "verified": false,
+      "sortOrder": 9
+    },
+    {
+      "id": "local-gallery-21979ea2d204",
+      "type": "image",
+      "assetId": "folder-gallery-21979ea2d204",
+      "caption": "Warna sebuah momen.",
+      "alt": "Potret seorang perempuan dengan efek gerak cahaya merah.",
+      "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "verified": false,
+      "sortOrder": 10
+    },
+    {
+      "id": "local-gallery-35abd91514e6",
+      "type": "image",
+      "assetId": "folder-gallery-35abd91514e6",
+      "caption": "Dari senja, untuk dikenang.",
+      "alt": "Kolase potret dengan matahari senja dan ombak.",
+      "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "verified": false,
+      "sortOrder": 11
+    },
+    {
+      "id": "local-gallery-b71eeaacd360",
+      "type": "image",
+      "assetId": "folder-gallery-b71eeaacd360",
+      "caption": "Cahaya dan kenangan.",
+      "alt": "Kolase pasir pantai dan potret dengan cahaya merah.",
+      "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "verified": false,
+      "sortOrder": 12
+    }
+  ],
+  "sections": {
+    "discover": [],
+    "experience": [],
+    "explore": [],
+    "moments": [],
+    "findUs": []
+  },
+  "menuOverrides": []
+}

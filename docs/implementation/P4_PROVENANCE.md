@@ -1,0 +1,9 @@
+# P4 provenance — 3 November 2026
+
+Pengguna mengonfirmasi area duduk outdoor beratap, meja melingkar dan kursi langsung di atas pasir, serta pandangan pantai langsung. Ilustrasi fasilitas dibuat berdasarkan keterangan tersebut; desain atap/material/proporsi gambar bukan bukti konstruksi asli. Source generated, verified=false, isPlaceholder=true. Prompt dan original: `assets-source/p4-prompts-v1.json`, `assets-source/generated/cafe-setting-v1.png`. Derivatif 1536×1024 dan 900×600 memakai komposisi penuh yang sama; tanpa crop fasilitas.
+
+Pengguna juga mengonfirmasi Menu.png masih berlaku. Sumber fakta nama/harga adalah pemilik, bukan imagegen. Enam pilihan dengan harga terbaca jelas ditranskripsi; Black Pepper dinormalkan dari Black Papper. Harga 22/ons dan harga yang tidak tercetak tidak ditebak. Daftar asli disalin byte-identik ke `public/assets/cafe/menu-original.png`; hash di `assets-source/cafe-processed-assets.json`. SourceFile/permission tetap di manifest. Ketersediaan stok harian tetap null.
+
+Foto sajian adalah placeholder AI: menu-placeholder-01 yang sudah ada untuk Nasi Goreng Telur, ditambah lima gambar individual baru untuk nasi ayam/seafood/katsu, chicken pepper dan mi Aceh kuah telur. Semua asset gambar tetap sourceType=generated, verified=false dan isPlaceholder=true. Pada item menu, sourceType=owner dan verified=true menjelaskan **sumber fakta nama/harga**, bukan keaslian foto. isPlaceholder=true dan badge UI tetap menjelaskan foto. Guard schema memastikan pemisahan ini. Delapan konsep awal disimpan sebagai conceptItems, tidak ditampilkan sebagai menu minuman aktual.
+
+Imagegen built-in dan Sharp lokal; tidak memakai API key, scraping, pembelian atau layanan berbayar terpisah. Tarif/kuota internal imagegen tidak diekspos. Original tidak dihapus. Tidak membuat data menu/fasilitas lain. Hak dokumentasi/menu mengikuti konfirmasi pemilik; sumber unggahan dan rincian kredit final tetap perlu dilengkapi sebelum publikasi.

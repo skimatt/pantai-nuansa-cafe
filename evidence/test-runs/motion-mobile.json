@@ -1,0 +1,14 @@
+{
+  "viewport": {
+    "width": 360,
+    "height": 800
+  },
+  "moving": {
+    "seaChangedFraction": 0.38310185185185186,
+    "palmChangedFraction": 0.48209683357879235
+  },
+  "paused": {
+    "seaChangedFraction": 0,
+    "palmChangedFraction": 0
+  }
+}

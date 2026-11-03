@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-03",
+  "environment": {
+    "node": "24.19.0",
+    "npm": "11.17.0",
+    "platform": "Windows"
+  },
+  "checks": {
+    "lint": {
+      "exitCode": 0,
+      "warnings": 0
+    },
+    "typecheck": {
+      "exitCode": 0
+    },
+    "validate": {
+      "exitCode": 0,
+      "jsonFiles": 9,
+      "referencedAssets": 14
+    },
+    "build": {
+      "exitCode": 0,
+      "output": "out/"
+    },
+    "unit": {
+      "exitCode": 0,
+      "passed": 7,
+      "failed": 0
+    },
+    "e2e": {
+      "exitCode": 0,
+      "passed": 8,
+      "failed": 0,
+      "durationSeconds": 25.8
+    }
+  },
+  "limitations": [
+    "No physical mid-range device validation",
+    "No Safari/Firefox validation",
+    "No owner visual sign-off",
+    "16 moderate dev-tool dependency advisories remain",
+    "Venue facts/proposal not verified",
+    "Remaining scenes not implemented; not deployed"
+  ]
+}

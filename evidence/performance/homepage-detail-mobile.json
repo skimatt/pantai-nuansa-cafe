@@ -1,0 +1,50 @@
+{
+  "browser": "156.0.8078.4",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "cpuSlowdown": 4,
+  "latencyMs": 150,
+  "downloadBytesPerSecond": 200000,
+  "reducedMotion": "no-preference",
+  "reports": [
+    {
+      "route": "/",
+      "lcp": 2820,
+      "cls": 0.02530898340109162,
+      "transferBytes": 1575643,
+      "videoRequestsBeforePlay": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/menu/",
+      "lcp": 5688,
+      "cls": 0.006229903606422552,
+      "transferBytes": 1962937,
+      "videoRequestsBeforePlay": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/galeri/",
+      "lcp": 5716,
+      "cls": 0.00631244892211627,
+      "transferBytes": 2021421,
+      "videoRequestsBeforePlay": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/fasilitas/",
+      "lcp": 5076,
+      "cls": 0.000042519908496077044,
+      "transferBytes": 2058575,
+      "videoRequestsBeforePlay": 0,
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "limitations": "Single local Chromium simulation measured without concurrent tests/encoding, initial viewport only; not a physical phone, display FPS, field INP or thesis participant result."
+}

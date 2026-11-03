@@ -1,0 +1,46 @@
+{
+  "system": {
+    "reduced": false,
+    "url": "http://127.0.0.1:3000/",
+    "visibility": "visible",
+    "canvases": [
+      {
+        "class": "navigation-wave"
+      },
+      {
+        "class": "living-coast",
+        "motion": "running",
+        "frames": "140"
+      },
+      {
+        "class": "scene-atmosphere",
+        "motion": "paused"
+      },
+      {
+        "class": "scene-atmosphere",
+        "motion": "paused"
+      },
+      {
+        "class": "scene-atmosphere",
+        "motion": "paused"
+      },
+      {
+        "class": "scene-atmosphere",
+        "motion": "paused"
+      },
+      {
+        "class": "scene-atmosphere",
+        "motion": "paused"
+      },
+      {
+        "class": "scene-atmosphere",
+        "motion": "paused"
+      },
+      {
+        "class": "scene-atmosphere",
+        "motion": "paused"
+      }
+    ]
+  },
+  "errors": []
+}

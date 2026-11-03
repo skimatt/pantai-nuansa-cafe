@@ -1,0 +1,168 @@
+{
+  "items": [
+    {
+      "id": "moment-together",
+      "type": "image",
+      "assetId": "journey-together",
+      "caption": "Di antara ombak dan cerita.",
+      "alt": "Dua orang berjalan di pasir dalam sesi foto tepi pantai.",
+      "verified": false,
+      "credit": "Foto: @raja_poutrett",
+      "sortOrder": 0
+    },
+    {
+      "id": "moment-close",
+      "type": "image",
+      "assetId": "gallery-close",
+      "caption": "Dekat, tanpa banyak kata.",
+      "alt": "Potret dua orang dalam sesi foto dengan laut di latar belakang.",
+      "verified": false,
+      "credit": "Foto: @raja_poutrett",
+      "sortOrder": 1
+    },
+    {
+      "id": "moment-sunset",
+      "type": "image",
+      "assetId": "gallery-sunset",
+      "caption": "Senja dalam satu bingkai.",
+      "alt": "Potret seorang perempuan dengan ombak dan cahaya senja di belakangnya.",
+      "verified": false,
+      "credit": "Dokumentasi yang disediakan untuk proyek ini.",
+      "sortOrder": 2
+    },
+    {
+      "id": "moment-shore",
+      "type": "image",
+      "assetId": "journey-shore",
+      "caption": "Sejenak di tepi air.",
+      "alt": "Sesi foto seorang perempuan di tepian pantai dengan ombak.",
+      "verified": false,
+      "credit": "Foto: @raja_poutrett",
+      "sortOrder": 3
+    },
+    {
+      "id": "moment-documentation-1",
+      "type": "image",
+      "assetId": "documentation-photo-01",
+      "caption": "Satu bingkai, berdua.",
+      "alt": "Dua orang dalam sesi foto dengan dekorasi bunga di tepi pantai.",
+      "verified": false,
+      "credit": "Foto: @raja_poutrett",
+      "sortOrder": 4
+    },
+    {
+      "id": "moment-documentation-5",
+      "type": "image",
+      "assetId": "documentation-photo-05",
+      "caption": "Sepiring cerita.",
+      "alt": "Dokumentasi sajian dengan nasi, lauk dan sayuran; bukan konfirmasi nama menu atau harga.",
+      "verified": false,
+      "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "sortOrder": 5
+    },
+    {
+      "id": "moment-documentation-6",
+      "type": "image",
+      "assetId": "documentation-photo-06",
+      "caption": "Cerita dalam monokrom.",
+      "alt": "Kolase potret pasangan dalam warna dan hitam putih.",
+      "verified": false,
+      "credit": "Kredit pada gambar dan nama sumber dipertahankan.",
+      "sortOrder": 6
+    },
+    {
+      "id": "moment-documentation-7",
+      "type": "image",
+      "assetId": "documentation-photo-07",
+      "caption": "Dua sudut, satu cerita.",
+      "alt": "Komposisi foto pasangan dan detail gelas dalam sesi foto.",
+      "verified": false,
+      "credit": "Kredit pada gambar dan nama sumber dipertahankan.",
+      "sortOrder": 7
+    },
+    {
+      "id": "moment-documentation-8",
+      "type": "image",
+      "assetId": "documentation-photo-08",
+      "caption": "Potret dalam cahaya.",
+      "alt": "Potret seorang perempuan dengan permainan cahaya merah.",
+      "verified": false,
+      "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "sortOrder": 8
+    },
+    {
+      "id": "moment-documentation-9",
+      "type": "image",
+      "assetId": "documentation-photo-09",
+      "caption": "Potongan suasana.",
+      "alt": "Kolase potret seorang perempuan dengan suasana tepi pantai.",
+      "verified": false,
+      "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "sortOrder": 9
+    },
+    {
+      "id": "moment-documentation-10",
+      "type": "image",
+      "assetId": "documentation-photo-10",
+      "caption": "Warna sebuah momen.",
+      "alt": "Potret seorang perempuan dengan efek gerak cahaya merah.",
+      "verified": false,
+      "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "sortOrder": 10
+    },
+    {
+      "id": "moment-documentation-12",
+      "type": "image",
+      "assetId": "documentation-photo-12",
+      "caption": "Dari senja, untuk dikenang.",
+      "alt": "Kolase potret dengan matahari senja dan ombak.",
+      "verified": false,
+      "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "sortOrder": 11
+    },
+    {
+      "id": "moment-documentation-13",
+      "type": "image",
+      "assetId": "documentation-photo-13",
+      "caption": "Cahaya dan kenangan.",
+      "alt": "Kolase pasir pantai dan potret dengan cahaya merah.",
+      "verified": false,
+      "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
+      "sortOrder": 12
+    },
+    {
+      "id": "moment-film",
+      "type": "video",
+      "assetId": "journey-senja",
+      "posterAssetId": "journey-senja-poster",
+      "caption": "Senja, dalam gerak.",
+      "alt": "Video 14 detik: pengunjung di meja pantai di bawah langit senja, tanpa suara.",
+      "verified": false,
+      "credit": "Dokumentasi yang disediakan untuk proyek ini.",
+      "sortOrder": 13
+    },
+    {
+      "id": "moment-film-1",
+      "type": "video",
+      "assetId": "documentation-film-1",
+      "posterAssetId": "documentation-film-1-poster",
+      "caption": "Banyak cerita, satu perjalanan.",
+      "alt": "Kolase video dokumentasi Nuansa, tanpa suara.",
+      "verified": false,
+      "credit": "Dokumentasi yang disediakan untuk proyek ini.",
+      "sortOrder": 14
+    },
+    {
+      "id": "moment-film-2",
+      "type": "video",
+      "assetId": "documentation-film-2",
+      "posterAssetId": "documentation-film-2-poster",
+      "caption": "Duduk dekat debur ombak.",
+      "alt": "Video area duduk di atas pasir dan suasana pesisir, tanpa suara.",
+      "verified": false,
+      "credit": "Dokumentasi yang disediakan untuk proyek ini.",
+      "sortOrder": 15
+    }
+  ],
+  "emptyState": "Foto dan video dokumentasi resmi akan ditambahkan setelah tersedia."
+}

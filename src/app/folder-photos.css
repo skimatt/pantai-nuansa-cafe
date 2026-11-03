@@ -1,0 +1,21 @@
+.album-scene{position:relative;isolation:isolate;overflow:hidden;padding:65px var(--space-page) 80px;background:#f9edda;color:var(--ink)}
+.album-environment{position:absolute;inset:0 0 auto;height:650px;overflow:hidden;z-index:-1;pointer-events:none}
+.album-environment img{position:absolute;right:-55px;top:-70px;width:240px;height:430px;object-fit:contain;opacity:.14}
+.album-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:70px;margin:65px 0 50px}
+.album-heading h2{font:400 clamp(52px,5.6vw,84px)/1.08 var(--font-display);letter-spacing:-.04em;margin:0;max-width:650px}
+.album-heading>p{font-size:12px;line-height:1.9;max-width:310px;margin:0}
+.album-grid{columns:3;column-gap:28px}
+.folder-photo{margin:0 0 30px;break-inside:avoid;overflow:hidden}
+.folder-photo button,.folder-photo picture,.folder-photo img{display:block;width:100%}
+.folder-photo button{overflow:hidden}.folder-photo img{height:auto;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.folder-photo button:hover img{transform:scale(1.025)}
+.folder-photo figcaption{padding:13px 0 0;font-size:11px;line-height:1.7}.folder-photo figcaption p{margin:0 0 5px}.folder-photo figcaption span{font-size:11px;opacity:1}
+.folder-photo>noscript a{font-size:11px;text-decoration:underline}
+.folder-photo-strip{position:relative;z-index:2;width:100%;margin-top:35px;min-width:0}
+.explore-scene>.folder-photo-strip{order:5}
+.folder-strip-head{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:20px}.folder-strip-head>p{font-size:11px}.folder-strip-head>div{display:flex;gap:15px}.folder-strip-head button{width:44px;height:44px;display:grid;place-items:center;border:1px solid currentColor;border-radius:50%}.folder-strip-head button:first-child svg{transform:rotate(180deg)}.folder-strip-head svg{width:19px;height:19px}
+.folder-strip-track{display:flex;overflow-x:auto;scroll-snap-type:x proximity;gap:24px;scrollbar-width:thin}.folder-strip-track>.folder-photo{flex:0 0 280px;scroll-snap-align:start}.folder-strip-track img{aspect-ratio:4/5;object-fit:contain}
+.folder-photo button:focus-visible{outline-offset:-4px}.album-empty{font-size:13px;line-height:1.8;padding:30px 0}
+@media(max-width:1000px){.album-grid{columns:2}.album-heading{gap:35px}}
+@media(max-width:640px){.album-scene{padding:45px var(--space-page) 50px}.album-heading{display:block;margin:40px 0 32px}.album-heading h2{font-size:53px}.album-heading>p{margin-top:22px;font-size:12px}.album-grid{columns:1}.folder-photo{margin-bottom:35px}.folder-photo figcaption{font-size:12px}.folder-photo figcaption span{font-size:10px}.folder-strip-track>.folder-photo{flex-basis:78vw}}
+@media(prefers-reduced-motion:reduce){.folder-photo{opacity:1!important;transform:none!important}.folder-photo img{transition:none}}

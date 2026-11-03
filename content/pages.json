@@ -1,0 +1,61 @@
+{
+  "routes": {
+    "menu": "/menu/",
+    "gallery": "/galeri/",
+    "facilities": "/fasilitas/"
+  },
+  "home": {
+    "facilityLimit": 1,
+    "menuIds": [
+      "nasi-goreng-telur",
+      "chicken-steak-pepper",
+      "mie-aceh-telor"
+    ],
+    "galleryLimit": 4
+  },
+  "labels": {
+    "menu": "Lihat semua menu",
+    "gallery": "Lihat semua galeri",
+    "facilities": "Lihat semua fasilitas",
+    "home": "Kembali ke beranda",
+    "navigation": "Halaman Nuansa",
+    "photos": "Foto",
+    "films": "Video",
+    "searchMenu": "Cari menu",
+    "searchPlaceholder": "Nama makanan atau minuman\u2026",
+    "allCategories": "Semua",
+    "noResults": "Belum ada menu yang cocok. Coba kata lain.",
+    "menuCount": "pilihan menu",
+    "galleryCount": "foto dan video",
+    "facilityCount": "informasi terkonfirmasi",
+    "originalMenu": "Buka daftar menu asli",
+    "sourceTitle": "Daftar dari pengelola",
+    "sourceDescription": "Daftar lengkap pada dokumentasi menu pengelola. Nama dan harga yang sudah ditranskripsi tersedia di atas; rincian lainnya dapat dilihat pada gambar asli.",
+    "galleryIntro": "Seluruh dokumentasi dari folder foto lokal dan cuplikan video. Pilih satu bingkai untuk melihatnya lebih dekat.",
+    "facilityNotice": "Informasi berikut dikonfirmasi pengelola. Ilustrasi latar menggambarkan suasana dan bukan foto konstruksi fasilitas.",
+    "nextTitle": "Lanjut menjelajah",
+    "imageNotice": "Ilustrasi AI \u00b7 bukan foto produk",
+    "photoNotice": "Foto dokumentasi pengelola",
+    "navMenu": "Menu",
+    "navGallery": "Galeri",
+    "navFacilities": "Fasilitas"
+  },
+  "menu": {
+    "eyebrow": "PILIHAN RASA",
+    "title": "Ada rasa untuk setiap cerita.",
+    "description": "Jelajahi pilihan menu, lalu simpan ide untuk kunjungan Anda berikutnya.",
+    "metaTitle": "Menu | Pantai Nuansa Cafe"
+  },
+  "gallery": {
+    "eyebrow": "DOKUMENTASI NUANSA",
+    "title": "Semua momen, satu tepian.",
+    "description": "Potret, sajian, dan cuplikan suasana yang menemani cerita di Pantai Nuansa.",
+    "metaTitle": "Galeri | Pantai Nuansa Cafe"
+  },
+  "facilities": {
+    "eyebrow": "RUANG UNTUK SINGGAH",
+    "title": "Lebih dekat dengan suasananya.",
+    "description": "Kenali area duduk dan pandangan pantai sebelum datang berkunjung.",
+    "metaTitle": "Fasilitas | Pantai Nuansa Cafe"
+  }
+}

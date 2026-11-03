@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-03",
+  "checkpoint": "P3 Discover/Experience",
+  "preview": "static export out/, port 4173",
+  "checks": {
+    "lint": {
+      "exitCode": 0,
+      "warnings": 0
+    },
+    "typecheck": {
+      "exitCode": 0
+    },
+    "unit": {
+      "exitCode": 0,
+      "passed": 9,
+      "failed": 0
+    },
+    "validate": {
+      "exitCode": 0,
+      "jsonFiles": 9,
+      "manifestAssets": 20
+    },
+    "build": {
+      "exitCode": 0
+    },
+    "e2e": {
+      "exitCode": 0,
+      "passed": 15,
+      "failed": 0,
+      "flaky": 0,
+      "durationSeconds": 53.2
+    }
+  },
+  "auditAll": {
+    "info": 0,
+    "low": 0,
+    "moderate": 16,
+    "high": 0,
+    "critical": 0,
+    "total": 16
+  },
+  "limitations": [
+    "No physical mid-range device test",
+    "No Safari/Firefox or manual screen reader test",
+    "Remaining scenes not implemented",
+    "Not deployed",
+    "Venue facts/proposal still pending"
+  ]
+}

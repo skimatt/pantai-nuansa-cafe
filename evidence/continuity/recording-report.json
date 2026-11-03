@@ -1,0 +1,30 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "errors": [],
+    "autoGallery": {
+      "before": 0,
+      "after": 359,
+      "moved": true
+    },
+    "galleryItems": 16
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "errors": [],
+    "autoGallery": {
+      "before": 0,
+      "after": 301,
+      "moved": true
+    },
+    "galleryItems": 16
+  }
+]

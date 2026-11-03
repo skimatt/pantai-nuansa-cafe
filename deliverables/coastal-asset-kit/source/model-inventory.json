@@ -1,0 +1,118 @@
+[
+  {
+    "id": "wave-serrated",
+    "glb": "models/wave-serrated.glb",
+    "obj": "models/wave-serrated.obj",
+    "bytes": 45392,
+    "animationClips": [
+      {
+        "name": "Surf_loop",
+        "duration": 4,
+        "tracks": 3
+      }
+    ],
+    "source": "tools/build-coastal-models.mjs",
+    "sourceType": "procedural",
+    "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+  },
+  {
+    "id": "dune-sand",
+    "glb": "models/dune-sand.glb",
+    "obj": "models/dune-sand.obj",
+    "bytes": 54424,
+    "animationClips": [],
+    "source": "tools/build-coastal-models.mjs",
+    "sourceType": "procedural",
+    "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+  },
+  {
+    "id": "gull-flight",
+    "glb": "models/gull-flight.glb",
+    "obj": "models/gull-flight.obj",
+    "bytes": 34832,
+    "animationClips": [
+      {
+        "name": "Flight_loop",
+        "duration": 1,
+        "tracks": 2
+      }
+    ],
+    "source": "tools/build-coastal-models.mjs",
+    "sourceType": "procedural",
+    "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+  },
+  {
+    "id": "egret-flight",
+    "glb": "models/egret-flight.glb",
+    "obj": "models/egret-flight.obj",
+    "bytes": 52500,
+    "animationClips": [
+      {
+        "name": "Flight_loop",
+        "duration": 1,
+        "tracks": 2
+      }
+    ],
+    "source": "tools/build-coastal-models.mjs",
+    "sourceType": "procedural",
+    "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+  },
+  {
+    "id": "egret-standing",
+    "glb": "models/egret-standing.glb",
+    "obj": "models/egret-standing.obj",
+    "bytes": 35212,
+    "animationClips": [],
+    "source": "tools/build-coastal-models.mjs",
+    "sourceType": "procedural",
+    "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+  },
+  {
+    "id": "tree-coastal-pine",
+    "glb": "models/tree-coastal-pine.glb",
+    "obj": "models/tree-coastal-pine.obj",
+    "bytes": 271736,
+    "animationClips": [
+      {
+        "name": "Wind_loop",
+        "duration": 4,
+        "tracks": 1
+      }
+    ],
+    "source": "tools/build-coastal-models.mjs",
+    "sourceType": "procedural",
+    "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+  },
+  {
+    "id": "tree-almond",
+    "glb": "models/tree-almond.glb",
+    "obj": "models/tree-almond.obj",
+    "bytes": 255896,
+    "animationClips": [
+      {
+        "name": "Wind_loop",
+        "duration": 4,
+        "tracks": 1
+      }
+    ],
+    "source": "tools/build-coastal-models.mjs",
+    "sourceType": "procedural",
+    "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+  },
+  {
+    "id": "tree-banyan",
+    "glb": "models/tree-banyan.glb",
+    "obj": "models/tree-banyan.obj",
+    "bytes": 405260,
+    "animationClips": [
+      {
+        "name": "Wind_loop",
+        "duration": 4,
+        "tracks": 1
+      }
+    ],
+    "source": "tools/build-coastal-models.mjs",
+    "sourceType": "procedural",
+    "note": "Editable structural/stylized model; generated tree raster is a separate illustration, not a GLB render."
+  }
+]
