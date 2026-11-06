@@ -83,7 +83,7 @@ export default function SceneAtmosphere({preset,frond,paused,kit}:{preset:Atmosp
   };
   const ro=new ResizeObserver(resize);ro.observe(canvas);resize();
   const io=new IntersectionObserver(([entry])=>{const changed=visible!==entry.isIntersecting;visible=entry.isIntersecting;if(visible&&!kitLoaded){kitLoaded=true;birdSprite.src=kit.bird.src;treeSprite.src=kit.tree.src;sandSprite.src=kit.sand.src;}if(changed)resize();sync();},{rootMargin:'40px'});io.observe(section);
-  const scrolling=()=>{const r=section.getBoundingClientRect();scroll=Math.max(-1,Math.min(1,r.top/innerHeight));};
+  const scrolling=()=>{if(!visible)return;const r=section.getBoundingClientRect();scroll=Math.max(-1,Math.min(1,r.top/innerHeight));};
   const move=(e:PointerEvent)=>{pointer=(e.clientX/innerWidth-.5)*2;};
   sprite.onload=()=>{cache.getContext('2d')!.drawImage(sprite,0,0,320,214);ready=true;if(visible)paint(clock);};sprite.src=frond;
   section.addEventListener('pointermove',move,{passive:true});window.addEventListener('scroll',scrolling,{passive:true});reduced.addEventListener('change',sync);document.addEventListener('visibilitychange',sync);

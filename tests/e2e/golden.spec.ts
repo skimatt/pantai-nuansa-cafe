@@ -1,5 +1,8 @@
 import { test,expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
+import { content } from '../../src/lib/content';
+import { homepageContent } from '../../src/lib/homepage';
+const featuredGallery=homepageContent(content).gallery.items;
 import { mkdir,writeFile } from 'node:fs/promises';
 test.beforeAll(async()=>{await mkdir('evidence/screenshots/p5',{recursive:true});});
 for(const [name,width,height] of [['desktop',1440,900],['mobile',390,844],['small-mobile',360,800],['tablet',768,1024]] as const){
@@ -18,10 +21,10 @@ for(const [name,width,height] of [['desktop',1440,900],['mobile',390,844],['smal
   await page.screenshot({path:`evidence/screenshots/p5/moments-${name}.png`});await page.locator('#moments').screenshot({path:`evidence/screenshots/p5/moments-full-${name}.png`});
   const galleryAxe=await new AxeBuilder({page}).include('#moments').analyze();await writeFile(`evidence/test-runs/p5-axe-moments-${name}.json`,JSON.stringify(galleryAxe,null,2));expect(galleryAxe.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)}))).toEqual([]);
   const first=page.locator('.moment-open').first();await first.focus();await page.keyboard.press('Enter');
-  const viewer=page.locator('.gallery-viewer');await expect(viewer).toBeVisible();await expect(viewer.locator('.viewer-caption')).toContainText('Di antara ombak');
+  const viewer=page.locator('.gallery-viewer');await expect(viewer).toBeVisible();await expect(viewer.locator('.viewer-caption')).toContainText(featuredGallery[0].caption);
   await viewer.locator('img').evaluate(i=>(i as HTMLImageElement).decode());
   await page.screenshot({path:`evidence/screenshots/p5/viewer-${name}.png`});
-  await page.keyboard.press('ArrowRight');await expect(viewer.locator('.viewer-caption')).toContainText('Dekat, tanpa');
+  await page.keyboard.press('ArrowRight');await expect(viewer.locator('.viewer-caption')).toContainText(featuredGallery[1].caption);
   const viewerAxe=await new AxeBuilder({page}).analyze();await writeFile(`evidence/test-runs/p5-axe-viewer-${name}.json`,JSON.stringify(viewerAxe,null,2));expect(viewerAxe.violations.map(v=>v.id)).toEqual([]);
   await page.keyboard.press('Escape');await expect(viewer).toHaveCount(0);await expect(first).toBeFocused();
   await page.locator('.moment-open').last().click();await expect(page.locator('.gallery-viewer video')).toBeVisible();

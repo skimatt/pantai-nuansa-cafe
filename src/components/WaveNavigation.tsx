@@ -2,6 +2,7 @@
 import {useEffect,useRef} from 'react';
 import gsap from 'gsap';
 import {foamEdge} from '@/lib/shore-shapes';
+import {scrollHomepageTo} from '@/lib/use-homepage-scroll';
 export default function WaveNavigation({duration,paused,asset}:{duration:number;paused:boolean;asset:{src:string;frame:[number,number,number]}}){
  const ref=useRef<HTMLCanvasElement>(null);
  useEffect(()=>{
@@ -25,16 +26,18 @@ export default function WaveNavigation({duration,paused,asset}:{duration:number;
   };
   const resize=()=>{canvas.width=innerWidth;canvas.height=innerHeight;if(timeline)paint();};resize();
   const click=(event:MouseEvent)=>{
-   if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||reduced.matches||paused)return;
+   if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
    const link=(event.target as Element).closest<HTMLAnchorElement>('a[href^="#"]');
    if(!link||link.classList.contains('skip-content')||link.hasAttribute('download'))return;
    const hash=link.getAttribute('href');if(!hash||!/^#[a-z][a-z0-9-]*$/.test(hash))return;
    const target=document.getElementById(hash.slice(1));if(!target)return;
-   event.preventDefault();if(!waveSprite.src)waveSprite.src=asset.src;clear();state.p=0;canvas.dataset.active='true';
    const focus=()=>{const heading=target.querySelector<HTMLElement>('h1,h2')??target;heading.setAttribute('tabindex','-1');heading.focus({preventScroll:true});};
+   event.preventDefault();
+   if(reduced.matches||paused){if(location.hash!==hash)history.pushState(null,'',hash);scrollHomepageTo(target);focus();return;}
+   if(!waveSprite.src)waveSprite.src=asset.src;clear();state.p=0;canvas.dataset.active='true';
    timeline=gsap.timeline({onComplete:()=>{clear();focus();}})
     .to(state,{p:1,duration:duration*.43,ease:'power2.in',onUpdate:paint})
-    .call(()=>{if(location.hash!==hash)history.pushState(null,'',hash);window.scrollTo({top:target.getBoundingClientRect().top+scrollY,behavior:'instant'});})
+    .call(()=>{if(location.hash!==hash)history.pushState(null,'',hash);scrollHomepageTo(target);})
     .to(state,{p:2,duration:duration*.57,ease:'power2.out',onUpdate:paint});
   };
   const key=(e:KeyboardEvent)=>{if(e.key==='Escape')clear();};

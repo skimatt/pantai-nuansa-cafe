@@ -1,6 +1,336 @@
 {
   "items": [
     {
+      "id": "moment-owner-video-18",
+      "type": "video",
+      "assetId": "owner-video-18",
+      "posterAssetId": "owner-video-18-poster",
+      "caption": "Sebentar di tepi laut.",
+      "alt": "Area duduk outdoor dengan kursi merah, pepohonan, dan laut biru.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 0
+    },
+    {
+      "id": "moment-owner-video-01",
+      "type": "video",
+      "assetId": "owner-video-01",
+      "posterAssetId": "owner-video-01-poster",
+      "caption": "Menyusuri tepian.",
+      "alt": "Area pasir dan pepohonan di dekat pantai.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 1
+    },
+    {
+      "id": "moment-owner-video-02",
+      "type": "video",
+      "assetId": "owner-video-02",
+      "posterAssetId": "owner-video-02-poster",
+      "caption": "Dari luar, menuju Nuansa.",
+      "alt": "Bangunan beratap dengan area duduk di atas pasir.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 2
+    },
+    {
+      "id": "moment-owner-video-03",
+      "type": "video",
+      "assetId": "owner-video-03",
+      "posterAssetId": "owner-video-03-poster",
+      "caption": "Ruang untuk berkumpul.",
+      "alt": "Area duduk beratap dengan meja dan kursi.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 3
+    },
+    {
+      "id": "moment-owner-video-04",
+      "type": "video",
+      "assetId": "owner-video-04",
+      "posterAssetId": "owner-video-04-poster",
+      "caption": "Singgah bersama.",
+      "alt": "Meja dan kursi merah di dalam area beratap.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 4
+    },
+    {
+      "id": "moment-owner-video-05",
+      "type": "video",
+      "assetId": "owner-video-05",
+      "posterAssetId": "owner-video-05-poster",
+      "caption": "Berteduh, menghadap laut.",
+      "alt": "Kursi merah dan meja di bawah atap dengan laut di kejauhan.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 5
+    },
+    {
+      "id": "moment-owner-video-06",
+      "type": "video",
+      "assetId": "owner-video-06",
+      "posterAssetId": "owner-video-06-poster",
+      "caption": "Sudut yang teduh.",
+      "alt": "Meja dan kursi merah di bawah atap peneduh.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 6
+    },
+    {
+      "id": "moment-owner-video-07",
+      "type": "video",
+      "assetId": "owner-video-07",
+      "posterAssetId": "owner-video-07-poster",
+      "caption": "Dari meja ke tepian.",
+      "alt": "Deretan tempat duduk beratap dengan laut di belakangnya.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 7
+    },
+    {
+      "id": "moment-owner-video-08",
+      "type": "video",
+      "assetId": "owner-video-08",
+      "posterAssetId": "owner-video-08-poster",
+      "caption": "Nama yang menyambut.",
+      "alt": "Tulisan Nuansa Pantai pada dinding kayu di area duduk.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 8
+    },
+    {
+      "id": "moment-owner-video-09",
+      "type": "video",
+      "assetId": "owner-video-09",
+      "posterAssetId": "owner-video-09-poster",
+      "caption": "Sebuah sudut Nuansa.",
+      "alt": "Dinding kayu bertuliskan Nuansa dan kursi merah.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 9
+    },
+    {
+      "id": "moment-owner-video-10",
+      "type": "video",
+      "assetId": "owner-video-10",
+      "posterAssetId": "owner-video-10-poster",
+      "caption": "Di bawah atap, dekat pantai.",
+      "alt": "Ruang duduk beratap dengan pandangan ke area outdoor.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 10
+    },
+    {
+      "id": "moment-owner-video-11",
+      "type": "video",
+      "assetId": "owner-video-11",
+      "posterAssetId": "owner-video-11-poster",
+      "caption": "Di antara meja dan laut.",
+      "alt": "Meja serta kursi merah dengan pohon dan laut di latar.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 11
+    },
+    {
+      "id": "moment-owner-video-12",
+      "type": "video",
+      "assetId": "owner-video-12",
+      "posterAssetId": "owner-video-12-poster",
+      "caption": "Sejenak mengikuti ombak.",
+      "alt": "Gelombang kecil mencapai pasir di garis pantai.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 12
+    },
+    {
+      "id": "moment-owner-video-13",
+      "type": "video",
+      "assetId": "owner-video-13",
+      "posterAssetId": "owner-video-13-poster",
+      "caption": "Laut dan langit.",
+      "alt": "Laut biru di bawah langit berawan tipis.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 13
+    },
+    {
+      "id": "moment-owner-video-14",
+      "type": "video",
+      "assetId": "owner-video-14",
+      "posterAssetId": "owner-video-14-poster",
+      "caption": "Cahaya di tepian.",
+      "alt": "Cahaya matahari menembus awan di atas pantai dan pepohonan.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 14
+    },
+    {
+      "id": "moment-owner-video-15",
+      "type": "video",
+      "assetId": "owner-video-15",
+      "posterAssetId": "owner-video-15-poster",
+      "caption": "Duduk di ruang terbuka.",
+      "alt": "Area kursi merah dan pepohonan di atas pasir.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 15
+    },
+    {
+      "id": "moment-owner-video-16",
+      "type": "video",
+      "assetId": "owner-video-16",
+      "posterAssetId": "owner-video-16-poster",
+      "caption": "Menghadap laut lepas.",
+      "alt": "Laut dan langit dilihat dari tepian dengan lampu gantung di bagian atas.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 16
+    },
+    {
+      "id": "moment-owner-video-17",
+      "type": "video",
+      "assetId": "owner-video-17",
+      "posterAssetId": "owner-video-17-poster",
+      "caption": "Tempat untuk bersua.",
+      "alt": "Deretan meja dan kursi merah di bawah peneduh.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 17
+    },
+    {
+      "id": "moment-owner-video-19",
+      "type": "video",
+      "assetId": "owner-video-19",
+      "posterAssetId": "owner-video-19-poster",
+      "caption": "Teduh di atas pasir.",
+      "alt": "Meja dan kursi di area berpasir dengan atap peneduh dan laut di belakang.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 18
+    },
+    {
+      "id": "moment-owner-video-20",
+      "type": "video",
+      "assetId": "owner-video-20",
+      "posterAssetId": "owner-video-20-poster",
+      "caption": "Langkah di tepi pantai.",
+      "alt": "Seorang pengunjung berjalan di area berpasir di dekat tempat duduk.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 19
+    },
+    {
+      "id": "moment-owner-video-21",
+      "type": "video",
+      "assetId": "owner-video-21",
+      "posterAssetId": "owner-video-21-poster",
+      "caption": "Ruang untuk menikmati suasana.",
+      "alt": "Meja dan kursi merah di ruang terbuka dengan pandangan laut.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 20
+    },
+    {
+      "id": "moment-owner-video-22",
+      "type": "video",
+      "assetId": "owner-video-22",
+      "posterAssetId": "owner-video-22-poster",
+      "caption": "Langit menemani laut.",
+      "alt": "Garis pantai, laut, dan awan di langit.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 21
+    },
+    {
+      "id": "moment-owner-video-23",
+      "type": "video",
+      "assetId": "owner-video-23",
+      "posterAssetId": "owner-video-23-poster",
+      "caption": "Ombak datang, ombak pulang.",
+      "alt": "Gelombang kecil menyapu pasir di garis pantai.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 22
+    },
+    {
+      "id": "moment-owner-video-24",
+      "type": "video",
+      "assetId": "owner-video-24",
+      "posterAssetId": "owner-video-24-poster",
+      "caption": "Sisi lain Nuansa.",
+      "alt": "Area kendaraan di samping bangunan dan jalur berpasir.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 23
+    },
+    {
+      "id": "moment-owner-video-25",
+      "type": "video",
+      "assetId": "owner-video-25",
+      "posterAssetId": "owner-video-25-poster",
+      "caption": "Sekilas area kendaraan.",
+      "alt": "Cuplikan singkat kendaraan yang berderet di bawah peneduh.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 24
+    },
+    {
+      "id": "moment-owner-video-26",
+      "type": "video",
+      "assetId": "owner-video-26",
+      "posterAssetId": "owner-video-26-poster",
+      "caption": "Bermain di tepian.",
+      "alt": "Ayunan menghadap laut dengan area pasir di bawahnya.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 25
+    },
+    {
+      "id": "moment-owner-video-27",
+      "type": "video",
+      "assetId": "owner-video-27",
+      "posterAssetId": "owner-video-27-poster",
+      "caption": "Jejak di atas pasir.",
+      "alt": "Cuplikan genggam mengarah ke permukaan pasir di area kafe.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 26
+    },
+    {
+      "id": "moment-owner-video-28",
+      "type": "video",
+      "assetId": "owner-video-28",
+      "posterAssetId": "owner-video-28-poster",
+      "caption": "Menyusuri garis pantai.",
+      "alt": "Bentangan garis pantai dengan meja dan peneduh di sisinya.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 27
+    },
+    {
+      "id": "moment-owner-video-29",
+      "type": "video",
+      "assetId": "owner-video-29",
+      "posterAssetId": "owner-video-29-poster",
+      "caption": "Dari halaman ke tempat duduk.",
+      "alt": "Bangunan kafe dan area duduk outdoor di bawah langit biru.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 28
+    },
+    {
+      "id": "moment-owner-video-30",
+      "type": "video",
+      "assetId": "owner-video-30",
+      "posterAssetId": "owner-video-30-poster",
+      "caption": "Sampai di Nuansa.",
+      "alt": "Sisi bangunan beratap dengan area berpasir dan kendaraan di dekatnya.",
+      "verified": false,
+      "credit": "Dokumentasi Pantai Nuansa Cafe.",
+      "sortOrder": 29
+    },
+    {
       "id": "moment-together",
       "type": "image",
       "assetId": "journey-together",
@@ -8,7 +338,7 @@
       "alt": "Dua orang berjalan di pasir dalam sesi foto tepi pantai.",
       "verified": false,
       "credit": "Foto: @raja_poutrett",
-      "sortOrder": 0
+      "sortOrder": 30
     },
     {
       "id": "moment-close",
@@ -18,7 +348,7 @@
       "alt": "Potret dua orang dalam sesi foto dengan laut di latar belakang.",
       "verified": false,
       "credit": "Foto: @raja_poutrett",
-      "sortOrder": 1
+      "sortOrder": 31
     },
     {
       "id": "moment-sunset",
@@ -28,7 +358,7 @@
       "alt": "Potret seorang perempuan dengan ombak dan cahaya senja di belakangnya.",
       "verified": false,
       "credit": "Dokumentasi yang disediakan untuk proyek ini.",
-      "sortOrder": 2
+      "sortOrder": 32
     },
     {
       "id": "moment-shore",
@@ -38,7 +368,7 @@
       "alt": "Sesi foto seorang perempuan di tepian pantai dengan ombak.",
       "verified": false,
       "credit": "Foto: @raja_poutrett",
-      "sortOrder": 3
+      "sortOrder": 33
     },
     {
       "id": "moment-documentation-1",
@@ -48,7 +378,7 @@
       "alt": "Dua orang dalam sesi foto dengan dekorasi bunga di tepi pantai.",
       "verified": false,
       "credit": "Foto: @raja_poutrett",
-      "sortOrder": 4
+      "sortOrder": 34
     },
     {
       "id": "moment-documentation-5",
@@ -58,7 +388,7 @@
       "alt": "Dokumentasi sajian dengan nasi, lauk dan sayuran; bukan konfirmasi nama menu atau harga.",
       "verified": false,
       "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
-      "sortOrder": 5
+      "sortOrder": 35
     },
     {
       "id": "moment-documentation-6",
@@ -68,7 +398,7 @@
       "alt": "Kolase potret pasangan dalam warna dan hitam putih.",
       "verified": false,
       "credit": "Kredit pada gambar dan nama sumber dipertahankan.",
-      "sortOrder": 6
+      "sortOrder": 36
     },
     {
       "id": "moment-documentation-7",
@@ -78,7 +408,7 @@
       "alt": "Komposisi foto pasangan dan detail gelas dalam sesi foto.",
       "verified": false,
       "credit": "Kredit pada gambar dan nama sumber dipertahankan.",
-      "sortOrder": 7
+      "sortOrder": 37
     },
     {
       "id": "moment-documentation-8",
@@ -88,7 +418,7 @@
       "alt": "Potret seorang perempuan dengan permainan cahaya merah.",
       "verified": false,
       "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
-      "sortOrder": 8
+      "sortOrder": 38
     },
     {
       "id": "moment-documentation-9",
@@ -98,7 +428,7 @@
       "alt": "Kolase potret seorang perempuan dengan suasana tepi pantai.",
       "verified": false,
       "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
-      "sortOrder": 9
+      "sortOrder": 39
     },
     {
       "id": "moment-documentation-10",
@@ -108,7 +438,7 @@
       "alt": "Potret seorang perempuan dengan efek gerak cahaya merah.",
       "verified": false,
       "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
-      "sortOrder": 10
+      "sortOrder": 40
     },
     {
       "id": "moment-documentation-12",
@@ -118,7 +448,7 @@
       "alt": "Kolase potret dengan matahari senja dan ombak.",
       "verified": false,
       "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
-      "sortOrder": 11
+      "sortOrder": 41
     },
     {
       "id": "moment-documentation-13",
@@ -128,7 +458,7 @@
       "alt": "Kolase pasir pantai dan potret dengan cahaya merah.",
       "verified": false,
       "credit": "Dokumentasi yang disediakan untuk proyek ini; kredit pada gambar dipertahankan.",
-      "sortOrder": 12
+      "sortOrder": 42
     },
     {
       "id": "moment-film",
@@ -139,7 +469,7 @@
       "alt": "Video 14 detik: pengunjung di meja pantai di bawah langit senja, tanpa suara.",
       "verified": false,
       "credit": "Dokumentasi yang disediakan untuk proyek ini.",
-      "sortOrder": 13
+      "sortOrder": 43
     },
     {
       "id": "moment-film-1",
@@ -150,7 +480,7 @@
       "alt": "Kolase video dokumentasi Nuansa, tanpa suara.",
       "verified": false,
       "credit": "Dokumentasi yang disediakan untuk proyek ini.",
-      "sortOrder": 14
+      "sortOrder": 44
     },
     {
       "id": "moment-film-2",
@@ -161,7 +491,7 @@
       "alt": "Video area duduk di atas pasir dan suasana pesisir, tanpa suara.",
       "verified": false,
       "credit": "Dokumentasi yang disediakan untuk proyek ini.",
-      "sortOrder": 15
+      "sortOrder": 45
     }
   ],
   "emptyState": "Foto dan video dokumentasi resmi akan ditambahkan setelah tersedia."

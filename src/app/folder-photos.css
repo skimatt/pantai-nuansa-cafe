@@ -14,7 +14,7 @@
 .folder-photo-strip{position:relative;z-index:2;width:100%;margin-top:35px;min-width:0}
 .explore-scene>.folder-photo-strip{order:5}
 .folder-strip-head{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:20px}.folder-strip-head>p{font-size:11px}.folder-strip-head>div{display:flex;gap:15px}.folder-strip-head button{width:44px;height:44px;display:grid;place-items:center;border:1px solid currentColor;border-radius:50%}.folder-strip-head button:first-child svg{transform:rotate(180deg)}.folder-strip-head svg{width:19px;height:19px}
-.folder-strip-track{display:flex;overflow-x:auto;scroll-snap-type:x proximity;gap:24px;scrollbar-width:thin}.folder-strip-track>.folder-photo{flex:0 0 280px;scroll-snap-align:start}.folder-strip-track img{aspect-ratio:4/5;object-fit:contain}
+.folder-strip-track{display:flex;overflow-x:auto;scroll-snap-type:x proximity;gap:24px;scrollbar-width:thin}.folder-strip-track>.folder-photo{flex:0 0 280px;scroll-snap-align:start}.folder-strip-track img{aspect-ratio:4/5;object-fit:cover}
 .folder-photo button:focus-visible{outline-offset:-4px}.album-empty{font-size:13px;line-height:1.8;padding:30px 0}
 @media(max-width:1000px){.album-grid{columns:2}.album-heading{gap:35px}}
 @media(max-width:640px){.album-scene{padding:45px var(--space-page) 50px}.album-heading{display:block;margin:40px 0 32px}.album-heading h2{font-size:53px}.album-heading>p{margin-top:22px;font-size:12px}.album-grid{columns:1}.folder-photo{margin-bottom:35px}.folder-photo figcaption{font-size:12px}.folder-photo figcaption span{font-size:10px}.folder-strip-track>.folder-photo{flex-basis:78vw}}

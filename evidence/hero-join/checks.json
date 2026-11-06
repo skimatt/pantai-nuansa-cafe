@@ -1,0 +1,14 @@
+[
+  {
+    "name": "desktop",
+    "gap": -0.001007080078125,
+    "edgeDifference": 0,
+    "errors": []
+  },
+  {
+    "name": "mobile",
+    "gap": -0.001007080078125,
+    "edgeDifference": 0,
+    "errors": []
+  }
+]

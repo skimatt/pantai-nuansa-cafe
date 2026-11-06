@@ -1,0 +1,206 @@
+{
+  "sourceRoot": "../DATA-FOTO-VIDIO",
+  "date": "2026-11-05",
+  "credit": "Dokumentasi Pantai Nuansa Cafe.",
+  "photos": [
+    {
+      "file": "image-02.jpeg",
+      "caption": "Duduk santai, menghadap pantai.",
+      "alt": "Area duduk outdoor dengan kursi merah, meja, dan atap peneduh di atas pasir."
+    },
+    {
+      "file": "image-05.jpeg",
+      "caption": "Di bawah naungan, di atas pasir.",
+      "alt": "Meja dan kursi merah di bawah peneduh beratap dengan pepohonan di sekitarnya."
+    },
+    {
+      "file": "image-03.jpeg",
+      "caption": "Laut di depan mata.",
+      "alt": "Ombak kecil di garis pantai dengan pasir, laut, dan langit biru."
+    },
+    {
+      "file": "image-01.jpeg",
+      "caption": "Satu sudut untuk singgah.",
+      "alt": "Area duduk dengan kursi merah, pohon kelapa, dan bangunan beratap."
+    },
+    {
+      "file": "image-04.jpeg",
+      "caption": "Ruang terbuka di tepi laut.",
+      "alt": "Deret meja dan kursi merah di atas pasir dengan pepohonan dan peneduh."
+    },
+    {
+      "file": "image-06.jpeg",
+      "caption": "Berteduh di Nuansa.",
+      "alt": "Area duduk di bawah atap dengan kursi merah dan tulisan Nuansa pada dinding kayu."
+    },
+    {
+      "file": "image-07.jpeg",
+      "caption": "Lebih dekat dengan Nuansa.",
+      "alt": "Sudut ruang beratap dengan kursi dan tulisan Nuansa Pantai pada dinding kayu."
+    }
+  ],
+  "videos": [
+    {
+      "file": "video-01.mp4",
+      "caption": "Menyusuri tepian.",
+      "alt": "Area pasir dan pepohonan di dekat pantai."
+    },
+    {
+      "file": "video-02.mp4",
+      "caption": "Dari luar, menuju Nuansa.",
+      "alt": "Bangunan beratap dengan area duduk di atas pasir."
+    },
+    {
+      "file": "video-03.mp4",
+      "caption": "Ruang untuk berkumpul.",
+      "alt": "Area duduk beratap dengan meja dan kursi."
+    },
+    {
+      "file": "video-04.mp4",
+      "caption": "Singgah bersama.",
+      "alt": "Meja dan kursi merah di dalam area beratap."
+    },
+    {
+      "file": "video-05.mp4",
+      "caption": "Berteduh, menghadap laut.",
+      "alt": "Kursi merah dan meja di bawah atap dengan laut di kejauhan."
+    },
+    {
+      "file": "video-06.mp4",
+      "caption": "Sudut yang teduh.",
+      "alt": "Meja dan kursi merah di bawah atap peneduh."
+    },
+    {
+      "file": "video-07.mp4",
+      "caption": "Dari meja ke tepian.",
+      "alt": "Deretan tempat duduk beratap dengan laut di belakangnya."
+    },
+    {
+      "file": "video-08.mp4",
+      "caption": "Nama yang menyambut.",
+      "alt": "Tulisan Nuansa Pantai pada dinding kayu di area duduk."
+    },
+    {
+      "file": "video-09.mp4",
+      "caption": "Sebuah sudut Nuansa.",
+      "alt": "Dinding kayu bertuliskan Nuansa dan kursi merah."
+    },
+    {
+      "file": "video-10.mp4",
+      "caption": "Di bawah atap, dekat pantai.",
+      "alt": "Ruang duduk beratap dengan pandangan ke area outdoor."
+    },
+    {
+      "file": "video-11.mp4",
+      "caption": "Di antara meja dan laut.",
+      "alt": "Meja serta kursi merah dengan pohon dan laut di latar."
+    },
+    {
+      "file": "video-12.mp4",
+      "caption": "Sejenak mengikuti ombak.",
+      "alt": "Gelombang kecil mencapai pasir di garis pantai."
+    },
+    {
+      "file": "video-13.mp4",
+      "caption": "Laut dan langit.",
+      "alt": "Laut biru di bawah langit berawan tipis."
+    },
+    {
+      "file": "video-14.mp4",
+      "caption": "Cahaya di tepian.",
+      "alt": "Cahaya matahari menembus awan di atas pantai dan pepohonan."
+    },
+    {
+      "file": "video-15.mp4",
+      "caption": "Duduk di ruang terbuka.",
+      "alt": "Area kursi merah dan pepohonan di atas pasir."
+    },
+    {
+      "file": "video-16.mp4",
+      "caption": "Menghadap laut lepas.",
+      "alt": "Laut dan langit dilihat dari tepian dengan lampu gantung di bagian atas."
+    },
+    {
+      "file": "video-17.mp4",
+      "caption": "Tempat untuk bersua.",
+      "alt": "Deretan meja dan kursi merah di bawah peneduh."
+    },
+    {
+      "file": "video-18.mp4",
+      "caption": "Sebentar di tepi laut.",
+      "alt": "Area duduk outdoor dengan kursi merah, pepohonan, dan laut biru."
+    },
+    {
+      "file": "video-19.mp4",
+      "caption": "Teduh di atas pasir.",
+      "alt": "Meja dan kursi di area berpasir dengan atap peneduh dan laut di belakang."
+    },
+    {
+      "file": "video-20.mp4",
+      "caption": "Langkah di tepi pantai.",
+      "alt": "Seorang pengunjung berjalan di area berpasir di dekat tempat duduk."
+    },
+    {
+      "file": "video-21.mp4",
+      "caption": "Ruang untuk menikmati suasana.",
+      "alt": "Meja dan kursi merah di ruang terbuka dengan pandangan laut."
+    },
+    {
+      "file": "video-22.mp4",
+      "caption": "Langit menemani laut.",
+      "alt": "Garis pantai, laut, dan awan di langit."
+    },
+    {
+      "file": "video-23.mp4",
+      "caption": "Ombak datang, ombak pulang.",
+      "alt": "Gelombang kecil menyapu pasir di garis pantai."
+    },
+    {
+      "file": "video-24.mp4",
+      "caption": "Sisi lain Nuansa.",
+      "alt": "Area kendaraan di samping bangunan dan jalur berpasir."
+    },
+    {
+      "file": "video-25.mp4",
+      "caption": "Sekilas area kendaraan.",
+      "alt": "Cuplikan singkat kendaraan yang berderet di bawah peneduh."
+    },
+    {
+      "file": "video-26.mp4",
+      "caption": "Bermain di tepian.",
+      "alt": "Ayunan menghadap laut dengan area pasir di bawahnya."
+    },
+    {
+      "file": "video-27.mp4",
+      "caption": "Jejak di atas pasir.",
+      "alt": "Cuplikan genggam mengarah ke permukaan pasir di area kafe."
+    },
+    {
+      "file": "video-28.mp4",
+      "caption": "Menyusuri garis pantai.",
+      "alt": "Bentangan garis pantai dengan meja dan peneduh di sisinya."
+    },
+    {
+      "file": "video-29.mp4",
+      "caption": "Dari halaman ke tempat duduk.",
+      "alt": "Bangunan kafe dan area duduk outdoor di bawah langit biru."
+    },
+    {
+      "file": "video-30.mp4",
+      "caption": "Sampai di Nuansa.",
+      "alt": "Sisi bangunan beratap dengan area berpasir dan kendaraan di dekatnya."
+    }
+  ],
+  "featuredVideo": "video-18.mp4",
+  "facilityPhotos": [
+    "image-02.jpeg",
+    "image-05.jpeg",
+    "image-06.jpeg",
+    "image-04.jpeg",
+    "image-07.jpeg"
+  ],
+  "discoverPhotos": [
+    "image-02.jpeg",
+    "image-03.jpeg"
+  ]
+}

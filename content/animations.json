@@ -93,5 +93,10 @@
     "mobileTravel": 9,
     "scrub": 0.45,
     "edgeOpacity": 0.78
+  },
+  "smoothScroll": {
+    "enabled": true,
+    "lerp": 0.12,
+    "wheelMultiplier": 1
   }
 }

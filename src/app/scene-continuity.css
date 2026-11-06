@@ -1,4 +1,5 @@
 .scene-atmosphere{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none}
+html.lenis { scroll-behavior: auto; }
 .prolog{isolation:isolate;overflow:hidden}
 .prolog-environment{position:absolute;inset:0;z-index:-1;pointer-events:none}
 .prolog-environment>img{width:100%;height:100%;object-fit:cover;object-position:50% 65%;opacity:.55}
@@ -36,3 +37,123 @@
 @media(prefers-reduced-motion:reduce){.photo-surf{display:none}.photo-window{transform:none!important}}
 
 .ambient-motion-choice{position:fixed;bottom:77px;right:22px;z-index:25;display:flex;align-items:center;gap:10px;min-height:44px;padding:11px 17px;border:1px solid #fff4e466;border-radius:100px;background:#173746;color:#fff4e4;font-size:11px;box-shadow:0 2px 10px #08202522}.ambient-motion-choice span{font-size:16px}@media(max-width:640px){.ambient-motion-choice{right:12px;bottom:69px;font-size:10px;padding:10px 13px}}
+
+/* Light paper edges keep photographic media distinct from the illustrated world. */
+.documentary-photo .photo-window,
+.folder-photo > button,
+.complete-moment > button,
+.moment-open {
+  padding: 5px;
+  border: 1px solid #fff4e4cc;
+  background: #fff4e4e6;
+  box-shadow: 0 6px 20px #1737460d;
+}
+.documentary-photo picture { background: transparent; }
+.documentary-photo figcaption {
+  background: transparent;
+  padding: 12px 2px 0;
+}
+.documentary-photo figcaption > div { min-width: 0; }
+.video-frame {
+  outline: none;
+  border: 1px solid #fff4e477;
+  box-shadow: 0 0 0 4px #fff4e41a;
+}
+.moment-frame { transform: none; }
+.moment-frame:nth-child(n) { --frame-tilt: 0deg; }
+.moment-open { aspect-ratio: auto; }
+.moment-open picture { height: auto; }
+.moment-open img {
+  height: auto;
+  object-fit: cover;
+  background: transparent;
+}
+.moment-frame figcaption {
+  background: transparent;
+  min-height: 0;
+  padding: 14px 2px 0;
+}
+.journey-heading { border-top: 0; }
+
+/* A matching colour at each shared edge lets the environments dissolve together. */
+.hero .world::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  z-index: 3;
+  height: clamp(110px, 18svh, 190px);
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, #fff4e480 55%, var(--ivory));
+}
+.prolog,
+.discover-scene,
+.experience-scene,
+.explore-scene,
+.taste-scene,
+.moments-scene,
+.find-us-scene {
+  --scene-fade: 140px;
+  --scene-in: #fff4e4;
+  --scene-out: #fff4e4;
+}
+.prolog::after,
+.discover-scene::after,
+.experience-scene::after,
+.explore-scene::after,
+.taste-scene::after,
+.moments-scene::after,
+.find-us-scene::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(to bottom, var(--scene-in), transparent) top / 100% var(--scene-fade) no-repeat,
+    linear-gradient(to top, var(--scene-out), transparent) bottom / 100% var(--scene-fade) no-repeat;
+}
+.discover-scene { --scene-out: #153f3f; padding-bottom: 170px; }
+.experience-scene { --scene-in: #153f3f; padding-bottom: 170px; }
+.explore-scene::after { z-index: 1; }
+.taste-scene { --scene-out: #e9c89a; }
+.moments-scene {
+  --scene-in: #e9c89a;
+  --scene-out: #173d3c;
+  padding-bottom: 170px;
+}
+.find-us-scene { --scene-in: #173d3c; --scene-out: #173d3c; }
+
+@media (min-width: 1001px) {
+  .photo-primary { width: 58%; }
+  .photo-secondary { width: 38%; top: 240px; }
+}
+@media (min-width: 641px) and (max-width: 1000px) {
+  .documentary-photos {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    height: auto;
+  }
+  .documentary-photo {
+    position: relative;
+    inset: auto;
+    width: 100%;
+  }
+  .photo-secondary { width: 80%; }
+}
+@media (max-width: 640px) {
+  .prolog,
+  .discover-scene,
+  .experience-scene,
+  .explore-scene,
+  .taste-scene,
+  .moments-scene,
+  .find-us-scene { --scene-fade: 90px; }
+  .discover-scene,
+  .experience-scene,
+  .moments-scene { padding-bottom: 120px; }
+  .documentary-photo .photo-window,
+  .folder-photo > button,
+  .complete-moment > button,
+  .moment-open { padding: 3px; }
+}

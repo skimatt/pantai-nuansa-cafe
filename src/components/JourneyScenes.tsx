@@ -10,7 +10,6 @@ import SceneAtmosphere from './SceneAtmosphere';
 import {sceneKit} from '@/lib/scene-kit';
 import DocumentaryVideo from './DocumentaryVideo';
 import { useMediaDepth } from '@/lib/use-media-depth';
-import PhotoSurf from './PhotoSurf';
 import FolderPhotos from './FolderPhotos';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -26,10 +25,9 @@ export default function JourneyScenes({content,onVideoPlay,suspended,paused}:{co
     mm.add('(prefers-reduced-motion: no-preference)',()=>{
       const ctx=gsap.context(()=>{
         gsap.to('.discover-world',{y:preset.backdropTravel,ease:'none',scrollTrigger:{trigger:'#discover',start:'top bottom',end:'bottom top',scrub:preset.scrub}});
-        gsap.utils.toArray<HTMLElement>('.documentary-photo').forEach((photo,index)=>{
+        gsap.utils.toArray<HTMLElement>('.documentary-photo').forEach(photo=>{
           const trigger={trigger:photo,start:'top 95%',end:'center 42%',scrub:preset.scrub};
-          gsap.fromTo(photo,{y:preset.photoTravel*3,rotation:index===0?7:-8,scale:.91},{y:-preset.photoTravel,rotation:index===0?-2:3,scale:1,ease:'none',scrollTrigger:trigger});
-          gsap.fromTo(photo.querySelector('.photo-surf'),{yPercent:0},{yPercent:-130,ease:'none',scrollTrigger:trigger});
+          gsap.fromTo(photo,{y:preset.photoTravel,scale:.985},{y:-preset.photoTravel,scale:1,ease:'none',scrollTrigger:trigger});
         });
         gsap.fromTo('.experience-ocean',{y:-25},{y:25,ease:'none',scrollTrigger:{trigger:'#experience',start:'top bottom',end:'bottom top',scrub:preset.scrub}});
       },element);
@@ -46,14 +44,13 @@ export default function JourneyScenes({content,onVideoPlay,suspended,paused}:{co
         <div className="documentary-photos">{discover.photos.map((photo,index)=>{
           const asset=get(photo.assetId);
           return <figure key={photo.assetId} className={`documentary-photo photo-${index===0?'primary':'secondary'}`}>
-            <div className="photo-window"><picture>{asset.variants[0]&&<source media="(max-width: 640px)" srcSet={asset.variants[0]}/>}<Image src={asset.src} width={asset.width} height={asset.height} alt={asset.alt} loading="lazy" sizes={photo.sizes}/></picture><PhotoSurf/></div>
+            <div className="photo-window"><picture>{asset.variants[0]&&<source media="(max-width: 640px)" srcSet={asset.variants[0]}/>}<Image src={asset.src} width={asset.width} height={asset.height} alt={asset.alt} loading="lazy" sizes={photo.sizes}/></picture></div>
             <figcaption><span className="photo-number">{photo.number}</span><div><p>{photo.caption}</p><span>{photo.credit}</span></div></figcaption>
           </figure>;
         })}</div>
       </div>
       <FolderPhotos content={content} entries={content.localPhotos.sections.discover.slice(2)} onOpen={onVideoPlay}/>
       <p className="journey-art-notice">{discover.backgroundNotice}</p>
-      <svg className="tideline" viewBox="0 0 1440 100" preserveAspectRatio="none" aria-hidden="true"><path d="M0 62C170 82 245 8 432 35S725 97 928 46 1220 14 1440 62V100H0Z" fill="currentColor"/></svg>
     </section>
     <section id="experience" className="experience-scene" aria-labelledby="experience-title">
       <div className="experience-environment" aria-hidden="true"><Image className="experience-ocean" src={ocean.src} width={ocean.width} height={ocean.height} alt="" loading="lazy" sizes="100vw"/><div className="experience-shade"/><SceneAtmosphere preset={content.animations.atmospheres.experience} kit={sceneKit(content,'experience')} frond={get("rigged-palm-frond").src} paused={paused}/><Image className="experience-foliage" src={get(scene.foregroundAssetId).src} width={900} height={600} alt="" loading="lazy"/></div>

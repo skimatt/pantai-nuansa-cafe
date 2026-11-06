@@ -1,0 +1,377 @@
+{
+  "date": "2026-11-05",
+  "items": [
+    {
+      "type": "image",
+      "source": "..\\DATA-FOTO-VIDIO\\Gambar\\image-02.jpeg",
+      "sha256": "c3c55bcad52884c0e47947e5d9c09813ac7a6cb496ad0abe9b72464bde5806c8",
+      "destination": "foto-website\\galeri\\image-02.jpeg"
+    },
+    {
+      "type": "image",
+      "source": "..\\DATA-FOTO-VIDIO\\Gambar\\image-05.jpeg",
+      "sha256": "180e63945ba87996dd927cb0fe316bf12835ec02f875cb00fe7c02eec337c5a8",
+      "destination": "foto-website\\galeri\\image-05.jpeg"
+    },
+    {
+      "type": "image",
+      "source": "..\\DATA-FOTO-VIDIO\\Gambar\\image-03.jpeg",
+      "sha256": "0fac5ca569cb774b68bd14f5536078ac5495f1db60a8fbfdc2b11ffe2d7e30e1",
+      "destination": "foto-website\\galeri\\image-03.jpeg"
+    },
+    {
+      "type": "image",
+      "source": "..\\DATA-FOTO-VIDIO\\Gambar\\image-01.jpeg",
+      "sha256": "05e8848006fd1becd59effe6020f904d4b8199591844d5cee75d7ec224687ed8",
+      "destination": "foto-website\\galeri\\image-01.jpeg"
+    },
+    {
+      "type": "image",
+      "source": "..\\DATA-FOTO-VIDIO\\Gambar\\image-04.jpeg",
+      "sha256": "f515c09a837bedda041aef7437bcf100a1b80b20fce21ee66d99a811c9262ddd",
+      "destination": "foto-website\\galeri\\image-04.jpeg"
+    },
+    {
+      "type": "image",
+      "source": "..\\DATA-FOTO-VIDIO\\Gambar\\image-06.jpeg",
+      "sha256": "71e2a2e6304dbc3b4ce6fdc6a79e92f0804bb7634b05affcecb1da42d59e0bcc",
+      "destination": "foto-website\\galeri\\image-06.jpeg"
+    },
+    {
+      "type": "image",
+      "source": "..\\DATA-FOTO-VIDIO\\Gambar\\image-07.jpeg",
+      "sha256": "81b175d7bc5fc77d42c36c30b68f24e22d4448fadfaf59f6d651c75be73155e5",
+      "destination": "foto-website\\galeri\\image-07.jpeg"
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-01.mp4",
+      "sha256": "24f22013f2a40887574adf6ab1520f619ec05040b42e2565ad212e770782a594",
+      "destination": "public\\assets\\owner-documentation\\video-01-24f22013f2a4.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-01-24f22013f2a4-poster.webp",
+      "duration": 11.791667,
+      "bytes": 5180228,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-02.mp4",
+      "sha256": "a9dbef691dd8d0f1c91a92a0ced439015a3f0ab648f2228ceaa0e0a435bfcb81",
+      "destination": "public\\assets\\owner-documentation\\video-02-a9dbef691dd8.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-02-a9dbef691dd8-poster.webp",
+      "duration": 2.75,
+      "bytes": 1235136,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-03.mp4",
+      "sha256": "e368742d5c1f6777f0de1d1bc1a0dd51e8ca36a432508c7a84e5abe9d2f5e4a6",
+      "destination": "public\\assets\\owner-documentation\\video-03-e368742d5c1f.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-03-e368742d5c1f-poster.webp",
+      "duration": 1.583333,
+      "bytes": 850894,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-04.mp4",
+      "sha256": "6f449854c3c8130c56d331cda06873481742e28aaa006a52cb536c3b32e7128b",
+      "destination": "public\\assets\\owner-documentation\\video-04-6f449854c3c8.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-04-6f449854c3c8-poster.webp",
+      "duration": 7.875,
+      "bytes": 2304386,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-05.mp4",
+      "sha256": "e57dd87a56b04fe4ea6386d23bf9d735b6dbce544213aedf035cb35244a2adf7",
+      "destination": "public\\assets\\owner-documentation\\video-05-e57dd87a56b0.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-05-e57dd87a56b0-poster.webp",
+      "duration": 15.916667,
+      "bytes": 5623606,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-06.mp4",
+      "sha256": "b6b859644a51a69d6813bb336f6f8e9a8541eff48d007d50e2e02f12fd0dcf99",
+      "destination": "public\\assets\\owner-documentation\\video-06-b6b859644a51.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-06-b6b859644a51-poster.webp",
+      "duration": 17.875,
+      "bytes": 5098212,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-07.mp4",
+      "sha256": "f459cdd030f3ae130bcd5c65fdecf1699d075fb47a70f2457d033da4c7796e20",
+      "destination": "public\\assets\\owner-documentation\\video-07-f459cdd030f3.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-07-f459cdd030f3-poster.webp",
+      "duration": 13.666667,
+      "bytes": 4659323,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-08.mp4",
+      "sha256": "f71b6a5575e208979711b2fc829845a421a3e8c87a0db81572b2cecf7d55fbfe",
+      "destination": "public\\assets\\owner-documentation\\video-08-f71b6a5575e2.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-08-f71b6a5575e2-poster.webp",
+      "duration": 4.375,
+      "bytes": 1194741,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-09.mp4",
+      "sha256": "42224e4e5a3895ea1c8fd8e1e341a27d98fca63b6354f0a26d47b7cda05158c8",
+      "destination": "public\\assets\\owner-documentation\\video-09-42224e4e5a38.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-09-42224e4e5a38-poster.webp",
+      "duration": 14.333333,
+      "bytes": 4495761,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-10.mp4",
+      "sha256": "3f1235fe65577535330bbc7207c55b63ed61da416b28669fc24c07dfa31144e3",
+      "destination": "public\\assets\\owner-documentation\\video-10-3f1235fe6557.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-10-3f1235fe6557-poster.webp",
+      "duration": 11.75,
+      "bytes": 3890680,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-11.mp4",
+      "sha256": "921b99a32c85d1a2b58c2be92f829f38abe248617a422f1ef829f56dd37420ca",
+      "destination": "public\\assets\\owner-documentation\\video-11-921b99a32c85.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-11-921b99a32c85-poster.webp",
+      "duration": 7.333008,
+      "bytes": 2543973,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-12.mp4",
+      "sha256": "963579ff92c046677171bd791d70a5d360ffc49771315fa9fc96f01cc8441af6",
+      "destination": "public\\assets\\owner-documentation\\video-12-963579ff92c0.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-12-963579ff92c0-poster.webp",
+      "duration": 15.5,
+      "bytes": 3681474,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-13.mp4",
+      "sha256": "164e8db35ea610de63b78703cb7c1396393c8c97ff857bc166a20918dbcf21e5",
+      "destination": "public\\assets\\owner-documentation\\video-13-164e8db35ea6.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-13-164e8db35ea6-poster.webp",
+      "duration": 6.041667,
+      "bytes": 1115703,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-14.mp4",
+      "sha256": "37f7842c61a6bbba1e3feb147857951b336fa59f41af4769eb1320b87a04e11d",
+      "destination": "public\\assets\\owner-documentation\\video-14-37f7842c61a6.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-14-37f7842c61a6-poster.webp",
+      "duration": 3.166667,
+      "bytes": 1183630,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-15.mp4",
+      "sha256": "80bca75dcd320669214947d3ad4651cfbf23e0c3af7949db588945313a866b22",
+      "destination": "public\\assets\\owner-documentation\\video-15-80bca75dcd32.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-15-80bca75dcd32-poster.webp",
+      "duration": 7.541667,
+      "bytes": 2975431,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-16.mp4",
+      "sha256": "76425b432a964e2c7377dc818a5b40f5886b019aa7d553758a3fbe0406c73043",
+      "destination": "public\\assets\\owner-documentation\\video-16-76425b432a96.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-16-76425b432a96-poster.webp",
+      "duration": 10.833008,
+      "bytes": 3569199,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-17.mp4",
+      "sha256": "5c96df6cd7b4a72ae9717d61900405ccdaa53452235297ff8354cfe2e3aa8082",
+      "destination": "public\\assets\\owner-documentation\\video-17-5c96df6cd7b4.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-17-5c96df6cd7b4-poster.webp",
+      "duration": 12.791667,
+      "bytes": 4678556,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-18.mp4",
+      "sha256": "32392201e46d820808dac52bced26a94eea0a6a4e1d30858decebb9db27b25ec",
+      "destination": "public\\assets\\owner-documentation\\video-18-32392201e46d.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-18-32392201e46d-poster.webp",
+      "duration": 8.416667,
+      "bytes": 2480580,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-19.mp4",
+      "sha256": "ee5fd72793fa249b6ce19ea1466b52454a2ba9379fc4d0d69fb9c40fcaa1633f",
+      "destination": "public\\assets\\owner-documentation\\video-19-ee5fd72793fa.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-19-ee5fd72793fa-poster.webp",
+      "duration": 4.083333,
+      "bytes": 1715105,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-20.mp4",
+      "sha256": "e1963b5213a1f206f10548047d451b93d26ed72f7d291548f0e8453b082f9c11",
+      "destination": "public\\assets\\owner-documentation\\video-20-e1963b5213a1.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-20-e1963b5213a1-poster.webp",
+      "duration": 3.041667,
+      "bytes": 1046171,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-21.mp4",
+      "sha256": "2fdd726c8528ee662cce3acaab0a644ca71ba25185708bd09731926d5ff692a7",
+      "destination": "public\\assets\\owner-documentation\\video-21-2fdd726c8528.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-21-2fdd726c8528-poster.webp",
+      "duration": 6.25,
+      "bytes": 1945132,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-22.mp4",
+      "sha256": "1a1bc94684119791059e6af409941bc221e9d182f4b9d96885fbbcecff1a28c6",
+      "destination": "public\\assets\\owner-documentation\\video-22-1a1bc9468411.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-22-1a1bc9468411-poster.webp",
+      "duration": 5.291667,
+      "bytes": 1535874,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-23.mp4",
+      "sha256": "031b348e515dc402b3f98de0208389fa05878b540a783c6a701fd325c8e0445d",
+      "destination": "public\\assets\\owner-documentation\\video-23-031b348e515d.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-23-031b348e515d-poster.webp",
+      "duration": 16,
+      "bytes": 4812639,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-24.mp4",
+      "sha256": "ebc4826dd8f7115edf6f653b30fe61d3f487945d09e4889611b49e05fad1abae",
+      "destination": "public\\assets\\owner-documentation\\video-24-ebc4826dd8f7.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-24-ebc4826dd8f7-poster.webp",
+      "duration": 6.625,
+      "bytes": 2841561,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-25.mp4",
+      "sha256": "e5f9b25be79e15cbae48f3cfa07a17bca0d06c3ad321d82d140a50aaf9a9d7f4",
+      "destination": "public\\assets\\owner-documentation\\video-25-e5f9b25be79e.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-25-e5f9b25be79e-poster.webp",
+      "duration": 0.833333,
+      "bytes": 340144,
+      "width": 720,
+      "height": 1252
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-26.mp4",
+      "sha256": "508ef439d42f384680c8066c219e8c05084a8d3cea56235851f4069b0ec47375",
+      "destination": "public\\assets\\owner-documentation\\video-26-508ef439d42f.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-26-508ef439d42f-poster.webp",
+      "duration": 10.375,
+      "bytes": 3316446,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-27.mp4",
+      "sha256": "647f88d8f2757e088b99f53c4867d65640682ef57a1c7799d45227db33061524",
+      "destination": "public\\assets\\owner-documentation\\video-27-647f88d8f275.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-27-647f88d8f275-poster.webp",
+      "duration": 4.875,
+      "bytes": 3399677,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-28.mp4",
+      "sha256": "cd6844b1af830b2ce9902fb40f84da2b61becb507ed56557204e78ff1787f030",
+      "destination": "public\\assets\\owner-documentation\\video-28-cd6844b1af83.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-28-cd6844b1af83-poster.webp",
+      "duration": 14.166667,
+      "bytes": 5065948,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-29.mp4",
+      "sha256": "91a4d0e4bb6ea1acdcbe313485a7b4db4e0ae86b9b7452d8fb609a28dd8c8f2e",
+      "destination": "public\\assets\\owner-documentation\\video-29-91a4d0e4bb6e.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-29-91a4d0e4bb6e-poster.webp",
+      "duration": 4.958333,
+      "bytes": 1676929,
+      "width": 712,
+      "height": 1280
+    },
+    {
+      "type": "video",
+      "source": "../DATA-FOTO-VIDIO/Video/video-30.mp4",
+      "sha256": "8ae8116d598b5d7ecf14eecf11d562c9dc0c1e471b2c8bb7ccf3b4e88d253bae",
+      "destination": "public\\assets\\owner-documentation\\video-30-8ae8116d598b.mp4",
+      "poster": "public\\assets\\owner-documentation\\video-30-8ae8116d598b-poster.webp",
+      "duration": 2.083333,
+      "bytes": 972247,
+      "width": 712,
+      "height": 1280
+    }
+  ]
+}

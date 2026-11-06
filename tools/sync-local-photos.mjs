@@ -32,7 +32,7 @@ export async function syncLocalPhotos({workspace=process.cwd(),quiet=false}={}){
    }
    const caption=metadata[file]?.caption??(file.replace(/\.[^.]+$/,'').replace(/^\d+[-_ .]*/,'').replace(/[-_]+/g,' ').slice(0,180)||'Dokumentasi Nuansa');
    const alt=metadata[file]?.alt??caption,credit=metadata[file]?.credit??'Dokumentasi dari folder pengelola.';
-   const asset={id,src,type:'image',sceneId:role==='gallery'?'album':role,sourceType:'owner',license:'Local-folder publication intent; uploader must own or hold permission',attribution:credit,verified:false,isPlaceholder:false,alt,width,height,variants:[small],loading:'lazy',pivot:[.5,.5],depth:.5,status:'prototype',promptVersion:'local-folder-v1',provenance:'docs/implementation/LOCAL_PHOTO_WORKFLOW.md',sourceFile:path.relative(workspace,source).replaceAll('\\','/'),permission:'local-folder-publish-intent'};
+   const asset={id,src,type:'image',sceneId:role==='gallery'?'album':role,sourceType:'owner',license:'Local-folder publication intent; uploader must own or hold permission',attribution:credit,verified:false,isPlaceholder:false,alt,width,height,variants:[small],loading:'lazy',pivot:[.5,.5],depth:.5,status:'prototype',promptVersion:'local-folder-v1',provenance:'docs/implementation/LOCAL_PHOTO_WORKFLOW.md',contentHash:hash(bytes),sourceFile:path.relative(workspace,source).replaceAll('\\','/'),permission:'local-folder-publish-intent'};
    assets.push(asset);entries.push({id:`local-${role}-${key}`,type:'image',assetId:id,caption,alt,credit,verified:false,sortOrder:order});
   }
   if(role==='gallery')gallery.push(...entries);else if(role==='taste'){if(entries[0])menuOverrides.push({menuId,assetId:entries[0].assetId});}else sections[role].push(...entries);

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "desktop",
+    "src": "/assets/cafe/menu-original.png",
+    "original": "http://127.0.0.1:3000/assets/cafe/menu-original.png",
+    "overflow": false
+  },
+  {
+    "name": "mobile",
+    "src": "/assets/cafe/menu-original.png",
+    "original": "http://127.0.0.1:3000/assets/cafe/menu-original.png",
+    "overflow": false
+  }
+]

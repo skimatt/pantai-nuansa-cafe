@@ -1,0 +1,34 @@
+[
+  {
+    "label": "before",
+    "cpuSlowdown": 1,
+    "viewport": "1440x900",
+    "browser": "156.0.8078.4",
+    "samples": 81,
+    "frameMedianMs": 83.30000000000109,
+    "frameP95Ms": 466.59999999999945,
+    "intervalsOver50ms": 48,
+    "scrollDistance": 4800,
+    "taskSeconds": 10.055786000000001,
+    "layoutSeconds": 0.017743000000000064,
+    "scriptSeconds": 0.48576699999999995,
+    "smooth": false,
+    "limitations": "Local Chromium wheel simulation. Frame intervals include raster and decoding work, and are not field measurements or physical-device results."
+  },
+  {
+    "label": "before",
+    "cpuSlowdown": 4,
+    "viewport": "1440x900",
+    "browser": "156.0.8078.4",
+    "samples": 59,
+    "frameMedianMs": 116.69999999999891,
+    "frameP95Ms": 349.89999999999964,
+    "intervalsOver50ms": 52,
+    "scrollDistance": 4800,
+    "taskSeconds": 7.280525999999999,
+    "layoutSeconds": 0.021830000000000016,
+    "scriptSeconds": 0.5688609999999998,
+    "smooth": false,
+    "limitations": "Local Chromium wheel simulation. Frame intervals include raster and decoding work, and are not field measurements or physical-device results."
+  }
+]

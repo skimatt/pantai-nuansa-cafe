@@ -9,7 +9,7 @@ for(const name of Object.keys(all)){
 await mkdir('evidence/test-runs',{recursive:true});
 await writeFile('evidence/test-runs/dependency-licenses.json',JSON.stringify(licenses,null,2));
 await mkdir('public/licenses',{recursive:true});
-const runtimeNames=['next','react','react-dom','gsap','@fontsource/cormorant-garamond','@fontsource/dm-sans'];
+const runtimeNames=['next','react','react-dom','gsap','lenis','@fontsource/cormorant-garamond','@fontsource/dm-sans'];
 const notices=[];
 for(const name of runtimeNames){
  const entry=licenses.find(item=>item.name===name);

@@ -41,7 +41,6 @@ export default function CafeScenes({content,paused}:{content:FoundationContent;p
    <div className="facility-info" id="facility-info" role="status" aria-live="polite" aria-atomic="true"><span className="eyebrow">{explore.sourceLabel}</span><h3 className="facility-description" key={activeHotspot.id}>{activeHotspot.label}</h3><p>{activeHotspot.description}</p></div>
    <Link className="journey-link facility-next" href={content.pages.routes.facilities}>{content.pages.labels.facilities}<Arrow/></Link>
    <FolderPhotos content={content} entries={content.localPhotos.sections.explore}/>
-   <p className="cafe-art-notice">{explore.artNotice}</p>
    <noscript><dl className="facility-no-script">{explore.hotspots.map(h=><div key={h.id}><dt>{h.label}</dt><dd>{h.description}</dd></div>)}</dl></noscript>
   </section>
   <section id="taste" className="taste-scene" aria-labelledby="taste-title">

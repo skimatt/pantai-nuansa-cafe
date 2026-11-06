@@ -63,7 +63,7 @@ test('all authorized documentary photos have a gallery entry, while the menu sta
  for(const photo of photos.filter(p=>p.file!=='Menu.png'))assert.ok(sources.includes(photo.file),photo.file);
  assert.ok(!sources.includes('Menu.png'));
  assert.equal(content.gallery.items.filter(i=>i.type==='image').length,13);
- assert.equal(content.gallery.items.filter(i=>i.type==='video').length,3);
+ for(const id of ['journey-senja','documentation-film-1','documentation-film-2'])assert.ok(content.gallery.items.some(item=>item.assetId===id));
 });
 test('owner menu source and AI display labels cannot be silently removed',()=>{
  const fake=structuredClone(rawContent);fake.menu.items[0].isPlaceholder=false;
@@ -82,7 +82,7 @@ test('documentary photos and video cannot silently become AI placeholders',()=>{
  assert.throws(()=>parseContent(broken),/Missing asset/);
 });
 test('video requires silent source, real poster and duration metadata',()=>{
- const noisy=structuredClone(rawContent);const video=noisy.media.assets.find(a=>a.id==='journey-senja')!;
+ const noisy=structuredClone(rawContent);const video=noisy.media.assets.find(a=>a.id===noisy.sections.journey.experience.assetId)!;
  video.hasAudio=true;assert.throws(()=>parseContent(noisy),/silent documentary/);
  const invalid=structuredClone(rawContent);invalid.sections.journey.experience.posterAssetId='journey-senja';
  assert.throws(()=>parseContent(invalid),/image poster/);
@@ -94,7 +94,7 @@ test('homepage projects bounded previews while complete collections can grow',()
  const full=parseContent(expanded),home=homepageContent(full);
  assert.equal(full.menu.items.length,35);assert.equal(home.menu.items.length,3);
  assert.equal(home.gallery.items.length,4);assert.equal(home.sections.cafe.explore.hotspots.length,1);
- assert.equal(home.localPhotos.gallery.length,0);assert.equal(full.localPhotos.gallery.length,13);
+ assert.equal(home.localPhotos.gallery.length,0);assert.equal(full.localPhotos.gallery.length,rawContent.localPhotos.gallery.length);
  assert.ok(JSON.stringify(home).length<JSON.stringify(full).length);
  for(const item of home.gallery.items)assert.ok(home.media.assets.some(a=>a.id===item.assetId));
  const broken=structuredClone(rawContent);broken.pages.home.menuIds=['missing-menu'];
@@ -102,10 +102,14 @@ test('homepage projects bounded previews while complete collections can grow',()
 });
 
 test('full gallery uses the folder collection and does not resurrect deleted source photos',()=>{
- assert.equal(completeGallery(content).length,16);
+ const localPhotos=[...content.localPhotos.gallery,...Object.values(content.localPhotos.sections).flat()];
+ const fingerprint=(item:{assetId:string})=>{const asset=content.media.assets.find(a=>a.id===item.assetId)!;return asset.contentHash??asset.id;};
+ assert.deepEqual(new Set(completeGallery(content).filter(i=>i.type==='image').map(fingerprint)),new Set(localPhotos.map(fingerprint)));
+ assert.equal(completeGallery(content).filter(i=>i.type==='image').length,new Set(localPhotos.map(fingerprint)).size);
  const empty=structuredClone(content);empty.localPhotos.gallery=[];
+ for(const section of Object.values(empty.localPhotos.sections))section.length=0;
  assert.equal(completeGallery(empty).filter(i=>i.type==='image').length,0);
- assert.equal(completeGallery(empty).filter(i=>i.type==='video').length,3);
+ assert.equal(completeGallery(empty).filter(i=>i.type==='video').length,content.gallery.items.filter(i=>i.type==='video').length);
 });
 
 test('right-facing bird art flies forward and wraps outside the visible viewport',()=>{
@@ -125,4 +129,16 @@ test('owner price ranges and per-ons units cannot silently become flat per-porti
  assert.throws(()=>parseContent(range),/price mismatch/);
  const noCredit=structuredClone(rawContent);delete noCredit.media.assets.find(a=>a.id==='web-rambeu-bakar')!.licenseUrl;
  assert.throws(()=>parseContent(noCredit),/Licensed references/);
+});
+
+
+test('supplied documentation is fully represented with source files and documentary posters',()=>{
+ const imported=JSON.parse(readFileSync('content/documentation-import.json','utf8')) as {photos:{file:string}[];videos:{file:string}[]};
+ for(const photo of imported.photos)assert.ok(content.localPhotos.assets.some(asset=>asset.sourceFile==='foto-website/galeri/'+photo.file));
+ for(const video of imported.videos){
+  const asset=content.media.assets.find(a=>a.sourceFile?.endsWith('/Video/'+video.file)&&a.type==='video');
+  assert.ok(asset);assert.equal(asset.hasAudio,false);assert.ok(asset.durationSeconds!>0);
+  const item=completeGallery(content).find(item=>item.assetId===asset.id);assert.ok(item?.posterAssetId);
+  assert.ok(content.media.assets.some(poster=>poster.id===item.posterAssetId&&poster.type==='image'&&!poster.isPlaceholder));
+ }
 });

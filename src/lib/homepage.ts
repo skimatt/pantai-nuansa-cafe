@@ -8,6 +8,7 @@ export function homepageContent(c:FoundationContent):FoundationContent{
  home.gallery.items=[...collection.filter(item=>item.type==='image').slice(0,limits.galleryLimit-films.length),...films];
  home.localPhotos.gallery=[];home.localPhotos.assets=[];home.localPhotos.menuOverrides=[];
  home.localPhotos.sections={discover:[],experience:[],explore:[],moments:[],findUs:[]};
+ home.localPhotos.sections.explore=c.localPhotos.sections.explore.slice(0,2);
  home.sections.cafe.explore.hotspots=c.sections.cafe.explore.hotspots.slice(0,limits.facilityLimit);
  const references=new Set<string>();
  const scan=(value:unknown)=>{if(typeof value==='string')references.add(value);else if(Array.isArray(value))value.forEach(scan);else if(value&&typeof value==='object')Object.values(value).forEach(scan);};
@@ -18,5 +19,6 @@ export function completeGallery(c:FoundationContent){
  const photos=c.localPhotos.gallery;
  const base=[...photos,...c.gallery.items.filter(item=>item.type==='video')];
  const additions=Object.values(c.localPhotos.sections).flat();
- return [...new Map([...base,...additions].map(item=>[item.assetId,item])).values()];
+ const fingerprints=new Map(c.media.assets.map(asset=>[asset.id,asset.contentHash??asset.id]));
+ return [...new Map([...base,...additions].map(item=>[fingerprints.get(item.assetId)??item.assetId,item])).values()];
 }

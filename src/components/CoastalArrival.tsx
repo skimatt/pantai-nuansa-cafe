@@ -19,6 +19,7 @@ import WaveNavigation from './WaveNavigation';
 import SceneAtmosphere from './SceneAtmosphere';
 import {sceneKit} from '@/lib/scene-kit';
 import {useSectionTransitions} from '@/lib/use-section-transitions';
+import {useHomepageScroll,scrollHomepageTo} from '@/lib/use-homepage-scroll';
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -38,6 +39,7 @@ export default function CoastalArrival({content}:{content:FoundationContent}){
   const [replayCount,setReplayCount]=useState(0);
   const [heroVisible,setHeroVisible]=useState(true);
   const [motionPaused,setMotionPaused]=useState(false);
+  useHomepageScroll(root,content.animations.smoothScroll);
   useSectionTransitions(root,content.animations.sectionTransitions,motionPaused);
   const finish=useCallback(()=>{markSession(opening.storageKey);setState('hero');},[opening.storageKey]);
 
@@ -88,7 +90,7 @@ export default function CoastalArrival({content}:{content:FoundationContent}){
   const skip=()=>{timeline.current?.progress(1);finish();};
   const replay=()=>{
     if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
-    window.scrollTo({top:0,behavior:'instant'});
+    scrollHomepageTo(0);
     setReplayCount(count=>count+1);
   };
   const toggleSound=async()=>{

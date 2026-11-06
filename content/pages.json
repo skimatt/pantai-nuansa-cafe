@@ -22,7 +22,7 @@
     "photos": "Foto",
     "films": "Video",
     "searchMenu": "Cari menu",
-    "searchPlaceholder": "Nama makanan atau minuman\u2026",
+    "searchPlaceholder": "Nama makanan atau minuman…",
     "allCategories": "Semua",
     "noResults": "Belum ada menu yang cocok. Coba kata lain.",
     "menuCount": "pilihan menu",
@@ -32,7 +32,7 @@
     "sourceTitle": "Daftar dari pengelola",
     "sourceDescription": "Lihat daftar menu asli dari pengelola untuk pilihan makanan, minuman, dan rincian harga.",
     "galleryIntro": "Foto dan cuplikan suasana di Pantai Nuansa. Pilih satu bingkai untuk melihatnya lebih dekat.",
-    "facilityNotice": "Informasi berikut dikonfirmasi pengelola. Ilustrasi latar menggambarkan suasana dan bukan foto konstruksi fasilitas.",
+    "facilityNotice": "Kenali area duduk dan pandangan pantai melalui dokumentasi Pantai Nuansa Cafe.",
     "nextTitle": "Lanjut menjelajah",
     "imageNotice": "Foto ilustrasi penyajian",
     "photoNotice": "Foto dokumentasi pengelola",
@@ -44,18 +44,18 @@
     "eyebrow": "PILIHAN RASA",
     "title": "Ada rasa untuk setiap cerita.",
     "description": "Jelajahi pilihan menu, lalu simpan ide untuk kunjungan Anda berikutnya.",
-    "metaTitle": "Menu | Nuansa Pantai Caf\u00e9 & Resto"
+    "metaTitle": "Menu | Nuansa Pantai Café & Resto"
   },
   "gallery": {
     "eyebrow": "DOKUMENTASI NUANSA",
     "title": "Semua momen, satu tepian.",
     "description": "Potret, sajian, dan cuplikan suasana yang menemani cerita di Pantai Nuansa.",
-    "metaTitle": "Galeri | Nuansa Pantai Caf\u00e9 & Resto"
+    "metaTitle": "Galeri | Nuansa Pantai Café & Resto"
   },
   "facilities": {
     "eyebrow": "RUANG UNTUK SINGGAH",
     "title": "Lebih dekat dengan suasananya.",
     "description": "Kenali area duduk dan pandangan pantai sebelum datang berkunjung.",
-    "metaTitle": "Fasilitas | Nuansa Pantai Caf\u00e9 & Resto"
+    "metaTitle": "Fasilitas | Nuansa Pantai Café & Resto"
   }
 }

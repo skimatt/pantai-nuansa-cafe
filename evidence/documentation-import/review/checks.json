@@ -1,0 +1,24 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "gallery": 51,
+    "videos": 33,
+    "axeViolations": 0,
+    "errors": []
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "gallery": 51,
+    "videos": 33,
+    "axeViolations": 0,
+    "errors": []
+  }
+]

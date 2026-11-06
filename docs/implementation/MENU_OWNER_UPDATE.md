@@ -44,3 +44,9 @@ aktual evidence/owner-menu/ dan evidence/detail-pages/ ditinjau visual.
 Pemeriksaan axe juga menemukan ikon pause berbentuk teks Roman numeral dianggap
 label berbeda; ikon diganti SVG dekoratif, mempertahankan label tombol yang jelas.
 Ini bukan klaim menu telah difoto di restoran atau pengujian HP fisik selesai.
+
+## Foto daftar menu ditampilkan kembali — 6 November 2026
+
+Atas permintaan terbaru pemilik, halaman /menu/ kembali menampilkan Menu.png pada bagian Daftar dari pengelola setelah katalog. Berkas public/assets/cafe/menu-original.png identik SHA-256 dengan Assets/foto-ig/Menu.png (5423FA5344B5A75F669A2C83D54BB274594DDE36206442FEFA98A1EE54218783). Tidak membuat salinan baru atau mengubah gambar. Klik foto/tautan membuka gambar ukuran asli. Data katalog dari menu-source.json tetap dipertahankan; permintaan ini menambahkan foto, tanpa menyalin ulang harga pada poster ke katalog.
+
+Pemeriksaan langsung server development pada desktop 1440x900 dan mobile 360x800: gambar berhasil didekode, tautan membuka berkas benar, tidak ada overflow horizontal. Screenshot evidence/menu-photo/desktop.png dan mobile.png telah ditinjau. Tidak ada dependensi/layanan/biaya tambahan.

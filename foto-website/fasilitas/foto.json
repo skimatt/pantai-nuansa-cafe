@@ -1,0 +1,32 @@
+{
+  "image-02.jpeg": {
+    "caption": "Duduk santai, menghadap pantai.",
+    "alt": "Area duduk outdoor dengan kursi merah, meja, dan atap peneduh di atas pasir.",
+    "credit": "Dokumentasi Pantai Nuansa Cafe.",
+    "order": 0
+  },
+  "image-05.jpeg": {
+    "caption": "Di bawah naungan, di atas pasir.",
+    "alt": "Meja dan kursi merah di bawah peneduh beratap dengan pepohonan di sekitarnya.",
+    "credit": "Dokumentasi Pantai Nuansa Cafe.",
+    "order": 1
+  },
+  "image-06.jpeg": {
+    "caption": "Berteduh di Nuansa.",
+    "alt": "Area duduk di bawah atap dengan kursi merah dan tulisan Nuansa pada dinding kayu.",
+    "credit": "Dokumentasi Pantai Nuansa Cafe.",
+    "order": 2
+  },
+  "image-04.jpeg": {
+    "caption": "Ruang terbuka di tepi laut.",
+    "alt": "Deret meja dan kursi merah di atas pasir dengan pepohonan dan peneduh.",
+    "credit": "Dokumentasi Pantai Nuansa Cafe.",
+    "order": 3
+  },
+  "image-07.jpeg": {
+    "caption": "Lebih dekat dengan Nuansa.",
+    "alt": "Sudut ruang beratap dengan kursi dan tulisan Nuansa Pantai pada dinding kayu.",
+    "credit": "Dokumentasi Pantai Nuansa Cafe.",
+    "order": 4
+  }
+}
