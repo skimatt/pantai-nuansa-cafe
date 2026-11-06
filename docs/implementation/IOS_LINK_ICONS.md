@@ -1,0 +1,5 @@
+# Panah tautan konsisten di iPhone — 6 November 2026
+
+Karakter Unicode U+2197 pada Hero, menu navigasi mobile, tautan Instagram/TikTok, viewer dan katalog dapat dipilih iOS sebagai emoji berwarna. Semua penggunaan karakter itu di komponen kini diganti ExternalArrow, SVG 18x18 berwarna currentColor, aria-hidden dan tidak menerima fokus. Tidak bergantung font, variation selector, emoji renderer, gambar eksternal atau library tambahan. Teks/nama aksesibel dan tujuan tautan dipertahankan.
+
+Lint, typecheck, 20 tes dan build lulus. Review Chromium dan WebKit 27.2 pada desktop 1440x900 dan emulasi iPhone berhasil: CTA menuju halaman Menu, ketiga tautan sosial memiliki SVG 18x18, tanpa karakter panah teks, error halaman atau overflow horizontal. Screenshot Hero dan sosial telah diperiksa dan disimpan di evidence/link-icons bersama hasil JSON. Pengujian WebKit memakai profil iPhone 13; perangkat iPhone fisik belum diuji. Playwright WebKit diunduh sebagai alat pengujian lokal, tidak ditambahkan ke dependency produksi dan tidak memakai layanan berbayar.

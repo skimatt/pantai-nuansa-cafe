@@ -8,7 +8,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import type { FoundationContent } from '@/lib/content';
 import { markSession, readSession, shouldPlayIntro, type IntroState } from '@/lib/intro';
 import { OceanAudio } from '@/lib/ocean-audio';
-import { Arrow, SoundIcon, WaveMark } from './icons';
+import { Arrow, ExternalArrow, SoundIcon, WaveMark } from './icons';
 import JourneyScenes from './JourneyScenes';
 import CafeScenes from './CafeScenes';
 import GoldenScenes from './GoldenScenes';
@@ -112,7 +112,7 @@ export default function CoastalArrival({content}:{content:FoundationContent}){
       <a className="brand" href="#hero"><WaveMark/><span>{ui.brandLine}{' '}<span className="brand-small">{ui.brandSuffix}</span></span></a>
       <nav aria-label={ui.chapterLabel} id="main-navigation" className={menu?'navigation is-open':'navigation'}>
         {navigation.foundationItems.map(item=><a href={item.target} key={item.target} onClick={()=>{skip();setMenu(false);}}>{item.label}</a>)}
-        <Link href={content.pages.routes.menu} onClick={()=>{skip();setMenu(false);}}>{ui.secondaryCta}<span aria-hidden="true"> ↗</span></Link>
+        <Link href={content.pages.routes.menu} onClick={()=>{skip();setMenu(false);}}>{ui.secondaryCta}<ExternalArrow/></Link>
       </nav>
       <button id="navigation-toggle" className="nav-toggle" aria-label={ui.openMenu} aria-expanded={menu} aria-controls="main-navigation" onClick={()=>setMenu(!menu)}><span/><span/></button>
     </header>
@@ -132,7 +132,7 @@ export default function CoastalArrival({content}:{content:FoundationContent}){
           <p className="eyebrow"><span className="eyebrow-line"/>{ui.eyebrow}</p>
           <h1 id="hero-title"><span className="sr-only">{site.brand}. </span>{ui.headline[0]}<br/>{ui.headline[1]}<br/><em>{ui.headline[2]}</em></h1>
           <p className="hero-description">{ui.heroDescription}</p>
-          <div className="hero-actions"><a href="#perjalanan" className="primary-button" onClick={skip}>{ui.primaryCta}<Arrow/></a><Link className="secondary-button" href={content.pages.routes.menu} onClick={skip}>{ui.secondaryCta}<span aria-hidden="true">↗</span></Link></div>
+          <div className="hero-actions"><a href="#perjalanan" className="primary-button" onClick={skip}>{ui.primaryCta}<Arrow/></a><Link className="secondary-button" href={content.pages.routes.menu} onClick={skip}>{ui.secondaryCta}<ExternalArrow/></Link></div>
         </div>
         <div className="horizon-note" aria-hidden="true"><span>PN — 01</span><i/><span>{ui.chapterName}</span></div>
         <div className="hero-bottom"><button className="motion-control" aria-label={motionPaused?ui.resumeMotion:ui.pauseMotion} title={motionPaused?ui.resumeMotion:ui.pauseMotion} hidden={!heroVisible} aria-pressed={motionPaused} onClick={()=>setMotionPaused(v=>!v)}><MotionIcon paused={motionPaused}/>{motionPaused?ui.resumeMotion:ui.pauseMotion}</button><button className="sound-button" aria-label={muted?ui.soundOff:ui.soundOn} hidden={!heroVisible} onClick={toggleSound} aria-pressed={!muted} title={ui.ambientLabel}><SoundIcon muted={muted}/><span>{muted?ui.soundOff:ui.soundOn}</span></button></div>

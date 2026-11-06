@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { useEffect,useRef,useState } from 'react';
 import type { FoundationContent } from '@/lib/content';
-import { Arrow } from './icons';
+import { Arrow, ExternalArrow } from './icons';
 export default function GalleryViewer({content,initialIndex,onClose,entries,label}:{content:FoundationContent;initialIndex:number;onClose:()=>void;entries?:FoundationContent['gallery']['items'];label?:string}){
  const [index,setIndex]=useState(initialIndex),[failedId,setFailedId]=useState<string|null>(null);
  const dialog=useRef<HTMLDialogElement>(null),videoRef=useRef<HTMLVideoElement>(null);
@@ -44,7 +44,7 @@ export default function GalleryViewer({content,initialIndex,onClose,entries,labe
   </div>
   <div className="viewer-caption">
    <div aria-live="polite">{item.caption!==(label??copy.viewerLabel)&&<h3>{item.caption}</h3>}<p>{item.credit}</p></div>
-   <a href={asset.src} target="_blank" rel="noopener noreferrer">{copy.openFileLabel}<span aria-hidden="true"> ↗</span></a>
+   <a href={asset.src} target="_blank" rel="noopener noreferrer">{copy.openFileLabel}<ExternalArrow/></a>
   </div>
  </dialog>;
 }
