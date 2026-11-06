@@ -7,6 +7,22 @@ import { shouldPlayIntro } from '../src/lib/intro';
 import {homepageContent,completeGallery} from '../src/lib/homepage';
 import {forwardFlight} from '../src/lib/coastal-air';
 import {formatMenuPrice,parseOwnerPrice} from '../src/lib/menu-price';
+import {validateOwnerOriginal} from '../tools/owner-original';
+
+test('deployment validates imported video and poster without requiring external masters',()=>{
+ const imported=JSON.parse(readFileSync('evidence/documentation-import/import-manifest.json','utf8')).items;
+ const video=content.media.assets.find(asset=>asset.id==='owner-video-01')!;
+ const absentSource={...video,sourceFile:'../absent-master-folder/video-01.mp4'};
+ const record={...imported.find((item:{source:string})=>item.source.endsWith('/video-01.mp4')),source:absentSource.sourceFile};
+ validateOwnerOriginal(absentSource,[record]);
+ const poster=content.media.assets.find(asset=>asset.id==='owner-video-01-poster')!;
+ validateOwnerOriginal({...poster,sourceFile:absentSource.sourceFile},[record]);
+ assert.throws(()=>validateOwnerOriginal(absentSource,[]),/Missing import provenance/);
+ assert.throws(()=>validateOwnerOriginal(absentSource,[{...record,sha256:'invalid'}]),/Missing import provenance/);
+ assert.throws(()=>validateOwnerOriginal({...absentSource,src:'/assets/missing.mp4'},[record]),/Missing import provenance/);
+ assert.throws(()=>validateOwnerOriginal(absentSource,[record],path.join(process.cwd(),'absent-checkout')),/Missing published owner media/);
+ assert.throws(()=>validateOwnerOriginal({...video,sourceFile:'foto-website/missing.mp4'},imported),/Missing owner original/);
+});
 
 test('owner menu facts reference real files while licensed photos remain illustrative',()=>{
  assert.equal(content.menu.items.length,11);

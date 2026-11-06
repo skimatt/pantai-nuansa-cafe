@@ -1,12 +1,15 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { content } from '../src/lib/content';
+import { validateOwnerOriginal, type ImportedOriginal } from './owner-original';
+
+const importedOriginals = JSON.parse(readFileSync('evidence/documentation-import/import-manifest.json', 'utf8')).items as ImportedOriginal[];
 
 for(const file of [content.audio.sourceFile,join('public',content.audio.src),'evidence/audio/mix-provenance.json'])if(!existsSync(file))throw new Error(`Missing soundtrack file ${file}`);
 
 for(const a of content.media.assets) {
   for(const file of [a.src,...a.variants])if(!existsSync(join(process.cwd(),'public',file)))throw new Error(`Missing file ${file}`);
-  if(a.sourceType==='owner'&&(!a.sourceFile||!existsSync(a.permission==='local-folder-publish-intent'?a.sourceFile:join('Assets/foto-ig',a.sourceFile))))throw new Error(`Missing owner original ${a.id}`);
+  if(a.sourceType==='owner')validateOwnerOriginal(a,importedOriginals);
   if(!existsSync(join(process.cwd(),a.provenance)))throw new Error(`Missing provenance ${a.provenance}`);
   if(a.src.endsWith('.svg')) {
     const source=readFileSync(join('public',a.src),'utf8');
